@@ -15,8 +15,9 @@ These models compare each algorithm on simulated datasets with N = 100 units, K 
 
 
 3) Analysis of how each algorithm performs with more or less sparse models.
+These models run for 10 iterations of specifications with N = 100 units, K = 10 features, with 25%, 50%, 75% of loadings zeroed out, and with 2, 4, 6, or 8 underlying dimensions.
 
-Across the specifications, IRT-M:
+In general, IRT-M:
 
 - Has a lower error rate
 ![MSE](./simulations/results/figures/irt-bsem-bcfa_sparsity.png)
