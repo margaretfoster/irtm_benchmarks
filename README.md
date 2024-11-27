@@ -19,7 +19,7 @@ These models compare each algorithm on simulated datasets with N = 100 units, K 
 Across the specifications, IRT-M:
 
 - Has a lower error rate
-![MSE](./simulations/results/figures/failed_models_lambda.png)
+![MSE](./simulations/results/figures/irt-bsem-bcfa_sparsity.png)
 
 - Has lower failure rates
 ![failed models](./simulations/results/figures/failed_models_lambda.png)
