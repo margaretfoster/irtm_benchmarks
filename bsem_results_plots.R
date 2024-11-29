@@ -15,7 +15,7 @@ load("small_sim_params.rds")
 ## all_results:
 load("irtm_bcfa_bsem_N100K10.rds")
 ## model_times:
-load("irtm_bcfa_bsem_N100K10.rds")
+load("irtm_bcfa_bsem_N100K10_time.rds")
 
 ## %%%%%%%%%%%%% Data Prep
 ## Standardize list names for the time list:

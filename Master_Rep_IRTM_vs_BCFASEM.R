@@ -9,7 +9,7 @@
 ## d = c(2, 4, 6, 8)
 
 ## Runs in about 10 hours on macbook pro
- source("bsem_N100_K10.R")
+ source("bsem_N100_K10.R") ## ~ 200 entries
 
 ## produces: 
 ## irtm_bcfa_bsem_N100K10.rds ## model results
@@ -21,8 +21,8 @@ source("bsem_results_plots.R")
 
 ## Simulation for effect of Lambda Sparsity
 
-## Runs in about 8 hours on macbook pro
-#source("bsem_lambda_sparsity_sim.R")
+## ~120 entries, runs in about 8 hours on macbook pro
+source("bsem_lambda_sparsity_sim.R")
 ## produces:
 ## irtm_bcfa_bsem_lambda_sparsity_time.rds
 ## irtm_bcfa_bsem_lambda_sparsity.rds
@@ -31,13 +31,15 @@ source("bsem_results_plots.R")
 ## Produce results figures:
 source("lamba_sparsity_plots.R")
 
-
-
 ##%%%%%%%%%%%%%%%%%%% 
 ## Benchmark time for a wider range of results:
 ##%%%%%%%%%%%%%%%%%%%%%%
 
 ## simulation
+## runs a wider N, K range for 10 passes each.
+## ~480 entries, expected runtime ~ 180 hours
 source("irtm_bsem_bcfa_sim_single_pass_for_time.R")
 ## plots
+## 11/27/24: 
+## Code below is still empty
 source("irtm_bsem_range_plots.R")

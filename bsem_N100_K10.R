@@ -295,7 +295,7 @@ for(i in 1:nrow(small_sim)){ ## open for loop
   rname = paste0("irtm_bcfa_bsem_results_partial_", chain, ".rds")
   tname = paste0("irtm_bcfa_bsem_time_partial_", chain, ".rds")
   save(all_results, file=rname)
-  save(model_times, file=rname)
+  save(model_times, file=tname) ## original run had file as rname
   }
   
 } # close for loop

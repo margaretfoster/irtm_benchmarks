@@ -1708,3 +1708,813 @@
 [1] "t1 =~ X5 + X6 + X8 + X9 + X10\n"       
 [2] "t2 =~ X1 + X7 + X9 + X11\n"            
 [3] "t3 =~ X5 + X6 + X7 + X10 + X15 + X18\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 14:25:52 EST"
+   Var1 Var2 Var3 Var4
+31  250   20    3   31
+[1] "t1 =~ X5 + X6 + X8 + X9 + X10\n"       
+[2] "t2 =~ X1 + X7 + X9 + X11\n"            
+[3] "t3 =~ X5 + X6 + X7 + X10 + X15 + X18\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 14:29:53 EST"
+   Var1 Var2 Var3 Var5
+90  100   10    3   90
+[1] "t1 =~ X1 + X2 + X3 + X7 + X9\n"      "t2 =~ X2 + X3 + X4 + X7\n"          
+[3] "t3 =~ X1 + X2 + X3 + X5 + X7 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 14:30:53 EST"
+   Var1 Var2 Var3 Var4
+32  250   20    3   32
+[1] "t1 =~ X1 + X2 + X6 + X10 + X16\n"       
+[2] "t2 =~ X3 + X9 + X11 + X14 + X17 + X18\n"
+[3] "t3 =~ X10 + X11 + X15 + X18\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-27 14:31:47 EST"
+   Var1 Var2 Var3 Var5
+90  100   10    3   90
+[1] "t1 =~ X1 + X2 + X3 + X7 + X9\n"      "t2 =~ X2 + X3 + X4 + X7\n"          
+[3] "t3 =~ X1 + X2 + X3 + X5 + X7 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 14:34:54 EST"
+   Var1 Var2 Var3 Var5
+30  100   10    3   30
+[1] "t1 =~ X4 + X5 + X6 + X7\n"                    
+[2] "t2 =~ X4 + X5 + X6\n"                         
+[3] "t3 =~ X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 14:38:17 EST"
+   Var1 Var2 Var3 Var5
+30  100   10    3   30
+[1] "t1 =~ X4 + X5 + X6 + X7\n"                    
+[2] "t2 =~ X4 + X5 + X6\n"                         
+[3] "t3 =~ X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 14:42:48 EST"
+   Var1 Var2 Var3 Var4
+33  250   20    3   33
+[1] "t1 =~ X1 + X3 + X9 + X12 + X13\n"       
+[2] "t2 =~ X5 + X6 + X14 + X19\n"            
+[3] "t3 =~ X3 + X9 + X10 + X12 + X15 + X19\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 14:43:46 EST"
+     Var1 Var2 Var3 Var4
+6093  100   10    5   24
+[1] "t1 =~ X2 + X7 + X9\n"      "t2 =~ X3\n"                "t3 =~ X1 + X2 + X3 + X8\n"
+[4] "t4 =~ X2 + X3 + X10\n"     "t5 =~ X1 + X10\n"         
+[1] "Failed bSEM run:"
+[1] "2024-11-27 14:50:02 EST"
+    Var1 Var2 Var3 Var4
+458  100   10    3   26
+[1] "t1 =~ X6\n"                 "t2 =~ X1 + X5 + X8\n"       "t3 =~ X1 + X2 + X7 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 15:01:39 EST"
+   Var1 Var2 Var3 Var5
+14  100   10    3   14
+[1] "t1 =~ X2 + X3 + X4 + X5 + X6 + X7 + X10\n"          
+[2] "t2 =~ X1 + X2 + X3 + X4 + X6 + X7 + X8 + X9 + X10\n"
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X7 + X8\n"           
+[1] "Failed CFA run:"
+[1] "2024-11-27 15:03:13 EST"
+   Var1 Var2 Var3 Var4
+35  250   20    3   35
+[1] "t1 =~ X2 + X13 + X14 + X19\n"               
+[2] "t2 =~ X1 + X3 + X4 + X9 + X10 + X12 + X14\n"
+[3] "t3 =~ X6 + X7 + X8 + X20\n"                 
+[1] "Failed bSEM run:"
+[1] "2024-11-27 15:17:48 EST"
+   Var1 Var2 Var3 Var4
+37  250   20    3   37
+[1] "t1 =~ X1 + X15\n"                             
+[2] "t2 =~ X8 + X9 + X12 + X13 + X14 + X16 + X19\n"
+[3] "t3 =~ X2 + X8 + X9 + X11 + X12 + X17\n"       
+[1] "Failed CFA run:"
+[1] "2024-11-27 15:22:44 EST"
+     Var1 Var2 Var3 Var4
+5008  100   10    8   30
+[1] "t1 =~ X2 + X3 + X4 + X5 + X9\n" "t2 =~ X7\n"                     "t3 =~ X4 + X6 + X10\n"         
+[4] "t4 =~ X10\n"                    "t5 =~ X2 + X6\n"                "t6 =~ X1 + X4 + X8\n"          
+[7] "t7 =~ X4 + X7\n"                "t8 =~ X4 + X6 + X7\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-27 15:25:54 EST"
+   Var1 Var2 Var3 Var5
+62  100   10    3   62
+[1] "t1 =~ X1 + X2 + X4 + X5 + X6 + X8 + X10\n"               
+[2] "t2 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[3] "t3 =~ X3 + X4 + X6 + X7 + X9 + X10\n"                    
+[1] "Failed bSEM run:"
+[1] "2024-11-27 15:36:40 EST"
+  Var1 Var2 Var3 Var5
+8  100   10    8    8
+[1] "t1 =~ X1 + X3 + X5 + X7 + X8 + X10\n"    
+[2] "t2 =~ X2 + X3 + X5 + X7 + X8 + X10\n"    
+[3] "t3 =~ X4 + X8\n"                         
+[4] "t4 =~ X3 + X6 + X7 + X10\n"              
+[5] "t5 =~ X1 + X4 + X6 + X7 + X9 + X10\n"    
+[6] "t6 =~ X4 + X6 + X7 + X8 + X10\n"         
+[7] "t7 =~ X1 + X2 + X3 + X4 + X6 + X7 + X9\n"
+[8] "t8 =~ X4 + X7 + X9 + X10\n"              
+[1] "Failed CFA run:"
+[1] "2024-11-27 15:44:07 EST"
+     Var1 Var2 Var3 Var4
+4833  100   10    5   34
+[1] "t1 =~ X2 + X9\n"           "t2 =~ X1 + X10\n"          "t3 =~ X3 + X6 + X10\n"    
+[4] "t4 =~ X1 + X8\n"           "t5 =~ X1 + X2 + X5 + X6\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 17:35:09 EST"
+  Var1 Var2 Var3 Var5
+2  100   10    3    2
+[1] "t1 =~ X3 + X5 + X7 + X8 + X9 + X10\n"               
+[2] "t2 =~ X1 + X2 + X3 + X4 + X5 + X7 + X8 + X9\n"      
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X9 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 17:42:08 EST"
+  Var1 Var2 Var3 Var5
+2  100   10    3    2
+[1] "t1 =~ X3 + X5 + X7 + X8 + X9 + X10\n"               
+[2] "t2 =~ X1 + X2 + X3 + X4 + X5 + X7 + X8 + X9\n"      
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 17:43:29 EST"
+   Var1 Var2 Var3 Var5
+41  100   10    2   41
+[1] "t1 =~ X1 + X3 + X4 + X5 + X6\n"  "t2 =~ X1 + X4 + X5 + X6 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 18:03:40 EST"
+   Var1 Var2 Var3 Var5
+51  100   10    5   51
+[1] "t1 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9\n" 
+[2] "t2 =~ X3 + X5 + X7 + X8 + X10\n"                    
+[3] "t3 =~ X1 + X2 + X4 + X5 + X6 + X7 + X8 + X10\n"     
+[4] "t4 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X10\n"
+[5] "t5 =~ X1 + X2 + X4 + X6 + X7 + X9 + X10\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:10:06 EST"
+   Var1 Var2 Var3 Var5
+11  100   10    5   11
+[1] "t1 =~ X1 + X3 + X7\n"      "t2 =~ X5\n"               
+[3] "t3 =~ X5 + X6\n"           "t4 =~ X1 + X2 + X4 + X5\n"
+[5] "t5 =~ X7 + X8 + X10\n"    
+[1] "Failed CFA run:"
+[1] "2024-11-27 18:14:20 EST"
+   Var1 Var2 Var3 Var5
+11  100   10    5   11
+[1] "t1 =~ X1 + X3 + X7\n"      "t2 =~ X5\n"               
+[3] "t3 =~ X5 + X6\n"           "t4 =~ X1 + X2 + X4 + X5\n"
+[5] "t5 =~ X7 + X8 + X10\n"    
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:15:50 EST"
+   Var1 Var2 Var3 Var5
+61  100   10    2   61
+[1] "t1 =~ X1 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[2] "t2 =~ X2 + X3 + X4 + X5 + X9 + X10\n"               
+[1] "Failed CFA run:"
+[1] "2024-11-27 18:17:20 EST"
+   Var1 Var2 Var3 Var5
+61  100   10    2   61
+[1] "t1 =~ X1 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[2] "t2 =~ X2 + X3 + X4 + X5 + X9 + X10\n"               
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:28:44 EST"
+    Var1 Var2 Var3 Var5
+101  100   10    2  101
+[1] "t1 =~ X2 + X5 + X8 + X9 + X10\n" "t2 =~ X1 + X2 + X3 + X5 + X7\n" 
+[1] "Failed CFA run:"
+[1] "2024-11-27 18:30:27 EST"
+    Var1 Var2 Var3 Var5
+101  100   10    2  101
+[1] "t1 =~ X2 + X5 + X8 + X9 + X10\n" "t2 =~ X1 + X2 + X3 + X5 + X7\n" 
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:31:22 EST"
+   Var1 Var2 Var3 Var5
+57  100   10    2   57
+[1] "t1 =~ X8\n"                "t2 =~ X1 + X2 + X6 + X7\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:34:17 EST"
+     Var1 Var2 Var3 Var4
+1648  100   10    8   47
+[1] "t1 =~ X2 + X6 + X9\n"      "t2 =~ X5 + X6\n"           "t3 =~ X1 + X3\n"          
+[4] "t4 =~ X7\n"                "t5 =~ X2 + X4 + X5\n"      "t6 =~ X4 + X6 + X8 + X9\n"
+[7] "t7 =~ X5 + X10\n"          "t8 =~ X2 + X6 + X7\n"     
+[1] "Failed CFA run:"
+[1] "2024-11-27 18:42:02 EST"
+     Var1 Var2 Var3 Var4
+1648  100   10    8   47
+[1] "t1 =~ X2 + X6 + X9\n"      "t2 =~ X5 + X6\n"           "t3 =~ X1 + X3\n"          
+[4] "t4 =~ X7\n"                "t5 =~ X2 + X4 + X5\n"      "t6 =~ X4 + X6 + X8 + X9\n"
+[7] "t7 =~ X5 + X10\n"          "t8 =~ X2 + X6 + X7\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 18:51:43 EST"
+    Var1 Var2 Var3 Var4
+108  100   10    8   50
+[1] "t1 =~ X1 + X2 + X4 + X10\n" "t2 =~ X2 + X5 + X9\n"       "t3 =~ X2 + X6\n"           
+[4] "t4 =~ X4 + X5 + X6\n"       "t5 =~ X2 + X9 + X10\n"      "t6 =~ X1 + X6 + X8\n"      
+[7] "t7 =~ X4\n"                 "t8 =~ X7\n"                
+[1] "Failed bSEM run:"
+[1] "2024-11-27 19:18:57 EST"
+     Var1 Var2 Var3 Var4
+4763  100   10    2   54
+[1] "t1 =~ X8\n"                "t2 =~ X1 + X6 + X7 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 19:25:52 EST"
+     Var1 Var2 Var3 Var4
+5253  100   10    5   56
+[1] "t1 =~ X1 + X3 + X6 + X8\n" "t2 =~ X3 + X9\n"           "t3 =~ X2\n"               
+[4] "t4 =~ X2 + X10\n"          "t5 =~ X1 + X6 + X7 + X8\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 19:30:12 EST"
+     Var1 Var2 Var3 Var4
+5253  100   10    5   56
+[1] "t1 =~ X1 + X3 + X6 + X8\n" "t2 =~ X3 + X9\n"           "t3 =~ X2\n"               
+[4] "t4 =~ X2 + X10\n"          "t5 =~ X1 + X6 + X7 + X8\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 19:37:13 EST"
+  Var1 Var2 Var3 Var5
+1  100   10    2    1
+[1] "t1 =~ X1 + X2 + X4 + X6 + X7 + X9 + X10\n"     
+[2] "t2 =~ X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 19:42:14 EST"
+  Var1 Var2 Var3 Var5
+1  100   10    2    1
+[1] "t1 =~ X1 + X2 + X4 + X6 + X7 + X9 + X10\n"     
+[2] "t2 =~ X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 19:49:17 EST"
+     Var1 Var2 Var3 Var4
+3503  100   10    2   61
+[1] "t1 =~ X4 + X7 + X10\n" "t2 =~ X7 + X10\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 19:52:40 EST"
+     Var1 Var2 Var3 Var4
+4098  100   10    3   62
+[1] "t1 =~ X4 + X5\n"           "t2 =~ X4 + X8\n"           "t3 =~ X1 + X2 + X5 + X6\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 20:09:04 EST"
+    Var1 Var2 Var3 Var5
+118  100   10    3  118
+[1] "t1 =~ X2 + X8 + X9\n"       "t2 =~ X1\n"                
+[3] "t3 =~ X1 + X4 + X5 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 20:10:33 EST"
+    Var1 Var2 Var3 Var5
+118  100   10    3  118
+[1] "t1 =~ X2 + X8 + X9\n"       "t2 =~ X1\n"                
+[3] "t3 =~ X1 + X4 + X5 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 20:28:16 EST"
+     Var1 Var2 Var3 Var4
+3993  100   10    5   70
+[1] "t1 =~ X2 + X7 + X9 + X10\n" "t2 =~ X5\n"                 "t3 =~ X4 + X6 + X9\n"      
+[4] "t4 =~ X1 + X2 + X5\n"       "t5 =~ X4 + X9\n"           
+[1] "Failed CFA run:"
+[1] "2024-11-27 20:37:42 EST"
+     Var1 Var2 Var3 Var4
+3923  100   10    2   72
+[1] "t1 =~ X2 + X6 + X7\n" "t2 =~ X1 + X2\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 20:47:05 EST"
+    Var1 Var2 Var3 Var5
+110  100   10    3  110
+[1] "t1 =~ X2 + X4 + X5 + X6 + X7 + X9 + X10\n"     
+[2] "t2 =~ X1 + X2 + X3 + X4 + X6 + X7 + X8 + X10\n"
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 21:14:13 EST"
+     Var1 Var2 Var3 Var4
+1543  100   10    2   79
+[1] "t1 =~ X2 + X9\n"      "t2 =~ X4 + X6 + X7\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 21:28:25 EST"
+   Var1 Var2 Var3 Var5
+68  100   10    8   68
+[1] "t1 =~ X1 + X6 + X7 + X9\n"                     
+[2] "t2 =~ X1 + X6 + X7 + X8 + X10\n"               
+[3] "t3 =~ X1 + X4 + X6 + X8\n"                     
+[4] "t4 =~ X2 + X5 + X6 + X7 + X8 + X10\n"          
+[5] "t5 =~ X3 + X6 + X7 + X10\n"                    
+[6] "t6 =~ X8 + X10\n"                              
+[7] "t7 =~ X2 + X3 + X4 + X5 + X6 + X9 + X10\n"     
+[8] "t8 =~ X1 + X2 + X3 + X4 + X6 + X7 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 21:29:33 EST"
+   Var1 Var2 Var3 Var5
+81  100   10    2   81
+[1] "t1 =~ X9\n"                 "t2 =~ X1 + X2 + X6 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 21:31:04 EST"
+     Var1 Var2 Var3 Var4
+4448  100   10    8   81
+[1] "t1 =~ X10\n"                "t2 =~ X7 + X9 + X10\n"      "t3 =~ X2 + X4\n"           
+[4] "t4 =~ X1 + X5 + X7\n"       "t5 =~ X2 + X3 + X5\n"       "t6 =~ X7\n"                
+[7] "t7 =~ X3 + X4 + X8\n"       "t8 =~ X1 + X6 + X9 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-27 21:41:47 EST"
+     Var1 Var2 Var3 Var4
+4448  100   10    8   81
+[1] "t1 =~ X10\n"                "t2 =~ X7 + X9 + X10\n"      "t3 =~ X2 + X4\n"           
+[4] "t4 =~ X1 + X5 + X7\n"       "t5 =~ X2 + X3 + X5\n"       "t6 =~ X7\n"                
+[7] "t7 =~ X3 + X4 + X8\n"       "t8 =~ X1 + X6 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-27 22:20:19 EST"
+     Var1 Var2 Var3 Var4
+6128  100   10    8   86
+[1] "t1 =~ X7 + X8\n"           "t2 =~ X8\n"                "t3 =~ X1 + X2 + X4 + X7\n"
+[4] "t4 =~ X8\n"                "t5 =~ X1 + X3 + X6 + X7\n" "t6 =~ X6 + X8\n"          
+[7] "t7 =~ X2 + X4 + X7 + X8\n" "t8 =~ X5 + X9\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-27 22:30:26 EST"
+     Var1 Var2 Var3 Var4
+6128  100   10    8   86
+[1] "t1 =~ X7 + X8\n"           "t2 =~ X8\n"                "t3 =~ X1 + X2 + X4 + X7\n"
+[4] "t4 =~ X8\n"                "t5 =~ X1 + X3 + X6 + X7\n" "t6 =~ X6 + X8\n"          
+[7] "t7 =~ X2 + X4 + X7 + X8\n" "t8 =~ X5 + X9\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-27 22:37:24 EST"
+     Var1 Var2 Var3 Var4
+4273  100   10    5   87
+[1] "t1 =~ X5 + X8 + X9\n"       "t2 =~ X5 + X6 + X7 + X10\n" "t3 =~ X1 + X2 + X4\n"      
+[4] "t4 =~ X1 + X10\n"           "t5 =~ X1\n"                
+[1] "Failed bSEM run:"
+[1] "2024-11-27 22:37:52 EST"
+   Var1 Var2 Var3 Var5
+20  100   10    8   20
+[1] "t1 =~ X2 + X4 + X7 + X8 + X9\n"                
+[2] "t2 =~ X2 + X5 + X9\n"                          
+[3] "t3 =~ X1 + X4 + X5 + X6 + X8 + X10\n"          
+[4] "t4 =~ X1 + X5 + X6 + X7 + X8\n"                
+[5] "t5 =~ X1 + X2 + X3 + X4 + X7 + X8 + X9 + X10\n"
+[6] "t6 =~ X3 + X5\n"                               
+[7] "t7 =~ X1 + X2 + X3 + X4 + X6 + X8 + X10\n"     
+[8] "t8 =~ X1 + X3 + X7 + X8\n"                     
+[1] "Failed CFA run:"
+[1] "2024-11-27 22:44:34 EST"
+     Var1 Var2 Var3 Var4
+4273  100   10    5   87
+[1] "t1 =~ X5 + X8 + X9\n"       "t2 =~ X5 + X6 + X7 + X10\n" "t3 =~ X1 + X2 + X4\n"      
+[4] "t4 =~ X1 + X10\n"           "t5 =~ X1\n"                
+[1] "Failed bSEM run:"
+[1] "2024-11-27 22:56:31 EST"
+     Var1 Var2 Var3 Var4
+3433  100   10    5   90
+[1] "t1 =~ X2 + X5 + X7 + X9\n" "t2 =~ X1 + X4\n"           "t3 =~ X8 + X10\n"         
+[4] "t4 =~ X5 + X7\n"           "t5 =~ X1 + X5 + X6\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 22:58:30 EST"
+   Var1 Var2 Var3 Var5
+43  100   10    5   43
+[1] "t1 =~ X2 + X4 + X7 + X9 + X10\n"     
+[2] "t2 =~ X1 + X4 + X5 + X6 + X8 + X9\n" 
+[3] "t3 =~ X1 + X6 + X9\n"                
+[4] "t4 =~ X1 + X2 + X5 + X7 + X9 + X10\n"
+[5] "t5 =~ X1 + X3 + X6 + X9 + X10\n"     
+[1] "Failed CFA run:"
+[1] "2024-11-27 23:01:38 EST"
+     Var1 Var2 Var3 Var4
+3433  100   10    5   90
+[1] "t1 =~ X2 + X5 + X7 + X9\n" "t2 =~ X1 + X4\n"           "t3 =~ X8 + X10\n"         
+[4] "t4 =~ X5 + X7\n"           "t5 =~ X1 + X5 + X6\n"     
+[1] "Failed CFA run:"
+[1] "2024-11-27 23:04:25 EST"
+   Var1 Var2 Var3 Var5
+43  100   10    5   43
+[1] "t1 =~ X2 + X4 + X7 + X9 + X10\n"     
+[2] "t2 =~ X1 + X4 + X5 + X6 + X8 + X9\n" 
+[3] "t3 =~ X1 + X6 + X9\n"                
+[4] "t4 =~ X1 + X2 + X5 + X7 + X9 + X10\n"
+[5] "t5 =~ X1 + X3 + X6 + X9 + X10\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 23:15:02 EST"
+     Var1 Var2 Var3 Var4
+3258  100   10    3   97
+[1] "t1 =~ X1 + X8\n"           "t2 =~ X1 + X3 + X4 + X9\n" "t3 =~ X1 + X7\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-27 23:16:43 EST"
+     Var1 Var2 Var3 Var4
+3258  100   10    3   97
+[1] "t1 =~ X1 + X8\n"           "t2 =~ X1 + X3 + X4 + X9\n" "t3 =~ X1 + X7\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-27 23:54:10 EST"
+   Var1 Var2 Var3 Var5
+28  100   10    8   28
+[1] "t1 =~ X2 + X3 + X5 + X7 + X8 + X9 + X10\n"               
+[2] "t2 =~ X1 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"     
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"
+[4] "t4 =~ X4 + X5 + X7 + X8\n"                               
+[5] "t5 =~ X3 + X5 + X8 + X10\n"                              
+[6] "t6 =~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9\n"      
+[7] "t7 =~ X1 + X4 + X5 + X6 + X7 + X8 + X9 + X10\n"          
+[8] "t8 =~ X1 + X2 + X3 + X5 + X6 + X7 + X8 + X9 + X10\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-27 23:59:57 EST"
+     Var1 Var2 Var3 Var4
+6933  100   10    5  105
+[1] "t1 =~ X1 + X2 + X3 + X8\n" "t2 =~ X4 + X6 + X9\n"      "t3 =~ X3 + X7 + X10\n"    
+[4] "t4 =~ X9\n"                "t5 =~ X4 + X10\n"         
+[1] "Failed CFA run:"
+[1] "2024-11-28 00:16:50 EST"
+     Var1 Var2 Var3 Var4
+1718  100   10    3  107
+[1] "t1 =~ X5 + X7\n"           "t2 =~ X4 + X7 + X8 + X9\n" "t3 =~ X8 + X9\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 00:21:36 EST"
+     Var1 Var2 Var3 Var4
+2838  100   10    3  109
+[1] "t1 =~ X1 + X8\n"      "t2 =~ X2 + X6 + X7\n" "t3 =~ X4 + X8 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 00:37:22 EST"
+   Var1 Var2 Var3 Var5
+34  100   10    3   34
+[1] "t1 =~ X3 + X5 + X7\n" "t2 =~ X2 + X10\n"     "t3 =~ X5 + X7 + X9\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 00:38:54 EST"
+   Var1 Var2 Var3 Var5
+34  100   10    3   34
+[1] "t1 =~ X3 + X5 + X7\n" "t2 =~ X2 + X10\n"     "t3 =~ X5 + X7 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 00:41:13 EST"
+   Var1 Var2 Var3 Var5
+86  100   10    3   86
+[1] "t1 =~ X1 + X3 + X5 + X6 + X8 + X9 + X10\n"     
+[2] "t2 =~ X1 + X2 + X3 + X4 + X5 + X7 + X8 + X10\n"
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X9 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 00:47:48 EST"
+   Var1 Var2 Var3 Var5
+86  100   10    3   86
+[1] "t1 =~ X1 + X3 + X5 + X6 + X8 + X9 + X10\n"     
+[2] "t2 =~ X1 + X2 + X3 + X4 + X5 + X7 + X8 + X10\n"
+[3] "t3 =~ X1 + X2 + X3 + X4 + X5 + X6 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 00:48:17 EST"
+     Var1 Var2 Var3 Var4
+4133  100   10    5  112
+[1] "t1 =~ X6 + X10\n"          "t2 =~ X2 + X4 + X6 + X9\n" "t3 =~ X5\n"               
+[4] "t4 =~ X1 + X3 + X6 + X8\n" "t5 =~ X4 + X7\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 00:49:30 EST"
+   Var1 Var2 Var3 Var5
+70  100   10    3   70
+[1] "t1 =~ X1 + X5\n"           "t2 =~ X2 + X3 + X5 + X8\n"
+[3] "t3 =~ X3 + X6\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 01:06:51 EST"
+     Var1 Var2 Var3 Var4
+2068  100   10    8  113
+[1] "t1 =~ X1 + X5\n"           "t2 =~ X1 + X6\n"           "t3 =~ X1 + X5 + X7\n"     
+[4] "t4 =~ X3 + X8\n"           "t5 =~ X8\n"                "t6 =~ X1 + X4 + X8\n"     
+[7] "t7 =~ X5 + X6 + X8\n"      "t8 =~ X1 + X2 + X6 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 01:18:30 EST"
+   Var1 Var2 Var3 Var5
+42  100   10    3   42
+[1] "t1 =~ X2 + X4 + X5 + X6 + X7 + X8 + X9\n"
+[2] "t2 =~ X1 + X4 + X9 + X10\n"              
+[3] "t3 =~ X5 + X6 + X7 + X10\n"              
+[1] "Failed CFA run:"
+[1] "2024-11-28 01:18:35 EST"
+     Var1 Var2 Var3 Var4
+2068  100   10    8  113
+[1] "t1 =~ X1 + X5\n"           "t2 =~ X1 + X6\n"           "t3 =~ X1 + X5 + X7\n"     
+[4] "t4 =~ X3 + X8\n"           "t5 =~ X8\n"                "t6 =~ X1 + X4 + X8\n"     
+[7] "t7 =~ X5 + X6 + X8\n"      "t8 =~ X1 + X2 + X6 + X9\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 01:22:34 EST"
+   Var1 Var2 Var3 Var5
+42  100   10    3   42
+[1] "t1 =~ X2 + X4 + X5 + X6 + X7 + X8 + X9\n"
+[2] "t2 =~ X1 + X4 + X9 + X10\n"              
+[3] "t3 =~ X5 + X6 + X7 + X10\n"              
+[1] "Failed CFA run:"
+[1] "2024-11-28 02:33:13 EST"
+     Var1 Var2 Var3 Var4
+3468  100   10    8  122
+[1] "t1 =~ X3 + X4 + X6\n"       "t2 =~ X8\n"                 "t3 =~ X2 + X5 + X9\n"      
+[4] "t4 =~ X8\n"                 "t5 =~ X1 + X6 + X8\n"       "t6 =~ X1 + X7 + X8 + X10\n"
+[7] "t7 =~ X8 + X10\n"           "t8 =~ X5 + X7 + X10\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-28 02:36:58 EST"
+     Var1 Var2 Var3 Var4
+2733  100   10    5  123
+[1] "t1 =~ X1 + X3 + X9\n"      "t2 =~ X3\n"                "t3 =~ X1 + X4 + X5\n"     
+[4] "t4 =~ X5 + X10\n"          "t5 =~ X3 + X5 + X6 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 03:11:34 EST"
+     Var1 Var2 Var3 Var4
+3048  100   10    8  126
+[1] "t1 =~ X7\n"                      "t2 =~ X1 + X8 + X9\n"           
+[3] "t3 =~ X5 + X7\n"                 "t4 =~ X1 + X9\n"                
+[5] "t5 =~ X3 + X4 + X8 + X10\n"      "t6 =~ X6\n"                     
+[7] "t7 =~ X7 + X8\n"                 "t8 =~ X2 + X3 + X4 + X7 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 03:21:06 EST"
+     Var1 Var2 Var3 Var4
+3048  100   10    8  126
+[1] "t1 =~ X7\n"                      "t2 =~ X1 + X8 + X9\n"           
+[3] "t3 =~ X5 + X7\n"                 "t4 =~ X1 + X9\n"                
+[5] "t5 =~ X3 + X4 + X8 + X10\n"      "t6 =~ X6\n"                     
+[7] "t7 =~ X7 + X8\n"                 "t8 =~ X2 + X3 + X4 + X7 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 03:23:19 EST"
+     Var1 Var2 Var3 Var4
+3398  100   10    3  128
+[1] "t1 =~ X4 + X5 + X6 + X8\n" "t2 =~ X5 + X8 + X9\n"      "t3 =~ X9\n"               
+[1] "Failed bSEM run:"
+[1] "2024-11-28 03:41:19 EST"
+   Var1 Var2 Var3 Var4
+52  250   50    8   52
+[1] "t1 =~ X1 + X6 + X10 + X17 + X19 + X23 + X25 + X27 + X28 + X41 + X44 + X46 + X47\n"                                         
+[2] "t2 =~ X6 + X15 + X21 + X27 + X33 + X38 + X40 + X41 + X42 + X46 + X49\n"                                                    
+[3] "t3 =~ X2 + X5 + X6 + X9 + X10 + X11 + X16 + X24 + X33 + X34 + X35 + X36 + X42 + X47 + X50\n"                               
+[4] "t4 =~ X3 + X4 + X5 + X10 + X13 + X15 + X16 + X17 + X18 + X19 + X20 + X21 + X23 + X26 + X33 + X35 + X38 + X42 + X43 + X47\n"
+[5] "t5 =~ X14 + X16 + X17 + X23 + X39 + X43 + X44 + X45 + X48\n"                                                               
+[6] "t6 =~ X5 + X10 + X19 + X20 + X21 + X26 + X27 + X29 + X34 + X35 + X48 + X49\n"                                              
+[7] "t7 =~ X3 + X7 + X10 + X14 + X16 + X22 + X32 + X37 + X40 + X42 + X48\n"                                                     
+[8] "t8 =~ X4 + X5 + X16 + X19 + X22 + X28 + X34 + X49 + X50\n"                                                                 
+[1] "Failed bSEM run:"
+[1] "2024-11-28 03:46:21 EST"
+     Var1 Var2 Var3 Var4
+5953  100   10    5  134
+[1] "t1 =~ X1 + X2 + X4\n"      "t2 =~ X3 + X6 + X7 + X9\n" "t3 =~ X4\n"               
+[4] "t4 =~ X2 + X4 + X8\n"      "t5 =~ X5 + X6\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 03:55:59 EST"
+     Var1 Var2 Var3 Var4
+2453  100   10    5  135
+[1] "t1 =~ X4 + X6 + X7\n"       "t2 =~ X5\n"                 "t3 =~ X2 + X4 + X8\n"      
+[4] "t4 =~ X6 + X10\n"           "t5 =~ X1 + X2 + X9 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 04:02:14 EST"
+     Var1 Var2 Var3 Var4
+2453  100   10    5  135
+[1] "t1 =~ X4 + X6 + X7\n"       "t2 =~ X5\n"                 "t3 =~ X2 + X4 + X8\n"      
+[4] "t4 =~ X6 + X10\n"           "t5 =~ X1 + X2 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 04:35:05 EST"
+     Var1 Var2 Var3 Var4
+6758  100   10    3  144
+[1] "t1 =~ X1 + X5 + X6 + X7 + X9\n" "t2 =~ X4 + X10\n"              
+[3] "t3 =~ X1\n"                    
+[1] "Failed CFA run:"
+[1] "2024-11-28 04:36:44 EST"
+     Var1 Var2 Var3 Var4
+6758  100   10    3  144
+[1] "t1 =~ X1 + X5 + X6 + X7 + X9\n" "t2 =~ X4 + X10\n"              
+[3] "t3 =~ X1\n"                    
+[1] "Failed bSEM run:"
+[1] "2024-11-28 04:50:23 EST"
+     Var1 Var2 Var3 Var4
+3328  100   10    8  146
+[1] "t1 =~ X2 + X3 + X5\n"            "t2 =~ X3 + X4 + X5 + X9 + X10\n"
+[3] "t3 =~ X2 + X3\n"                 "t4 =~ X3 + X4\n"                
+[5] "t5 =~ X1\n"                      "t6 =~ X1 + X7\n"                
+[7] "t7 =~ X3 + X5 + X7 + X8\n"       "t8 =~ X1\n"                     
+[1] "Failed CFA run:"
+[1] "2024-11-28 04:59:40 EST"
+     Var1 Var2 Var3 Var4
+3328  100   10    8  146
+[1] "t1 =~ X2 + X3 + X5\n"            "t2 =~ X3 + X4 + X5 + X9 + X10\n"
+[3] "t3 =~ X2 + X3\n"                 "t4 =~ X3 + X4\n"                
+[5] "t5 =~ X1\n"                      "t6 =~ X1 + X7\n"                
+[7] "t7 =~ X3 + X5 + X7 + X8\n"       "t8 =~ X1\n"                     
+[1] "Failed CFA run:"
+[1] "2024-11-28 06:17:12 EST"
+     Var1 Var2 Var3 Var4
+5393  100   10    5  159
+[1] "t1 =~ X1 + X4 + X8 + X9\n" "t2 =~ X2 + X4 + X8\n"      "t3 =~ X1\n"               
+[4] "t4 =~ X10\n"               "t5 =~ X4 + X6 + X8 + X9\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 06:21:26 EST"
+   Var1 Var2 Var3 Var4
+52  250   50    8   52
+[1] "t1 =~ X1 + X6 + X10 + X17 + X19 + X23 + X25 + X27 + X28 + X41 + X44 + X46 + X47\n"                                         
+[2] "t2 =~ X6 + X15 + X21 + X27 + X33 + X38 + X40 + X41 + X42 + X46 + X49\n"                                                    
+[3] "t3 =~ X2 + X5 + X6 + X9 + X10 + X11 + X16 + X24 + X33 + X34 + X35 + X36 + X42 + X47 + X50\n"                               
+[4] "t4 =~ X3 + X4 + X5 + X10 + X13 + X15 + X16 + X17 + X18 + X19 + X20 + X21 + X23 + X26 + X33 + X35 + X38 + X42 + X43 + X47\n"
+[5] "t5 =~ X14 + X16 + X17 + X23 + X39 + X43 + X44 + X45 + X48\n"                                                               
+[6] "t6 =~ X5 + X10 + X19 + X20 + X21 + X26 + X27 + X29 + X34 + X35 + X48 + X49\n"                                              
+[7] "t7 =~ X3 + X7 + X10 + X14 + X16 + X22 + X32 + X37 + X40 + X42 + X48\n"                                                     
+[8] "t8 =~ X4 + X5 + X16 + X19 + X22 + X28 + X34 + X49 + X50\n"                                                                 
+[1] "Failed bSEM run:"
+[1] "2024-11-28 06:28:38 EST"
+     Var1 Var2 Var3 Var4
+3888  100   10    8  161
+[1] "t1 =~ X3 + X6 + X7 + X9\n"  "t2 =~ X7\n"                 "t3 =~ X4 + X5 + X8\n"      
+[4] "t4 =~ X2 + X4\n"            "t5 =~ X1 + X2 + X6 + X7\n"  "t6 =~ X2 + X5 + X8 + X10\n"
+[7] "t7 =~ X5\n"                 "t8 =~ X1\n"                
+[1] "Failed bSEM run:"
+[1] "2024-11-28 06:42:44 EST"
+     Var1 Var2 Var3 Var4
+4693  100   10    5  162
+[1] "t1 =~ X2 + X10\n"               "t2 =~ X5\n"                    
+[3] "t3 =~ X3\n"                     "t4 =~ X1 + X2 + X7 + X9\n"     
+[5] "t5 =~ X1 + X2 + X3 + X5 + X6\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 06:54:01 EST"
+     Var1 Var2 Var3 Var4
+1333  100   10    5  163
+[1] "t1 =~ X1 + X5 + X8 + X9\n" "t2 =~ X1 + X2\n"           "t3 =~ X1\n"               
+[4] "t4 =~ X5 + X7\n"           "t5 =~ X5 + X6 + X7 + X8\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 07:07:05 EST"
+     Var1 Var2 Var3 Var4
+5988  100   10    8  166
+[1] "t1 =~ X4 + X5 + X8\n"       "t2 =~ X2 + X9\n"            "t3 =~ X4 + X5 + X10\n"     
+[4] "t4 =~ X1 + X3 + X8\n"       "t5 =~ X5\n"                 "t6 =~ X2 + X4 + X7\n"      
+[7] "t7 =~ X10\n"                "t8 =~ X5 + X7 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 07:23:57 EST"
+     Var1 Var2 Var3 Var4
+2908  100   10    8  167
+[1] "t1 =~ X9 + X10\n"                "t2 =~ X5 + X6 + X10\n"          
+[3] "t3 =~ X4 + X8 + X9\n"            "t4 =~ X5 + X8\n"                
+[5] "t5 =~ X2\n"                      "t6 =~ X10\n"                    
+[7] "t7 =~ X4 + X5 + X10\n"           "t8 =~ X2 + X3 + X4 + X7 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 07:35:49 EST"
+     Var1 Var2 Var3 Var4
+2908  100   10    8  167
+[1] "t1 =~ X9 + X10\n"                "t2 =~ X5 + X6 + X10\n"          
+[3] "t3 =~ X4 + X8 + X9\n"            "t4 =~ X5 + X8\n"                
+[5] "t5 =~ X2\n"                      "t6 =~ X10\n"                    
+[7] "t7 =~ X4 + X5 + X10\n"           "t8 =~ X2 + X3 + X4 + X7 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 07:53:05 EST"
+     Var1 Var2 Var3 Var4
+1928  100   10    8  170
+[1] "t1 =~ X3 + X5 + X8\n"           "t2 =~ X3\n"                    
+[3] "t3 =~ X1 + X4 + X5 + X7 + X9\n" "t4 =~ X9\n"                    
+[5] "t5 =~ X2 + X5 + X7 + X8\n"      "t6 =~ X1\n"                    
+[7] "t7 =~ X1 + X5\n"                "t8 =~ X5 + X9 + X10\n"         
+[1] "Failed CFA run:"
+[1] "2024-11-28 08:03:03 EST"
+     Var1 Var2 Var3 Var4
+1928  100   10    8  170
+[1] "t1 =~ X3 + X5 + X8\n"           "t2 =~ X3\n"                    
+[3] "t3 =~ X1 + X4 + X5 + X7 + X9\n" "t4 =~ X9\n"                    
+[5] "t5 =~ X2 + X5 + X7 + X8\n"      "t6 =~ X1\n"                    
+[7] "t7 =~ X1 + X5\n"                "t8 =~ X5 + X9 + X10\n"         
+[1] "Failed bSEM run:"
+[1] "2024-11-28 08:19:57 EST"
+     Var1 Var2 Var3 Var4
+3748  100   10    8  173
+[1] "t1 =~ X2 + X6\n"           "t2 =~ X5 + X8\n"           "t3 =~ X1 + X5 + X7\n"     
+[4] "t4 =~ X9\n"                "t5 =~ X1 + X4 + X6\n"      "t6 =~ X2 + X3 + X6 + X8\n"
+[7] "t7 =~ X4 + X5\n"           "t8 =~ X1 + X4 + X5\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-28 08:41:07 EST"
+    Var1 Var2 Var3 Var4
+948  100   10    8  175
+[1] "t1 =~ X2\n"                     "t2 =~ X1 + X7 + X8\n"          
+[3] "t3 =~ X5 + X6 + X9\n"           "t4 =~ X3 + X6\n"               
+[5] "t5 =~ X2 + X4 + X6 + X8 + X9\n" "t6 =~ X6\n"                    
+[7] "t7 =~ X2 + X10\n"               "t8 =~ X1 + X6 + X9\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-28 08:49:31 EST"
+    Var1 Var2 Var3 Var4
+948  100   10    8  175
+[1] "t1 =~ X2\n"                     "t2 =~ X1 + X7 + X8\n"          
+[3] "t3 =~ X5 + X6 + X9\n"           "t4 =~ X3 + X6\n"               
+[5] "t5 =~ X2 + X4 + X6 + X8 + X9\n" "t6 =~ X6\n"                    
+[7] "t7 =~ X2 + X10\n"               "t8 =~ X1 + X6 + X9\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 08:56:16 EST"
+    Var1 Var2 Var3 Var4
+493  100   10    5  178
+[1] "t1 =~ X1 + X8\n"                "t2 =~ X1 + X10\n"              
+[3] "t3 =~ X7 + X8 + X9\n"           "t4 =~ X1 + X4 + X6 + X7 + X8\n"
+[5] "t5 =~ X5\n"                    
+[1] "Failed CFA run:"
+[1] "2024-11-28 09:03:02 EST"
+     Var1 Var2 Var3 Var4
+2103  100   10    2  179
+[1] "t1 =~ X2 + X10\n"      "t2 =~ X1 + X8 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 09:07:55 EST"
+     Var1 Var2 Var3 Var4
+5743  100   10    2  181
+[1] "t1 =~ X2 + X4\n"      "t2 =~ X1 + X2 + X3\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 09:19:09 EST"
+     Var1 Var2 Var3 Var4
+1788  100   10    8  182
+[1] "t1 =~ X4 + X5\n"           "t2 =~ X2 + X7\n"           "t3 =~ X3 + X8\n"          
+[4] "t4 =~ X3 + X6 + X9\n"      "t5 =~ X2 + X9\n"           "t6 =~ X1 + X2 + X4 + X5\n"
+[7] "t7 =~ X3 + X5 + X10\n"     "t8 =~ X1 + X6\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-28 09:28:56 EST"
+     Var1 Var2 Var3 Var4
+1788  100   10    8  182
+[1] "t1 =~ X4 + X5\n"           "t2 =~ X2 + X7\n"           "t3 =~ X3 + X8\n"          
+[4] "t4 =~ X3 + X6 + X9\n"      "t5 =~ X2 + X9\n"           "t6 =~ X1 + X2 + X4 + X5\n"
+[7] "t7 =~ X3 + X5 + X10\n"     "t8 =~ X1 + X6\n"          
+[1] "Failed bSEM run:"
+[1] "2024-11-28 09:30:03 EST"
+     Var1 Var2 Var3 Var4
+4483  100   10    2  183
+[1] "t1 =~ X3 + X5 + X9\n" "t2 =~ X3 + X7\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-28 09:39:44 EST"
+     Var1 Var2 Var3 Var4
+5428  100   10    8  184
+[1] "t1 =~ X2 + X3\n"           "t2 =~ X1 + X7\n"           "t3 =~ X2 + X4 + X5 + X9\n"
+[4] "t4 =~ X10\n"               "t5 =~ X2 + X8 + X9\n"      "t6 =~ X6 + X7 + X10\n"    
+[7] "t7 =~ X3 + X7\n"           "t8 =~ X3 + X7 + X9\n"     
+[1] "Failed CFA run:"
+[1] "2024-11-28 09:48:36 EST"
+     Var1 Var2 Var3 Var4
+5428  100   10    8  184
+[1] "t1 =~ X2 + X3\n"           "t2 =~ X1 + X7\n"           "t3 =~ X2 + X4 + X5 + X9\n"
+[4] "t4 =~ X10\n"               "t5 =~ X2 + X8 + X9\n"      "t6 =~ X6 + X7 + X10\n"    
+[7] "t7 =~ X3 + X7\n"           "t8 =~ X3 + X7 + X9\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-28 10:14:09 EST"
+     Var1 Var2 Var3 Var4
+6268  100   10    8  187
+[1] "t1 =~ X1 + X5 + X8\n"      "t2 =~ X1\n"                "t3 =~ X4\n"               
+[4] "t4 =~ X1 + X7 + X9\n"      "t5 =~ X1 + X3\n"           "t6 =~ X2 + X3 + X4 + X5\n"
+[7] "t7 =~ X2 + X4 + X7 + X8\n" "t8 =~ X6 + X9\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-28 10:25:41 EST"
+     Var1 Var2 Var3 Var4
+6268  100   10    8  187
+[1] "t1 =~ X1 + X5 + X8\n"      "t2 =~ X1\n"                "t3 =~ X4\n"               
+[4] "t4 =~ X1 + X7 + X9\n"      "t5 =~ X1 + X3\n"           "t6 =~ X2 + X3 + X4 + X5\n"
+[7] "t7 =~ X2 + X4 + X7 + X8\n" "t8 =~ X6 + X9\n"          
+[1] "Failed CFA run:"
+[1] "2024-11-28 11:01:42 EST"
+   Var1 Var2 Var3 Var4
+53  250   50    8   53
+[1] "t1 =~ X5 + X9 + X11 + X12 + X13 + X17 + X19 + X29 + X31 + X32 + X45 + X47 + X50\n"                        
+[2] "t2 =~ X5 + X6 + X14 + X22 + X23 + X24 + X27 + X29 + X38 + X39 + X42 + X44 + X50\n"                        
+[3] "t3 =~ X6 + X8 + X12 + X13 + X20 + X24 + X25 + X32 + X36 + X38 + X39 + X42 + X45 + X48\n"                  
+[4] "t4 =~ X4 + X12 + X15 + X19 + X26 + X27 + X28 + X29 + X32 + X40 + X42\n"                                   
+[5] "t5 =~ X2 + X4 + X6 + X11 + X14 + X29 + X31 + X35 + X43\n"                                                 
+[6] "t6 =~ X1 + X3 + X15 + X17 + X19 + X27 + X28 + X29 + X31 + X33 + X37 + X41 + X44\n"                        
+[7] "t7 =~ X3 + X14 + X15 + X18 + X21 + X22 + X25 + X32 + X41 + X50\n"                                         
+[8] "t8 =~ X3 + X4 + X11 + X12 + X13 + X21 + X23 + X27 + X28 + X32 + X33 + X36 + X39 + X42 + X45 + X49 + X50\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 11:12:31 EST"
+     Var1 Var2 Var3 Var4
+1053  100   10    5  191
+[1] "t1 =~ X4 + X8\n"            "t2 =~ X3 + X4 + X5 + X6\n"  "t3 =~ X3 + X10\n"          
+[4] "t4 =~ X9\n"                 "t5 =~ X4 + X7 + X9 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 11:29:53 EST"
+     Var1 Var2 Var3 Var4
+4728  100   10    8  194
+[1] "t1 =~ X1 + X2 + X3 + X8\n"      "t2 =~ X2\n"                    
+[3] "t3 =~ X2 + X3 + X7\n"           "t4 =~ X1\n"                    
+[5] "t5 =~ X2\n"                     "t6 =~ X3\n"                    
+[7] "t7 =~ X3 + X4 + X7 + X9\n"      "t8 =~ X3 + X4 + X7 + X8 + X9\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 11:53:11 EST"
+     Var1 Var2 Var3 Var4
+6898  100   10    3  199
+[1] "t1 =~ X3 + X6\n"       "t2 =~ X4 + X7 + X10\n" "t3 =~ X4 + X5 + X10\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 11:55:43 EST"
+     Var1 Var2 Var3 Var4
+6898  100   10    3  199
+[1] "t1 =~ X3 + X6\n"       "t2 =~ X4 + X7 + X10\n" "t3 =~ X4 + X5 + X10\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 12:00:14 EST"
+     Var1 Var2 Var3 Var4
+1893  100   10    5  200
+[1] "t1 =~ X1 + X2 + X10\n"      "t2 =~ X8\n"                 "t3 =~ X5 + X9\n"           
+[4] "t4 =~ X1 + X5 + X9 + X10\n" "t5 =~ X3 + X6 + X10\n"     
+[1] "Failed bSEM run:"
+[1] "2024-11-28 14:41:58 EST"
+   Var1 Var2 Var3 Var4
+54  250   50    8   54
+[1] "t1 =~ X4 + X6 + X18 + X19 + X33 + X34 + X35 + X47\n"                                                    
+[2] "t2 =~ X1 + X6 + X9 + X13 + X20 + X24 + X28 + X31 + X32 + X37 + X40\n"                                   
+[3] "t3 =~ X1 + X9 + X17 + X18 + X22 + X24 + X25 + X32 + X35 + X36 + X40 + X41 + X49 + X50\n"                
+[4] "t4 =~ X4 + X5 + X6 + X16 + X18 + X21 + X26 + X33 + X34 + X40 + X50\n"                                   
+[5] "t5 =~ X2 + X3 + X4 + X5 + X7 + X8 + X9 + X17 + X36 + X38 + X40 + X48\n"                                 
+[6] "t6 =~ X9 + X13 + X15 + X16 + X17 + X18 + X23 + X40 + X45 + X46 + X50\n"                                 
+[7] "t7 =~ X13 + X22 + X25 + X26 + X27 + X29 + X32 + X37 + X39 + X40 + X41 + X42 + X43 + X44 + X45 + X49\n"  
+[8] "t8 =~ X1 + X6 + X8 + X9 + X10 + X13 + X18 + X27 + X28 + X29 + X30 + X31 + X34 + X36 + X40 + X43 + X48\n"
+[1] "Failed CFA run:"
+[1] "2024-11-28 17:47:33 EST"
+   Var1 Var2 Var3 Var4
+54  250   50    8   54
+[1] "t1 =~ X4 + X6 + X18 + X19 + X33 + X34 + X35 + X47\n"                                                    
+[2] "t2 =~ X1 + X6 + X9 + X13 + X20 + X24 + X28 + X31 + X32 + X37 + X40\n"                                   
+[3] "t3 =~ X1 + X9 + X17 + X18 + X22 + X24 + X25 + X32 + X35 + X36 + X40 + X41 + X49 + X50\n"                
+[4] "t4 =~ X4 + X5 + X6 + X16 + X18 + X21 + X26 + X33 + X34 + X40 + X50\n"                                   
+[5] "t5 =~ X2 + X3 + X4 + X5 + X7 + X8 + X9 + X17 + X36 + X38 + X40 + X48\n"                                 
+[6] "t6 =~ X9 + X13 + X15 + X16 + X17 + X18 + X23 + X40 + X45 + X46 + X50\n"                                 
+[7] "t7 =~ X13 + X22 + X25 + X26 + X27 + X29 + X32 + X37 + X39 + X40 + X41 + X42 + X43 + X44 + X45 + X49\n"  
+[8] "t8 =~ X1 + X6 + X8 + X9 + X10 + X13 + X18 + X27 + X28 + X29 + X30 + X31 + X34 + X36 + X40 + X43 + X48\n"
+[1] "Failed bSEM run:"
+[1] "2024-11-28 20:00:58 EST"
+   Var1 Var2 Var3 Var4
+55  250   50    8   55
+[1] "t1 =~ X2 + X5 + X9 + X11 + X18 + X28 + X33 + X35 + X37 + X39 + X45 + X50\n"                                            
+[2] "t2 =~ X1 + X6 + X7 + X14 + X18 + X29 + X31 + X39 + X41 + X42\n"                                                        
+[3] "t3 =~ X6 + X11 + X18 + X21 + X22 + X28 + X32 + X33 + X34 + X36 + X37 + X39 + X40 + X42 + X45 + X46 + X47 + X48 + X50\n"
+[4] "t4 =~ X3 + X4 + X13 + X14 + X17 + X18 + X22 + X23 + X39 + X40 + X41\n"                                                 
+[5] "t5 =~ X1 + X3 + X5 + X6 + X10 + X11 + X17 + X18 + X20 + X21 + X26 + X28 + X33 + X35\n"                                 
+[6] "t6 =~ X6 + X12 + X13 + X16 + X19 + X31 + X38 + X42 + X43 + X45 + X48\n"                                                
+[7] "t7 =~ X3 + X6 + X9 + X10 + X11 + X12 + X17 + X31 + X33\n"                                                              
+[8] "t8 =~ X2 + X4 + X8 + X10 + X16 + X19 + X22 + X24 + X28 + X29 + X32 + X35 + X37 + X40\n"                                

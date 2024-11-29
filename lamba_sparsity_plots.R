@@ -177,7 +177,7 @@ ggsave(filename='simulations/results/figures/failed_models_lambda.png',
 
 ## For Fig 4: boxplot of run times
 
-runtime_all <- bsem_results_to_df(updated_time,
+runtime_all <- bsem_results_to_df2(updated_time,
                                   small_sim, 
                                   mode = 3) # NA count
 
