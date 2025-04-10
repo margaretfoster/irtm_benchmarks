@@ -81,6 +81,7 @@ p_results <- ggplot(sim_results, aes(x= pass_d,
   labs(linetype='Model', pch='Model') + 
   xlab('Dimensions') + 
   ylab('MSE') + 
+  scale_x_continuous(breaks=c(2,3, 5, 8))+
   theme_bw() +
   theme(legend.position="bottom", 
         legend.background = element_rect(color='black'), 
@@ -108,6 +109,7 @@ p_time <- ggplot(time_results, aes(x= pass_d,
   labs(linetype='Model', pch='Model') + 
   xlab('Dimensions') + 
   ylab('Runtime (Minutes)') + 
+  scale_x_continuous(breaks=c(2,3, 5, 8))+
   theme_bw() +
   theme(legend.position="bottom", 
         legend.background = element_rect(color='black'), 
@@ -139,6 +141,7 @@ ggmiss <- ggplot(na_count_by_group,
   geom_point(size=2.5) +
   xlab('Dimensions') + 
   ylab('Percent Failed Models') + 
+  scale_x_continuous(breaks=c(2,3, 5, 8))+
   labs(linetype='Model', pch='Model') + 
   theme_bw()+  
   theme(legend.position="bottom", 
@@ -161,7 +164,7 @@ ggsave(filename='simulations/results/figures/failed_models.png',
 
 runtime_all <- bsem_results_to_df(updated_time,
                                         small_sim, 
-                                        mode = 3) # NA count
+                                        mode = 3) # runtime
 
 runtime_all$statistic <- "runtime" ## to keep track
 
@@ -185,7 +188,7 @@ grtbox <- ggplot(runtime_all,
                outlier.size=3) + 
   geom_jitter(color="black", size=0.4, alpha=0.9) +
   xlab("Dimensions") + 
-  ylab("Runtime (minutes) ") +
+  ylab("Runtime (minutes) ") + 
   theme_bw() +
   facet_wrap(~model, ncol=1, scales="free")
 

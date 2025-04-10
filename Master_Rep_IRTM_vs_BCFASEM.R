@@ -21,7 +21,7 @@ source("bsem_results_plots.R")
 
 ## Simulation for effect of Lambda Sparsity
 
-## ~120 entries, runs in about 8 hours on macbook pro
+## 120 entries, runs in about 8 hours on macbook pro
 source("bsem_lambda_sparsity_sim.R")
 ## produces:
 ## irtm_bcfa_bsem_lambda_sparsity_time.rds
@@ -37,9 +37,11 @@ source("lamba_sparsity_plots.R")
 
 ## simulation
 ## runs a wider N, K range for 10 passes each.
-## ~480 entries, expected runtime ~ 180 hours
+## 480 entries, less cases where d > k
+##expected runtime ~ 180 hours
+## 
+## entire set:
 source("irtm_bsem_bcfa_sim_single_pass_for_time.R")
-## plots
-## 11/27/24: 
-## Code below is still empty
+
+ ## plots
 source("irtm_bsem_range_plots.R")

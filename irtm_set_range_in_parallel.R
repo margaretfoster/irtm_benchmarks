@@ -1,6 +1,11 @@
-## This is a single pass through to get an approximate 
-## time benchmark for IRTM vs other models
+## this script breaks up the wide range sim
+## into 6 subsets of 80 models each.
+## saves them separately:
 
+### Needs to:
+## wrap the for loop into a separate function
+## change the save
+## >
 library(MASS)
 library(mvtnorm)
 library(coda)
@@ -20,9 +25,9 @@ source('irtm_bsem_results_to_df.R') ## script to format list of results as singl
 ## Make names to save partial `results:
 ##  
 
-tpartname = "irtm_bcfa_bsem_time_partial_.rds"
-ppartname = "irtm_bcfa_bsem_params_partial_.rds"
-rpartname = "irtm_bcfa_bsem_res_partial_.rds"
+tpartname = "irtm_bcfa_bsem_time_partial_set.rds"
+ppartname = "irtm_bcfa_bsem_params_partial_set.rds"
+rpartname = "irtm_bcfa_bsem_res_partial_set.rds"
 
 
 ## Data prep
@@ -43,7 +48,7 @@ lambda_zero_pct <- 0.75 ## 75% 0 runs CFA and SEM!
 
 
 single_pass <- NKd_vals[which(NKd_vals$Var1 %in% c(50, 250, 1000) & # N items
-                               NKd_vals$Var2 %in% c(10, 50, 250, 500)),] #K features
+                                NKd_vals$Var2 %in% c(10, 50, 250, 500)),] #K features
 
 ## K of 250 hung up BSEM at starting values for over an hour and a half
 ## transforming those entries into K=5
@@ -332,9 +337,9 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
 } # close for loop
 
 ## Save
-rname = paste0("irtm_bcfa_bsem_results_single_pass.rds")
-tname = paste0("irtm_bcfa_bsem_time_single_pass.rds")
-pname = paste0("irtm_bcfa_bsem_params_single_pass.rds")
+rname = paste0("irtm_bcfa_bsem_results_single_pass_set.rds")
+tname = paste0("irtm_bcfa_bsem_time_single_pass_set.rds")
+pname = paste0("irtm_bcfa_bsem_params_single_pass_set.rds")
 
 save(all_results, file=rname)
 save(model_times, file=rname)

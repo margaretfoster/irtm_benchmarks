@@ -1,10 +1,12 @@
 
 # Mac files
 *.DS_Store
+**/.DS_Store ## DS_Store in all directories
 
 # Data and logs
-*.rds
+**/.rds ## rds in all directories and subdirectories
 .txt
+**/.png ## images in all directories and subdirectories
 
 # History files
 .Rhistory
