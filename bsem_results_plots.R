@@ -108,7 +108,7 @@ p_time <- ggplot(time_results, aes(x= pass_d,
   geom_ribbon(alpha=0.2, linewidth =0) + 
   labs(linetype='Model', pch='Model') + 
   xlab('Dimensions') + 
-  ylab('Runtime (Minutes)') + 
+  ylab('Runtime (Seconds)') + 
   scale_x_continuous(breaks=c(2,3, 5, 8))+
   theme_bw() +
   theme(legend.position="bottom", 
@@ -127,8 +127,6 @@ ggsave(filename='simulations/results/figures/runtime_irt-bsem-bcfa.png',
 
 ## Summarize the number of failed models
 ## per dimension-model pairing:
-
-
 
 ## Plot model failures
 
@@ -188,7 +186,7 @@ grtbox <- ggplot(runtime_all,
                outlier.size=3) + 
   geom_jitter(color="black", size=0.4, alpha=0.9) +
   xlab("Dimensions") + 
-  ylab("Runtime (minutes) ") + 
+  ylab("Runtime (seconds) ") + 
   theme_bw() +
   facet_wrap(~model, ncol=1, scales="free")
 

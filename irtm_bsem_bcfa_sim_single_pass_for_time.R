@@ -86,6 +86,7 @@ params_tracker = list()
 for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   print(paste0("Start pass ", i, ":"))
   pass_start <- Sys.time()
+  print(paste0("Start time: ", pass_start))
   params <- single_pass_no_dupes[i, ] 
   print("round")
   ####
@@ -158,11 +159,15 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   ##### IRT-M setup and run #####
   print("Running IRT-M")
   irtm_start <- Sys.time()
+  print(paste0("IRT-M start time: ", irtm_start))
   irt_res <- M_constrained_irt(Yall, d, M=M, theta_fix = NULL, which_fix = NULL, 
                                nburn = nburn, nsamp=nsamp, thin=1, learn_Sigma=TRUE, 
                                display_progress = TRUE)
   irtm_end <- Sys.time()
-  run_time <- c(run_time, irtm = as.numeric(irtm_end - irtm_start))
+  print(paste0("IRT-M End time: ", irtm_end))
+  irtm_time <- as.numeric(difftime(irtm_end, irtm_start, units="secs"))
+  run_time <- c(run_time, irtm = irtm_time)
+  print(paste0("run_time: ", irtm_time))
   
   # Calculate metrics for IRT-M
   ## theta average:
@@ -193,6 +198,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   
   fit_bsem <- tryCatch({
     bsem_start <- Sys.time()
+    print(paste0("BSEM start time: ", bsem_start))
     bsem(model = c(bcfa_mod, bcfa_cor), 
          data = Yall, 
          sample = nsamp,
@@ -203,9 +209,11 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
     NA
   })
   bsem_end <- Sys.time()
-  bsem_time <- as.numeric(bsem_end - bsem_start)
+  print(paste0("BSEM End time: ", bsem_end))
+  bsem_time <- as.numeric(difftime(bsem_end, bsem_start, units="secs"))
   run_time <- c(run_time, bsem = bsem_time)
-  
+  print(paste0("run_time: ", bsem_time))
+
   ## Catch multiple ways to identify a failed run:
   bsem_status = ifelse(is.na(fit_bsem) == TRUE, 
                        0, ## BSEM failed
@@ -249,6 +257,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   ##%%%%%%%%%%%%%%%% Fit CFA %%%%%%%%%%%%%%%%%%%
   print('computing fit CFA')
   bcfa_start <- Sys.time()
+  print(paste0("BCFA start time: ", bcfa_start))
   fit_bcfa <-tryCatch({
     #supressWarnings(
     bcfa(
@@ -264,9 +273,12 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   })
   
   bcfa_end <- Sys.time()
-  bcfa_time <- as.numeric(bcfa_end - bcfa_start)
+  print(paste0("BCFA End time: ", bcfa_end))
+  bcfa_time <- as.numeric(difftime(bcfa_end, bcfa_start, units="secs"))
   run_time <- c(run_time, bcfa = bcfa_time)
-  
+  print(paste0("run_time: ", bcfa_time))
+
+
   ## catch if CFA failed:
   ## make one item that codes for either an NA value
   ## or non-convergence:
@@ -319,8 +331,9 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   ## Note: the runtime data didn't save for more than the last pass
   ## 
   pass_end <- Sys.time()
-  pass_time <- as.numeric(pass_end - pass_start)
-  print(paste0("Pass took ", round(pass_time, 4), "minutes"))
+  print(paste0("End time: ", pass_end))
+  pass_time <- as.numeric(difftime(pass_end, pass_start, units = "secs"))
+  print(paste0("Pass took ", round(pass_time, 4)))
   
   ## save time every 5 iterations:
   if(i%%5== 0){
@@ -337,6 +350,6 @@ tname = paste0("irtm_bcfa_bsem_time_single_pass.rds")
 pname = paste0("irtm_bcfa_bsem_params_single_pass.rds")
 
 save(all_results, file=rname)
-save(model_times, file=rname)
+save(model_times, file=tname)
 save(params_tracker, file=pname)
 

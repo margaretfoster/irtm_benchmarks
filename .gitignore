@@ -1,4 +1,10 @@
 
+## intermediate results
+results/intermediate*
+
+## data files:
+*.rds
+
 # Mac files
 *.DS_Store
 **/.DS_Store ## DS_Store in all directories

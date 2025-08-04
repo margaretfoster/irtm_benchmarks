@@ -6,12 +6,17 @@ source('results_to_df_range.R') ## script to format list of results as single df
 source('na_indicies.R') # helper to find NA values in model comparisons
 
 ## Load data:
-## params:
-load("irtm_bcfa_bsem_params_partial_.rds")
+## Partial:
+#load("irtm_bcfa_bsem_params_partial_.rds")
 ## all_results:
-load("irtm_bcfa_bsem_time_partial_.rds")
+#load("irtm_bcfa_bsem_time_partial_.rds")
 ## model_times:
-load("irtm_bcfa_bsem_res_partial_.rds")
+#load("irtm_bcfa_bsem_res_partial_.rds")
+
+## full:
+load("irtm_bcfa_bsem_results_single_pass.rds")
+load("irtm_bcfa_bsem_time_single_pass.rds")
+load("irtm_bcfa_bsem_params_single_pass.rds")
 
 ##
 all_results <- lapply(all_results, function(x) {
@@ -67,7 +72,56 @@ time_results <- bsem_results_to_df(non_null_time ,
                                    params_df,
                                    mode = 1) # model stats
 
-#summary(time_results$max)
+## summarize time by model:
+bsem_times = time_results[which(time_results$model=="bsem"),]
+bcfa_times = time_results[which(time_results$model=="bcfa"),]
+irtm_times = time_results[which(time_results$model=="irtm"),]
+
+summary(bsem_times$min)
+summary(bcfa_times$min)
+summary(irtm_times$min)
+summary(bsem_times$max)
+summary(bcfa_times$max)
+summary(irtm_times$max)
+
+## Plot of time variability:
+## to diagnose time stamp inconsistencies:
+
+# Create a parameter combo label
+timing_df <- time_results %>%
+  mutate(param_combo = paste0("N =", pass_N, ", K =", pass_K, ", D =", pass_d)) 
+
+# Arrange levels in increasing N, then K, then D
+ordered_levels <- timing_df %>%
+  arrange(pass_N, pass_K, pass_d) %>%
+  distinct(param_combo) %>%
+  pull(param_combo)
+
+# Apply the ordering to param_combo
+timing_df <- timing_df %>%
+  mutate(param_combo = factor(param_combo, levels = ordered_levels))
+
+# Plot boxplots of average runtime per parameter combination, faceted by model
+
+timeplots = ggplot(timing_df, aes(x = param_combo, y = avg)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = min, ymax = max), width = 0.2) +
+  facet_wrap(~ model, scales = "free_y") +
+  theme_bw() +
+  labs(
+    title = "Model Timing Ranges by Parameter Combo",
+    x = "Parameter Combo",
+    y = "Time (Seconds)"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 5))
+##summary(time_results$max)
+
+timeplots
+
+ggsave(filename='simulations/results/figures/timeplots_range_irt-bsem-bcfa.png', 
+       plot=timeplots,
+       dpi = 300,  width = 12, height=6)
+
 
 ## Data for Fig 3:  count NA by models:
 na_count_by_group <- bsem_results_to_df(non_null_results,
@@ -125,12 +179,12 @@ t_results <- ggplot(time_results, aes(x= pass_d,
   geom_ribbon(alpha=0.2, linewidth =0) + 
   labs(linetype='Model', pch='Model') + 
   xlab('Dimensions') + 
-  ylab('Runtime') + 
+  ylab('Runtime (Seconds)') + 
   theme_bw() +
   theme(legend.position="bottom", 
         legend.background = element_rect(color='black'), 
         text=element_text(size=20, family="Times")) +
-  facet_wrap(~ N + K, labeller = label_both)
+  facet_wrap(~ N + K, labeller = label_both, scales = "free_y")
 
 t_results
 

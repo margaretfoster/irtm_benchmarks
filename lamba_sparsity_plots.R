@@ -112,6 +112,13 @@ ggsave(filename='simulations/results/figures/irt-bsem-bcfa_sparsity.png',
 
 ## Time comparison
 
+## the long bcfa and bsem times overwhelm variation in IRTM times:
+
+## Might wnat to make this into a table:
+## numbers are weird though, I thought I forced it into seconds
+## but 1-2 seconds seems unlikely
+print(time_results[which(time_results$model=="IRT-M"),])
+
 p_time <- ggplot(time_results, aes(x= pass_d, 
                                    y=avg,
                                    ymin=min, 
@@ -123,7 +130,7 @@ p_time <- ggplot(time_results, aes(x= pass_d,
   geom_ribbon(alpha=0.2, linewidth =0) + 
   labs(linetype='Model', pch='Model') + 
   xlab('Dimensions') + 
-  ylab('Runtime (Minutes)') + 
+  ylab('Runtime (Seconds)') + 
   theme_bw() +
   theme(legend.position="bottom", 
         legend.background = element_rect(color='black'), 
@@ -170,49 +177,3 @@ ggsave(filename='simulations/results/figures/failed_models_lambda.png',
        dpi = 300, 
        width = 12, 
        height=6)
-
-
-## Boxplot for runtime, to get visibility into the 
-## time spike at D=2
-
-## For Fig 4: boxplot of run times
-
-runtime_all <- bsem_results_to_df2(updated_time,
-                                  small_sim, 
-                                  mode = 3) # NA count
-
-runtime_all$statistic <- "runtime" ## to keep track
-
-
-runtime_all <- runtime_all[, c('irtm', 'bsem', 'bcfa', 'pass_d')] %>% 
-  pivot_longer(
-    cols = c('irtm', 'bsem', 'bcfa'),  # Select the columns that start with avg, min, max
-    names_to = c("model"),  # Create columns for model and statistic
-    values_to = "value"  # Name of the new column for the MSE values
-  ) 
-
-## Individual plots for runtime box plots; b/c the 
-## scales
-grtbox <- ggplot(runtime_all, 
-                 aes(x=as.factor(pass_d),
-                     y=value)) + 
-  geom_boxplot(fill="lightgray",
-               alpha=0.2, 
-               outlier.colour="darkgray",
-               outlier.fill="darkgray",
-               outlier.size=3) + 
-  geom_jitter(color="black", size=0.4, alpha=0.9) +
-  xlab("Dimensions") + 
-  ylab("Runtime (minutes) ") +
-  theme_bw() +
-  facet_wrap(~model, ncol=1, scales="free")
-
-
-grtbox
-
-ggsave(filename='simulations/results/figures/runtime_boxplot.png',
-       plot=grtbox,
-       dpi = 300, 
-       width = 12, 
-       height=6)
-

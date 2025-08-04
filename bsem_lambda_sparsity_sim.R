@@ -27,7 +27,7 @@ source('irtm_bsem_results_to_df.R') ## script to format list of results as singl
 ## Lambda zero percent:
 
 ## testing at: 25%, 50%, 75% sparsity
-## (need some sparsity, but too much is subsantively void)
+## (need some sparsity, but too much is substantively void)
 ## already run at 75 for the default benchmark
 ## 75% 0 runs CFA and SEM! 
 
@@ -71,11 +71,11 @@ model_times = list()
 chain = 1
 
 ## set up test subset:
-
+##120 rows:
 small_sim <- sparsity_vals
 
-for(i in 53:nrow(small_sim)){ ## open for loop
-#for(i in 1:nrow(small_sim)){ ## open for loop
+
+for(i in 1:nrow(small_sim)){ ## open for loop
   print(paste0("Start pass ", i, ":"))
   pass_start <- Sys.time()
   params <- small_sim[i, c("Var1", "Var2", "Var3", "Var5") ] 
@@ -155,7 +155,8 @@ for(i in 53:nrow(small_sim)){ ## open for loop
                                nburn = nburn, nsamp=nsamp, thin=1, learn_Sigma=TRUE, 
                                display_progress = TRUE)
   irtm_end <- Sys.time()
-  run_time <- c(run_time, irtm = as.numeric(irtm_end - irtm_start))
+  irtm_time = difftime(irtm_end, irtm_start, units = "secs")
+  run_time <- c(run_time, irtm = as.numeric(irtm_time))
   
   # Calculate metrics for IRT-M
   ## theta average:
@@ -196,8 +197,8 @@ for(i in 53:nrow(small_sim)){ ## open for loop
     NA
   })
   bsem_end <- Sys.time()
-  bsem_time <- as.numeric(bsem_end - bsem_start)
-  run_time <- c(run_time, bsem = bsem_time)
+  bsem_time <- difftime(bsem_end,  bsem_start, units="secs")
+  run_time <- c(run_time, bsem = as.numeric(bsem_time))
   
   ## Catch multiple ways to identify a failed run:
   bsem_status = ifelse(is.na(fit_bsem) == TRUE, 
@@ -257,8 +258,8 @@ for(i in 53:nrow(small_sim)){ ## open for loop
   })
   
   bcfa_end <- Sys.time()
-  bcfa_time <- as.numeric(bcfa_end - bcfa_start)
-  run_time <- c(run_time, bcfa = bcfa_time)
+  bcfa_time <- difftime(bcfa_end, bcfa_start, units="secs")
+  run_time <- c(run_time, bcfa = as.numeric(bcfa_time))
   
   ## catch if CFA failed:
   ## make one item that codes for either an NA value
@@ -309,8 +310,8 @@ for(i in 53:nrow(small_sim)){ ## open for loop
   
   ## 
   pass_end <- Sys.time()
-  pass_time <- as.numeric(pass_end - pass_start)
-  print(paste0("Pass took ", round(pass_time, 4), "minutes"))
+  pass_time <- difftime(pass_end, pass_start, units = "secs")
+  print(paste0("Pass took ", round(as.numeric(pass_time), 4), "seconds"))
   
   ## save every hundred passes:
   if(i%%100 == 0){
