@@ -121,7 +121,7 @@ for(i in 1:nrow(small_sim)){ ## open for loop
   if(identical(missing_d, integer(0))== FALSE){
     ## write model params
     print("Skipping this model; wrote dtails")
-    sink(file="bsem_cfa_skipped_logs.txt", append=TRUE)
+    sink(file="logs/bsem_cfa_skipped_logs.txt", append=TRUE)
     print("Failed bSEM/BCFA run:")
     print(Sys.time())
     print(params)

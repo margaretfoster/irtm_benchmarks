@@ -128,7 +128,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   if(identical(missing_d, integer(0))== FALSE){
     ## write model params
     print("Model incompatible with sem/cfa; wrote dtails")
-    sink(file="irtm_only_skipped_logs.txt", append=TRUE)
+    sink(file="logs/irtm_only_skipped_logs.txt", append=TRUE)
     print("Skipped:")
     print(Sys.time())
     print(params)

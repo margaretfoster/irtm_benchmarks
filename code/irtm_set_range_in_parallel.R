@@ -133,7 +133,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   if(identical(missing_d, integer(0))== FALSE){
     ## write model params
     print("Skipping this model; wrote dtails")
-    sink(file="bsem_cfa_skipped_logs.txt", append=TRUE)
+    sink(file="logs/bsem_cfa_skipped_logs.txt", append=TRUE)
     print("Failed bSEM/BCFA run:")
     print(Sys.time())
     print(params)
@@ -222,7 +222,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   if(bsem_status == 0){
     ## if SEM crashed:
     ## sink the model specifications
-    sink(file="bsem_fail_logs.txt", append=TRUE)
+    sink(file="logs/bsem_fail_logs.txt", append=TRUE)
     print("Failed bSEM run:")
     print(Sys.time())
     print(params)
@@ -289,7 +289,7 @@ for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
   if(bcfa_status == 0 ){ ## CFA failed or did not converge
     ## if CFA crashed,
     ## sink the model specifications
-    sink(file="bsem_fail_logs.txt", append=TRUE)
+    sink(file="logs/bsem_fail_logs.txt", append=TRUE)
     print("Failed CFA run:")
     print(Sys.time())
     print(params)
