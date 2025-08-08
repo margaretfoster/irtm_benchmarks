@@ -1,6 +1,8 @@
 ## Introduction
 
-This repository hosts R code to benchmark the performance of the IRT-M dimensionality reduction algorithm. For runtime considerations, the code in this repository presents the performance of IRT-M across a wide range of specifications.  Comparisons to the closest alternative models, Bayesian Confirmatory Factor Analysis and Bayesian Structural Equation Modeling, can be seen in a companion repository, https://github.com/margaretfoster/irtm_bcfa_comp
+This repository hosts R code to benchmark the performance of the IRT-M dimensionality reduction algorithm. For runtime considerations, the code in this repository only presents the performance of IRT-M across a wide range of specifications. Comparisons to the closest alternative models, Bayesian Confirmatory Factor Analysis and Bayesian Structural Equation Modeling, can be seen in a companion repository, https://github.com/margaretfoster/irtm_bcfa_comp
+
+To replicate our analysis, run: `Master_Rep_IRTM_JSS.R` which calls the simulation and visualization scripts located in the `code/` subdirectory. Simulation results are all stored in `simulations/`
 
 The simulation design has three components:
 
