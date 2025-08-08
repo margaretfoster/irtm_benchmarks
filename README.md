@@ -19,11 +19,9 @@ These models run for 10 iterations of specifications with N = 100 units, K = 10 
 
 In general, IRT-M:
 
-- Has a lower error rate
-![MSE](./simulations/results/figures/irt-bsem-bcfa_sparsity.png)
+- Has a low error rate
+![MSE](./simulations/results/figures/MSE_irtm-only.png)
 
-- Has lower failure rates
-![failed models](./simulations/results/figures/failed_models_lambda.png)
 
-- Runs faster
-![runtime](./simulations/results/figures/runtime_irt-bsem-bcfa_lambda_sparse.png)
+- Runs quickly
+![runtime](./simulations/results/figures/time_range_irt-only.png)
