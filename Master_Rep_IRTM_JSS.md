@@ -6,7 +6,7 @@ This script to produce a central runtime file.
 These simulations present IRT-M speed and error across
 a range of configurations. 
 These sims no longer benchmarks against blavaan.
-Last updated: 2025-08-08 07:27:20.268076
+Last updated: 2025-08-08 16:37:23.547235
 
 
 # Simulations:
@@ -110,10 +110,6 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 ```
 
 ```
-## Need help? Try Stackoverflow: https://stackoverflow.com/tags/ggplot2
-```
-
-```
 ## 
 ## > # Source custom helper functions
 ## > source('code/helpers.R') ## mse, custom plots
@@ -173,7 +169,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.1233seconds"
+## [1] "Pass took 2.165seconds"
 ## [1] "Start pass 2:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -185,7 +181,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.1515seconds"
+## [1] "Pass took 1.083seconds"
 ## [1] "Start pass 3:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -197,7 +193,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9766seconds"
+## [1] "Pass took 1.1839seconds"
 ## [1] "Start pass 4:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -209,7 +205,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9196seconds"
+## [1] "Pass took 1.0634seconds"
 ## [1] "Start pass 5:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -221,7 +217,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.7747seconds"
+## [1] "Pass took 2.2679seconds"
 ## [1] "Start pass 6:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -233,7 +229,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.1098seconds"
+## [1] "Pass took 1.1824seconds"
 ## [1] "Start pass 7:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -245,7 +241,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.9191seconds"
+## [1] "Pass took 2.8881seconds"
 ## [1] "Start pass 8:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -257,7 +253,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.6017seconds"
+## [1] "Pass took 1.6793seconds"
 ## [1] "Start pass 9:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -269,7 +265,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.5634seconds"
+## [1] "Pass took 1.8369seconds"
 ## [1] "Start pass 10:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -281,7 +277,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.6407seconds"
+## [1] "Pass took 2.0129seconds"
 ## [1] "Start pass 11:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -293,7 +289,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.5647seconds"
+## [1] "Pass took 1.8609seconds"
 ## [1] "Start pass 12:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -305,7 +301,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 3.6985seconds"
+## [1] "Pass took 2.7053seconds"
 ## [1] "Start pass 13:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -317,7 +313,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.0822seconds"
+## [1] "Pass took 1.2815seconds"
 ## [1] "Start pass 14:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -329,7 +325,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.5386seconds"
+## [1] "Pass took 2.0734seconds"
 ## [1] "Start pass 15:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -341,7 +337,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8955seconds"
+## [1] "Pass took 0.9803seconds"
 ## [1] "Start pass 16:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -353,7 +349,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.0498seconds"
+## [1] "Pass took 1.0648seconds"
 ## [1] "Start pass 17:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -365,7 +361,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.567seconds"
+## [1] "Pass took 2.0426seconds"
 ## [1] "Start pass 18:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -377,7 +373,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.2329seconds"
+## [1] "Pass took 1.4276seconds"
 ## [1] "Start pass 19:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -389,7 +385,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4348seconds"
+## [1] "Pass took 1.8305seconds"
 ## [1] "Start pass 20:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -401,7 +397,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9097seconds"
+## [1] "Pass took 1.1327seconds"
 ## [1] "Start pass 21:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -413,7 +409,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.8904seconds"
+## [1] "Pass took 2.5107seconds"
 ## [1] "Start pass 22:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -425,7 +421,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8501seconds"
+## [1] "Pass took 1.348seconds"
 ## [1] "Start pass 23:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -437,7 +433,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.0409seconds"
+## [1] "Pass took 1.2412seconds"
 ## [1] "Start pass 24:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -449,7 +445,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4593seconds"
+## [1] "Pass took 1.6086seconds"
 ## [1] "Start pass 25:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -461,7 +457,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.6959seconds"
+## [1] "Pass took 3.4031seconds"
 ## [1] "Start pass 26:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -473,7 +469,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9879seconds"
+## [1] "Pass took 1.7005seconds"
 ## [1] "Start pass 27:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -485,7 +481,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9948seconds"
+## [1] "Pass took 1.227seconds"
 ## [1] "Start pass 28:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -497,7 +493,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9273seconds"
+## [1] "Pass took 1.4509seconds"
 ## [1] "Start pass 29:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -509,7 +505,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4917seconds"
+## [1] "Pass took 2.0616seconds"
 ## [1] "Start pass 30:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -521,7 +517,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.5387seconds"
+## [1] "Pass took 3.0884seconds"
 ## [1] "Start pass 31:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -533,7 +529,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8726seconds"
+## [1] "Pass took 0.9479seconds"
 ## [1] "Start pass 32:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -545,7 +541,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3507seconds"
+## [1] "Pass took 2.9663seconds"
 ## [1] "Start pass 33:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -557,7 +553,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9985seconds"
+## [1] "Pass took 1.0618seconds"
 ## [1] "Start pass 34:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -569,7 +565,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4846seconds"
+## [1] "Pass took 1.617seconds"
 ## [1] "Start pass 35:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -581,7 +577,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9645seconds"
+## [1] "Pass took 1.0618seconds"
 ## [1] "Start pass 36:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -593,7 +589,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.479seconds"
+## [1] "Pass took 2.6979seconds"
 ## [1] "Start pass 37:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -605,7 +601,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9822seconds"
+## [1] "Pass took 1.1829seconds"
 ## [1] "Start pass 38:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -617,7 +613,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8135seconds"
+## [1] "Pass took 1.1091seconds"
 ## [1] "Start pass 39:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -629,7 +625,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7957seconds"
+## [1] "Pass took 1.1767seconds"
 ## [1] "Start pass 40:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -641,7 +637,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8667seconds"
+## [1] "Pass took 1.3503seconds"
 ## [1] "Start pass 41:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -653,7 +649,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.42seconds"
+## [1] "Pass took 2.8419seconds"
 ## [1] "Start pass 42:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -665,7 +661,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8353seconds"
+## [1] "Pass took 1.0445seconds"
 ## [1] "Start pass 43:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -677,7 +673,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4047seconds"
+## [1] "Pass took 2.9386seconds"
 ## [1] "Start pass 44:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -689,7 +685,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.5221seconds"
+## [1] "Pass took 2.7183seconds"
 ## [1] "Start pass 45:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -701,7 +697,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.0913seconds"
+## [1] "Pass took 1.1979seconds"
 ## [1] "Start pass 46:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -713,7 +709,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8045seconds"
+## [1] "Pass took 1.3005seconds"
 ## [1] "Start pass 47:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -725,7 +721,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.7337seconds"
+## [1] "Pass took 3.006seconds"
 ## [1] "Start pass 48:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -737,7 +733,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4992seconds"
+## [1] "Pass took 2.8163seconds"
 ## [1] "Start pass 49:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -749,7 +745,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.9653seconds"
+## [1] "Pass took 2.6115seconds"
 ## [1] "Start pass 50:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -761,7 +757,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.47seconds"
+## [1] "Pass took 2.52seconds"
 ## [1] "Start pass 51:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -773,7 +769,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.793seconds"
+## [1] "Pass took 0.9134seconds"
 ## [1] "Start pass 52:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -785,7 +781,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2944seconds"
+## [1] "Pass took 3.0212seconds"
 ## [1] "Start pass 53:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -797,7 +793,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2735seconds"
+## [1] "Pass took 2.8653seconds"
 ## [1] "Start pass 54:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -809,7 +805,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8563seconds"
+## [1] "Pass took 0.9278seconds"
 ## [1] "Start pass 55:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -821,7 +817,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8196seconds"
+## [1] "Pass took 1.0124seconds"
 ## [1] "Start pass 56:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -833,7 +829,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4385seconds"
+## [1] "Pass took 1.6474seconds"
 ## [1] "Start pass 57:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -845,7 +841,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.935seconds"
+## [1] "Pass took 1.1026seconds"
 ## [1] "Start pass 58:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -857,7 +853,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7784seconds"
+## [1] "Pass took 0.9938seconds"
 ## [1] "Start pass 59:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -869,7 +865,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8183seconds"
+## [1] "Pass took 2.2643seconds"
 ## [1] "Start pass 60:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -881,7 +877,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4466seconds"
+## [1] "Pass took 2.2284seconds"
 ## [1] "Start pass 61:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -893,7 +889,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9155seconds"
+## [1] "Pass took 0.9799seconds"
 ## [1] "Start pass 62:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -905,7 +901,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9658seconds"
+## [1] "Pass took 1.5347seconds"
 ## [1] "Start pass 63:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -917,7 +913,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4192seconds"
+## [1] "Pass took 1.825seconds"
 ## [1] "Start pass 64:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -929,7 +925,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4671seconds"
+## [1] "Pass took 1.7573seconds"
 ## [1] "Start pass 65:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -941,7 +937,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9538seconds"
+## [1] "Pass took 1.0833seconds"
 ## [1] "Start pass 66:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -953,7 +949,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2804seconds"
+## [1] "Pass took 2.5586seconds"
 ## [1] "Start pass 67:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -965,7 +961,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7605seconds"
+## [1] "Pass took 0.9121seconds"
 ## [1] "Start pass 68:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -977,7 +973,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2806seconds"
+## [1] "Pass took 2.9779seconds"
 ## [1] "Start pass 69:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -989,7 +985,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4408seconds"
+## [1] "Pass took 2.2405seconds"
 ## [1] "Start pass 70:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1001,7 +997,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4904seconds"
+## [1] "Pass took 1.8315seconds"
 ## [1] "Start pass 71:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1013,7 +1009,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4754seconds"
+## [1] "Pass took 1.7522seconds"
 ## [1] "Start pass 72:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1025,7 +1021,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7649seconds"
+## [1] "Pass took 1.578seconds"
 ## [1] "Start pass 73:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1037,7 +1033,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4514seconds"
+## [1] "Pass took 1.6312seconds"
 ## [1] "Start pass 74:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1049,7 +1045,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4408seconds"
+## [1] "Pass took 2.8525seconds"
 ## [1] "Start pass 75:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1061,7 +1057,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9435seconds"
+## [1] "Pass took 1.0866seconds"
 ## [1] "Start pass 76:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1073,7 +1069,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9072seconds"
+## [1] "Pass took 1.1899seconds"
 ## [1] "Start pass 77:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1085,7 +1081,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7991seconds"
+## [1] "Pass took 0.9383seconds"
 ## [1] "Start pass 78:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1097,7 +1093,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8272seconds"
+## [1] "Pass took 0.9758seconds"
 ## [1] "Start pass 79:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1109,7 +1105,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7756seconds"
+## [1] "Pass took 0.9379seconds"
 ## [1] "Start pass 80:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1121,7 +1117,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9382seconds"
+## [1] "Pass took 1.0696seconds"
 ## [1] "Start pass 81:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1133,7 +1129,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2648seconds"
+## [1] "Pass took 2.6046seconds"
 ## [1] "Start pass 82:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1145,7 +1141,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4508seconds"
+## [1] "Pass took 1.7782seconds"
 ## [1] "Start pass 83:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1157,7 +1153,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7819seconds"
+## [1] "Pass took 1.0027seconds"
 ## [1] "Start pass 84:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1169,7 +1165,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2794seconds"
+## [1] "Pass took 2.8952seconds"
 ## [1] "Start pass 85:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1181,7 +1177,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7958seconds"
+## [1] "Pass took 0.9394seconds"
 ## [1] "Start pass 86:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1193,7 +1189,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3421seconds"
+## [1] "Pass took 2.6308seconds"
 ## [1] "Start pass 87:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1205,7 +1201,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.514seconds"
+## [1] "Pass took 1.7254seconds"
 ## [1] "Start pass 88:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1217,7 +1213,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.1359seconds"
+## [1] "Pass took 1.1468seconds"
 ## [1] "Start pass 89:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1229,7 +1225,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7585seconds"
+## [1] "Pass took 0.9201seconds"
 ## [1] "Start pass 90:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1241,7 +1237,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4461seconds"
+## [1] "Pass took 1.7798seconds"
 ## [1] "Start pass 91:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1253,7 +1249,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7855seconds"
+## [1] "Pass took 0.9338seconds"
 ## [1] "Start pass 92:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1265,7 +1261,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7943seconds"
+## [1] "Pass took 0.93seconds"
 ## [1] "Start pass 93:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1277,7 +1273,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.92seconds"
+## [1] "Pass took 1.0699seconds"
 ## [1] "Start pass 94:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1289,7 +1285,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3217seconds"
+## [1] "Pass took 2.6313seconds"
 ## [1] "Start pass 95:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1301,7 +1297,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8057seconds"
+## [1] "Pass took 1.121seconds"
 ## [1] "Start pass 96:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1313,7 +1309,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7725seconds"
+## [1] "Pass took 0.9305seconds"
 ## [1] "Start pass 97:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1325,7 +1321,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9078seconds"
+## [1] "Pass took 1.1532seconds"
 ## [1] "Start pass 98:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1337,7 +1333,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9311seconds"
+## [1] "Pass took 1.1474seconds"
 ## [1] "Start pass 99:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1349,7 +1345,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2958seconds"
+## [1] "Pass took 2.8965seconds"
 ## [1] "Start pass 100:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1361,7 +1357,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4054seconds"
+## [1] "Pass took 1.6687seconds"
 ## [1] "Start pass 101:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1373,7 +1369,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8151seconds"
+## [1] "Pass took 1.1829seconds"
 ## [1] "Start pass 102:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1385,7 +1381,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8141seconds"
+## [1] "Pass took 1.0666seconds"
 ## [1] "Start pass 103:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1397,7 +1393,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8283seconds"
+## [1] "Pass took 0.9509seconds"
 ## [1] "Start pass 104:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1409,7 +1405,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9388seconds"
+## [1] "Pass took 1.1141seconds"
 ## [1] "Start pass 105:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1421,7 +1417,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4538seconds"
+## [1] "Pass took 1.6796seconds"
 ## [1] "Start pass 106:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1433,7 +1429,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4449seconds"
+## [1] "Pass took 1.948seconds"
 ## [1] "Start pass 107:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1445,7 +1441,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9331seconds"
+## [1] "Pass took 1.106seconds"
 ## [1] "Start pass 108:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1457,7 +1453,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7807seconds"
+## [1] "Pass took 0.9427seconds"
 ## [1] "Start pass 109:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1469,7 +1465,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9476seconds"
+## [1] "Pass took 1.1017seconds"
 ## [1] "Start pass 110:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1481,7 +1477,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4548seconds"
+## [1] "Pass took 1.7061seconds"
 ## [1] "Start pass 111:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1493,7 +1489,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.5356seconds"
+## [1] "Pass took 3.0172seconds"
 ## [1] "Start pass 112:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1505,7 +1501,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4423seconds"
+## [1] "Pass took 1.662seconds"
 ## [1] "Start pass 113:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1517,7 +1513,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3255seconds"
+## [1] "Pass took 2.6518seconds"
 ## [1] "Start pass 114:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1529,7 +1525,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2736seconds"
+## [1] "Pass took 2.9174seconds"
 ## [1] "Start pass 115:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1541,7 +1537,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.76seconds"
+## [1] "Pass took 0.9604seconds"
 ## [1] "Start pass 116:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1553,7 +1549,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7692seconds"
+## [1] "Pass took 0.902seconds"
 ## [1] "Start pass 117:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1565,7 +1561,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.5076seconds"
+## [1] "Pass took 1.6781seconds"
 ## [1] "Start pass 118:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1577,7 +1573,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8961seconds"
+## [1] "Pass took 1.0749seconds"
 ## [1] "Start pass 119:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1589,7 +1585,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9309seconds"
+## [1] "Pass took 1.0973seconds"
 ## [1] "Start pass 120:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1601,7 +1597,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7633seconds"
+## [1] "Pass took 0.9435seconds"
 ## [1] "Start pass 121:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1613,7 +1609,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9059seconds"
+## [1] "Pass took 1.128seconds"
 ## [1] "Start pass 122:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1625,7 +1621,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2608seconds"
+## [1] "Pass took 2.6436seconds"
 ## [1] "Start pass 123:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1637,7 +1633,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4265seconds"
+## [1] "Pass took 1.6468seconds"
 ## [1] "Start pass 124:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1649,7 +1645,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.437seconds"
+## [1] "Pass took 1.8987seconds"
 ## [1] "Start pass 125:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1661,7 +1657,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.513seconds"
+## [1] "Pass took 1.6908seconds"
 ## [1] "Start pass 126:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1673,7 +1669,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.253seconds"
+## [1] "Pass took 2.599seconds"
 ## [1] "Start pass 127:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1685,7 +1681,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4378seconds"
+## [1] "Pass took 1.7159seconds"
 ## [1] "Start pass 128:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1697,7 +1693,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.938seconds"
+## [1] "Pass took 1.1128seconds"
 ## [1] "Start pass 129:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1709,7 +1705,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.906seconds"
+## [1] "Pass took 1.2099seconds"
 ## [1] "Start pass 130:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1721,7 +1717,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4237seconds"
+## [1] "Pass took 1.773seconds"
 ## [1] "Start pass 131:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1733,7 +1729,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7652seconds"
+## [1] "Pass took 0.9339seconds"
 ## [1] "Start pass 132:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1745,7 +1741,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7993seconds"
+## [1] "Pass took 0.9399seconds"
 ## [1] "Start pass 133:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1757,7 +1753,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9326seconds"
+## [1] "Pass took 1.137seconds"
 ## [1] "Start pass 134:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1769,7 +1765,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4628seconds"
+## [1] "Pass took 1.7242seconds"
 ## [1] "Start pass 135:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1781,7 +1777,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4765seconds"
+## [1] "Pass took 1.7943seconds"
 ## [1] "Start pass 136:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1793,7 +1789,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2708seconds"
+## [1] "Pass took 3.2589seconds"
 ## [1] "Start pass 137:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1805,7 +1801,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.092seconds"
+## [1] "Pass took 1.1787seconds"
 ## [1] "Start pass 138:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1817,7 +1813,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9151seconds"
+## [1] "Pass took 1.1229seconds"
 ## [1] "Start pass 139:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1829,7 +1825,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9244seconds"
+## [1] "Pass took 1.0805seconds"
 ## [1] "Start pass 140:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1841,7 +1837,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7774seconds"
+## [1] "Pass took 0.956seconds"
 ## [1] "Start pass 141:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1853,7 +1849,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8001seconds"
+## [1] "Pass took 0.9382seconds"
 ## [1] "Start pass 142:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1865,7 +1861,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9736seconds"
+## [1] "Pass took 1.2784seconds"
 ## [1] "Start pass 143:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1877,7 +1873,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4057seconds"
+## [1] "Pass took 2.1269seconds"
 ## [1] "Start pass 144:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1889,7 +1885,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9175seconds"
+## [1] "Pass took 1.1755seconds"
 ## [1] "Start pass 145:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1901,7 +1897,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9056seconds"
+## [1] "Pass took 1.3833seconds"
 ## [1] "Start pass 146:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1913,7 +1909,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2406seconds"
+## [1] "Pass took 2.7718seconds"
 ## [1] "Start pass 147:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1925,7 +1921,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4317seconds"
+## [1] "Pass took 1.8654seconds"
 ## [1] "Start pass 148:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1937,7 +1933,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9067seconds"
+## [1] "Pass took 1.4115seconds"
 ## [1] "Start pass 149:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1949,7 +1945,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4376seconds"
+## [1] "Pass took 1.878seconds"
 ## [1] "Start pass 150:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1961,7 +1957,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3261seconds"
+## [1] "Pass took 2.8831seconds"
 ## [1] "Start pass 151:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1973,7 +1969,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9286seconds"
+## [1] "Pass took 1.143seconds"
 ## [1] "Start pass 152:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1985,7 +1981,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.766seconds"
+## [1] "Pass took 0.9109seconds"
 ## [1] "Start pass 153:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -1997,7 +1993,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4seconds"
+## [1] "Pass took 1.9518seconds"
 ## [1] "Start pass 154:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2009,7 +2005,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7998seconds"
+## [1] "Pass took 1.1613seconds"
 ## [1] "Start pass 155:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2021,7 +2017,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4237seconds"
+## [1] "Pass took 1.8772seconds"
 ## [1] "Start pass 156:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2033,7 +2029,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2768seconds"
+## [1] "Pass took 3.0785seconds"
 ## [1] "Start pass 157:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2045,7 +2041,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3428seconds"
+## [1] "Pass took 3.4611seconds"
 ## [1] "Start pass 158:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2057,7 +2053,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.36seconds"
+## [1] "Pass took 3.3339seconds"
 ## [1] "Start pass 159:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2069,7 +2065,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4642seconds"
+## [1] "Pass took 1.9388seconds"
 ## [1] "Start pass 160:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2081,7 +2077,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9227seconds"
+## [1] "Pass took 1.221seconds"
 ## [1] "Start pass 161:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2093,7 +2089,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4955seconds"
+## [1] "Pass took 3.2696seconds"
 ## [1] "Start pass 162:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2105,7 +2101,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.485seconds"
+## [1] "Pass took 2.2185seconds"
 ## [1] "Start pass 163:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2117,7 +2113,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.6106seconds"
+## [1] "Pass took 1.885seconds"
 ## [1] "Start pass 164:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2129,7 +2125,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.261seconds"
+## [1] "Pass took 3.1366seconds"
 ## [1] "Start pass 165:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2141,7 +2137,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.936seconds"
+## [1] "Pass took 1.1694seconds"
 ## [1] "Start pass 166:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2153,7 +2149,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2787seconds"
+## [1] "Pass took 3.1856seconds"
 ## [1] "Start pass 167:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2165,7 +2161,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3031seconds"
+## [1] "Pass took 3.0058seconds"
 ## [1] "Start pass 168:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2177,7 +2173,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4711seconds"
+## [1] "Pass took 1.9198seconds"
 ## [1] "Start pass 169:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2189,7 +2185,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2985seconds"
+## [1] "Pass took 3.1417seconds"
 ## [1] "Start pass 170:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2201,7 +2197,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2688seconds"
+## [1] "Pass took 3.3337seconds"
 ## [1] "Start pass 171:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2213,7 +2209,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.1157seconds"
+## [1] "Pass took 1.14seconds"
 ## [1] "Start pass 172:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2225,7 +2221,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9346seconds"
+## [1] "Pass took 1.2012seconds"
 ## [1] "Start pass 173:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2237,7 +2233,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3212seconds"
+## [1] "Pass took 2.8696seconds"
 ## [1] "Start pass 174:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2249,7 +2245,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9228seconds"
+## [1] "Pass took 1.3842seconds"
 ## [1] "Start pass 175:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2261,7 +2257,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3251seconds"
+## [1] "Pass took 3.2804seconds"
 ## [1] "Start pass 176:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2273,7 +2269,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8013seconds"
+## [1] "Pass took 1.0772seconds"
 ## [1] "Start pass 177:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2285,7 +2281,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2929seconds"
+## [1] "Pass took 3.4792seconds"
 ## [1] "Start pass 178:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2297,7 +2293,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.5704seconds"
+## [1] "Pass took 1.9724seconds"
 ## [1] "Start pass 179:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2309,7 +2305,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7493seconds"
+## [1] "Pass took 1.1037seconds"
 ## [1] "Start pass 180:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2321,7 +2317,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9827seconds"
+## [1] "Pass took 1.4697seconds"
 ## [1] "Start pass 181:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2333,7 +2329,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8336seconds"
+## [1] "Pass took 1.169seconds"
 ## [1] "Start pass 182:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2345,7 +2341,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.283seconds"
+## [1] "Pass took 3.0269seconds"
 ## [1] "Start pass 183:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2357,7 +2353,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7667seconds"
+## [1] "Pass took 1.0145seconds"
 ## [1] "Start pass 184:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2369,7 +2365,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.4814seconds"
+## [1] "Pass took 3.0234seconds"
 ## [1] "Start pass 185:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2381,7 +2377,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4456seconds"
+## [1] "Pass took 2.0763seconds"
 ## [1] "Start pass 186:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2393,7 +2389,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.791seconds"
+## [1] "Pass took 1.0551seconds"
 ## [1] "Start pass 187:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2405,7 +2401,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.297seconds"
+## [1] "Pass took 3.7559seconds"
 ## [1] "Start pass 188:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2417,7 +2413,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2618seconds"
+## [1] "Pass took 2.908seconds"
 ## [1] "Start pass 189:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2429,7 +2425,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2859seconds"
+## [1] "Pass took 2.9976seconds"
 ## [1] "Start pass 190:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2441,7 +2437,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8023seconds"
+## [1] "Pass took 0.9957seconds"
 ## [1] "Start pass 191:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2453,7 +2449,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4528seconds"
+## [1] "Pass took 2.0748seconds"
 ## [1] "Start pass 192:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2465,7 +2461,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.3182seconds"
+## [1] "Pass took 2.9933seconds"
 ## [1] "Start pass 193:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2477,7 +2473,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9446seconds"
+## [1] "Pass took 1.1008seconds"
 ## [1] "Start pass 194:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2489,7 +2485,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 2.2924seconds"
+## [1] "Pass took 3.2816seconds"
 ## [1] "Start pass 195:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2501,7 +2497,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.8183seconds"
+## [1] "Pass took 1.063seconds"
 ## [1] "Start pass 196:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2513,7 +2509,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7991seconds"
+## [1] "Pass took 1.4349seconds"
 ## [1] "Start pass 197:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2525,7 +2521,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.7605seconds"
+## [1] "Pass took 1.1925seconds"
 ## [1] "Start pass 198:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2537,7 +2533,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4497seconds"
+## [1] "Pass took 1.9085seconds"
 ## [1] "Start pass 199:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2549,7 +2545,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 0.9152seconds"
+## [1] "Pass took 1.2436seconds"
 ## [1] "Start pass 200:"
 ## [1] "round"
 ## [1] "Running IRT-M"
@@ -2561,7 +2557,7 @@ source("code/irtm_N100_K10.R", echo = TRUE)
 
 ```
 ## [1] "Running BCFA and BSEM"
-## [1] "Pass took 1.4443seconds"
+## [1] "Pass took 2.4389seconds"
 ## 
 ## > ## Save results
 ## > fname = paste0("simulations/irtm_only_N100K10.rds")
@@ -6360,18 +6356,18 @@ source("code/irtm_only_lamba_sparsity_plots.R", echo = TRUE)
 ## # Groups:   pass_d [4]
 ##    pass_d Sparsity model   avg   min   max statistic
 ##     <dbl>    <dbl> <chr> <dbl> <dbl> <dbl> <chr>    
-##  1      2     0.25 IRT-M 0.728 0.697 0.747 runtime  
-##  2      2     0.5  IRT-M 0.722 0.697 0.748 runtime  
-##  3      2     0.75 IRT-M 0.730 0.673 0.859 runtime  
-##  4      3     0.25 IRT-M 0.836 0.806 0.868 runtime  
-##  5      3     0.5  IRT-M 0.858 0.807 1.15  runtime  
-##  6      3     0.75 IRT-M 0.826 0.797 0.868 runtime  
-##  7      5     0.25 IRT-M 1.30  1.26  1.45  runtime  
-##  8      5     0.5  IRT-M 1.29  1.26  1.40  runtime  
-##  9      5     0.75 IRT-M 1.30  1.24  1.49  runtime  
-## 10      8     0.25 IRT-M 2.04  2.00  2.08  runtime  
-## 11      8     0.5  IRT-M 2.08  2.01  2.38  runtime  
-## 12      8     0.75 IRT-M 2.06  1.98  2.17  runtime  
+##  1      2     0.25 IRT-M 0.930 0.750  1.41 runtime  
+##  2      2     0.5  IRT-M 0.864 0.749  1.03 runtime  
+##  3      2     0.75 IRT-M 0.909 0.678  1.32 runtime  
+##  4      3     0.25 IRT-M 1.08  0.856  1.64 runtime  
+##  5      3     0.5  IRT-M 1.02  0.777  1.38 runtime  
+##  6      3     0.75 IRT-M 1.10  0.863  1.64 runtime  
+##  7      5     0.25 IRT-M 1.50  1.33   1.88 runtime  
+##  8      5     0.5  IRT-M 1.50  1.26   1.95 runtime  
+##  9      5     0.75 IRT-M 1.62  1.27   2.16 runtime  
+## 10      8     0.25 IRT-M 2.36  2.00   2.76 runtime  
+## 11      8     0.5  IRT-M 2.41  2.15   2.79 runtime  
+## 12      8     0.75 IRT-M 2.25  2.06   2.74 runtime  
 ## 
 ## > p_time <- ggplot(time_results, aes(x= pass_d, 
 ## +                                    y=avg,
@@ -6526,54 +6522,54 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ## > for(i in 1:nrow(single_pass_no_dupes)){ ## open for loop
 ## +   print(paste0("Start pass ",  .... [TRUNCATED] 
 ## [1] "Start pass 1:"
-## [1] "Start time: 2025-08-08 07:34:48.999773"
+## [1] "Start time: 2025-08-08 16:46:40.151431"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 2:"
-## [1] "Start time: 2025-08-08 07:34:49.099433"
+## [1] "Start time: 2025-08-08 16:46:40.284326"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 3:"
-## [1] "Start time: 2025-08-08 07:34:49.13041"
+## [1] "Start time: 2025-08-08 16:46:40.327467"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 4:"
-## [1] "Start time: 2025-08-08 07:34:49.148194"
+## [1] "Start time: 2025-08-08 16:46:40.355426"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 5:"
-## [1] "Start time: 2025-08-08 07:34:49.164902"
+## [1] "Start time: 2025-08-08 16:46:40.384826"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 6:"
-## [1] "Start time: 2025-08-08 07:34:49.181679"
+## [1] "Start time: 2025-08-08 16:46:40.414841"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 7:"
-## [1] "Start time: 2025-08-08 07:34:49.197639"
+## [1] "Start time: 2025-08-08 16:46:40.437009"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 8:"
-## [1] "Start time: 2025-08-08 07:34:49.214133"
+## [1] "Start time: 2025-08-08 16:46:40.71092"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 9:"
-## [1] "Start time: 2025-08-08 07:34:49.231394"
+## [1] "Start time: 2025-08-08 16:46:40.733936"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 10:"
-## [1] "Start time: 2025-08-08 07:34:49.248809"
+## [1] "Start time: 2025-08-08 16:46:40.760382"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 11:"
-## [1] "Start time: 2025-08-08 07:34:49.2648"
+## [1] "Start time: 2025-08-08 16:46:40.780863"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 12:"
-## [1] "Start time: 2025-08-08 07:34:49.269602"
+## [1] "Start time: 2025-08-08 16:46:40.79099"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:49.273531"
+## [1] "IRT-M start time: 2025-08-08 16:46:40.796468"
 ```
 
 ```
@@ -6581,15 +6577,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:49.591056"
-## [1] "run_time: 0.317525148391724"
-## [1] "End time: 2025-08-08 07:34:49.668647"
-## [1] "Pass took 0.399"
+## [1] "IRT-M End time: 2025-08-08 16:46:41.148877"
+## [1] "run_time: 0.352408885955811"
+## [1] "End time: 2025-08-08 16:46:41.245695"
+## [1] "Pass took 0.4547"
 ## [1] "Start pass 13:"
-## [1] "Start time: 2025-08-08 07:34:49.669235"
+## [1] "Start time: 2025-08-08 16:46:41.246296"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:49.676424"
+## [1] "IRT-M start time: 2025-08-08 16:46:41.25347"
 ```
 
 ```
@@ -6597,23 +6593,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:50.017118"
-## [1] "run_time: 0.340693950653076"
-## [1] "End time: 2025-08-08 07:34:50.077645"
-## [1] "Pass took 0.4084"
+## [1] "IRT-M End time: 2025-08-08 16:46:41.581938"
+## [1] "run_time: 0.328468084335327"
+## [1] "End time: 2025-08-08 16:46:41.634851"
+## [1] "Pass took 0.3886"
 ## [1] "Start pass 14:"
-## [1] "Start time: 2025-08-08 07:34:50.077992"
+## [1] "Start time: 2025-08-08 16:46:41.635441"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 15:"
-## [1] "Start time: 2025-08-08 07:34:50.084395"
+## [1] "Start time: 2025-08-08 16:46:41.64422"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 16:"
-## [1] "Start time: 2025-08-08 07:34:50.089766"
+## [1] "Start time: 2025-08-08 16:46:41.65516"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:50.093972"
+## [1] "IRT-M start time: 2025-08-08 16:46:41.662538"
 ```
 
 ```
@@ -6621,27 +6617,27 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:50.380899"
-## [1] "run_time: 0.286926984786987"
-## [1] "End time: 2025-08-08 07:34:50.426145"
-## [1] "Pass took 0.3364"
+## [1] "IRT-M End time: 2025-08-08 16:46:42.04091"
+## [1] "run_time: 0.378371953964233"
+## [1] "End time: 2025-08-08 16:46:42.104229"
+## [1] "Pass took 0.4491"
 ## [1] "Start pass 17:"
-## [1] "Start time: 2025-08-08 07:34:50.426481"
+## [1] "Start time: 2025-08-08 16:46:42.104685"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 18:"
-## [1] "Start time: 2025-08-08 07:34:50.432792"
+## [1] "Start time: 2025-08-08 16:46:42.113218"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 19:"
-## [1] "Start time: 2025-08-08 07:34:50.438574"
+## [1] "Start time: 2025-08-08 16:46:42.121345"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 20:"
-## [1] "Start time: 2025-08-08 07:34:50.444684"
+## [1] "Start time: 2025-08-08 16:46:42.132382"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:50.449316"
+## [1] "IRT-M start time: 2025-08-08 16:46:42.139485"
 ```
 
 ```
@@ -6649,31 +6645,31 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:50.755165"
-## [1] "run_time: 0.305849075317383"
-## [1] "End time: 2025-08-08 07:34:50.820292"
-## [1] "Pass took 0.3756"
+## [1] "IRT-M End time: 2025-08-08 16:46:42.451674"
+## [1] "run_time: 0.312189102172852"
+## [1] "End time: 2025-08-08 16:46:42.669238"
+## [1] "Pass took 0.5369"
 ## [1] "Start pass 21:"
-## [1] "Start time: 2025-08-08 07:34:50.821682"
+## [1] "Start time: 2025-08-08 16:46:42.670922"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 22:"
-## [1] "Start time: 2025-08-08 07:34:50.828498"
+## [1] "Start time: 2025-08-08 16:46:42.680286"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 23:"
-## [1] "Start time: 2025-08-08 07:34:50.834885"
+## [1] "Start time: 2025-08-08 16:46:42.688215"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 24:"
-## [1] "Start time: 2025-08-08 07:34:50.840849"
+## [1] "Start time: 2025-08-08 16:46:42.6956"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 25:"
-## [1] "Start time: 2025-08-08 07:34:50.84666"
+## [1] "Start time: 2025-08-08 16:46:42.703035"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:50.851982"
+## [1] "IRT-M start time: 2025-08-08 16:46:42.7094"
 ```
 
 ```
@@ -6681,27 +6677,27 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:51.784021"
-## [1] "run_time: 0.9320387840271"
-## [1] "End time: 2025-08-08 07:34:51.966178"
-## [1] "Pass took 1.1195"
+## [1] "IRT-M End time: 2025-08-08 16:46:44.284327"
+## [1] "run_time: 1.57492709159851"
+## [1] "End time: 2025-08-08 16:46:44.458286"
+## [1] "Pass took 1.7553"
 ## [1] "Start pass 26:"
-## [1] "Start time: 2025-08-08 07:34:51.967358"
+## [1] "Start time: 2025-08-08 16:46:44.460077"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 27:"
-## [1] "Start time: 2025-08-08 07:34:51.974461"
+## [1] "Start time: 2025-08-08 16:46:44.469449"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 28:"
-## [1] "Start time: 2025-08-08 07:34:51.979795"
+## [1] "Start time: 2025-08-08 16:46:44.476456"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 29:"
-## [1] "Start time: 2025-08-08 07:34:51.985599"
+## [1] "Start time: 2025-08-08 16:46:44.483283"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:51.990265"
+## [1] "IRT-M start time: 2025-08-08 16:46:44.489186"
 ```
 
 ```
@@ -6709,19 +6705,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:52.942126"
-## [1] "run_time: 0.951861143112183"
-## [1] "End time: 2025-08-08 07:34:53.082402"
-## [1] "Pass took 1.0968"
+## [1] "IRT-M End time: 2025-08-08 16:46:45.766401"
+## [1] "run_time: 1.27721500396729"
+## [1] "End time: 2025-08-08 16:46:45.94406"
+## [1] "Pass took 1.4608"
 ## [1] "Start pass 30:"
-## [1] "Start time: 2025-08-08 07:34:53.082963"
+## [1] "Start time: 2025-08-08 16:46:45.944514"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 31:"
-## [1] "Start time: 2025-08-08 07:34:53.090291"
+## [1] "Start time: 2025-08-08 16:46:45.95629"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:53.146278"
+## [1] "IRT-M start time: 2025-08-08 16:46:46.040767"
 ```
 
 ```
@@ -6729,15 +6725,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:56.312299"
-## [1] "run_time: 3.16602110862732"
-## [1] "End time: 2025-08-08 07:34:56.512297"
-## [1] "Pass took 3.422"
+## [1] "IRT-M End time: 2025-08-08 16:46:49.658561"
+## [1] "run_time: 3.61779403686523"
+## [1] "End time: 2025-08-08 16:46:50.305979"
+## [1] "Pass took 4.3497"
 ## [1] "Start pass 32:"
-## [1] "Start time: 2025-08-08 07:34:56.512643"
+## [1] "Start time: 2025-08-08 16:46:50.306424"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:56.586034"
+## [1] "IRT-M start time: 2025-08-08 16:46:50.414358"
 ```
 
 ```
@@ -6745,15 +6741,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:34:59.685526"
-## [1] "run_time: 3.0994918346405"
-## [1] "End time: 2025-08-08 07:34:59.938463"
-## [1] "Pass took 3.4258"
+## [1] "IRT-M End time: 2025-08-08 16:46:55.838859"
+## [1] "run_time: 5.4245011806488"
+## [1] "End time: 2025-08-08 16:46:57.498872"
+## [1] "Pass took 7.1924"
 ## [1] "Start pass 33:"
-## [1] "Start time: 2025-08-08 07:34:59.938807"
+## [1] "Start time: 2025-08-08 16:46:57.499503"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:34:59.989306"
+## [1] "IRT-M start time: 2025-08-08 16:46:57.583589"
 ```
 
 ```
@@ -6761,15 +6757,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:03.215028"
-## [1] "run_time: 3.22572207450867"
-## [1] "End time: 2025-08-08 07:35:03.419047"
-## [1] "Pass took 3.4802"
+## [1] "IRT-M End time: 2025-08-08 16:47:01.408162"
+## [1] "run_time: 3.82457304000854"
+## [1] "End time: 2025-08-08 16:47:01.639614"
+## [1] "Pass took 4.1401"
 ## [1] "Start pass 34:"
-## [1] "Start time: 2025-08-08 07:35:03.419373"
+## [1] "Start time: 2025-08-08 16:47:01.64"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:03.471528"
+## [1] "IRT-M start time: 2025-08-08 16:47:01.704847"
 ```
 
 ```
@@ -6777,15 +6773,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:06.56563"
-## [1] "run_time: 3.09410190582275"
-## [1] "End time: 2025-08-08 07:35:06.964842"
-## [1] "Pass took 3.5455"
+## [1] "IRT-M End time: 2025-08-08 16:47:05.080616"
+## [1] "run_time: 3.3757688999176"
+## [1] "End time: 2025-08-08 16:47:05.29631"
+## [1] "Pass took 3.6563"
 ## [1] "Start pass 35:"
-## [1] "Start time: 2025-08-08 07:35:06.965219"
+## [1] "Start time: 2025-08-08 16:47:05.296732"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:07.015962"
+## [1] "IRT-M start time: 2025-08-08 16:47:05.350142"
 ```
 
 ```
@@ -6793,15 +6789,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:10.197058"
-## [1] "run_time: 3.18109607696533"
-## [1] "End time: 2025-08-08 07:35:10.403048"
-## [1] "Pass took 3.4378"
+## [1] "IRT-M End time: 2025-08-08 16:47:08.748244"
+## [1] "run_time: 3.3981020450592"
+## [1] "End time: 2025-08-08 16:47:09.21262"
+## [1] "Pass took 3.9159"
 ## [1] "Start pass 36:"
-## [1] "Start time: 2025-08-08 07:35:10.404842"
+## [1] "Start time: 2025-08-08 16:47:09.21463"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:10.452514"
+## [1] "IRT-M start time: 2025-08-08 16:47:09.26855"
 ```
 
 ```
@@ -6809,15 +6805,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:13.57702"
-## [1] "run_time: 3.1245059967041"
-## [1] "End time: 2025-08-08 07:35:13.783353"
-## [1] "Pass took 3.3785"
+## [1] "IRT-M End time: 2025-08-08 16:47:12.891937"
+## [1] "run_time: 3.62338709831238"
+## [1] "End time: 2025-08-08 16:47:13.193996"
+## [1] "Pass took 3.9794"
 ## [1] "Start pass 37:"
-## [1] "Start time: 2025-08-08 07:35:13.783712"
+## [1] "Start time: 2025-08-08 16:47:13.19517"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:13.840615"
+## [1] "IRT-M start time: 2025-08-08 16:47:13.324427"
 ```
 
 ```
@@ -6825,15 +6821,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:17.035942"
-## [1] "run_time: 3.19532704353333"
-## [1] "End time: 2025-08-08 07:35:17.258844"
-## [1] "Pass took 3.4751"
+## [1] "IRT-M End time: 2025-08-08 16:47:17.291753"
+## [1] "run_time: 3.96732616424561"
+## [1] "End time: 2025-08-08 16:47:17.510718"
+## [1] "Pass took 4.3155"
 ## [1] "Start pass 38:"
-## [1] "Start time: 2025-08-08 07:35:17.259211"
+## [1] "Start time: 2025-08-08 16:47:17.51108"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:17.310441"
+## [1] "IRT-M start time: 2025-08-08 16:47:17.571007"
 ```
 
 ```
@@ -6841,15 +6837,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:20.506749"
-## [1] "run_time: 3.19630789756775"
-## [1] "End time: 2025-08-08 07:35:20.730821"
-## [1] "Pass took 3.4716"
+## [1] "IRT-M End time: 2025-08-08 16:47:22.391292"
+## [1] "run_time: 4.8202850818634"
+## [1] "End time: 2025-08-08 16:47:22.627116"
+## [1] "Pass took 5.116"
 ## [1] "Start pass 39:"
-## [1] "Start time: 2025-08-08 07:35:20.731177"
+## [1] "Start time: 2025-08-08 16:47:22.627513"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:20.783176"
+## [1] "IRT-M start time: 2025-08-08 16:47:22.683509"
 ```
 
 ```
@@ -6857,15 +6853,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:23.917472"
-## [1] "run_time: 3.13429594039917"
-## [1] "End time: 2025-08-08 07:35:24.125708"
-## [1] "Pass took 3.3945"
+## [1] "IRT-M End time: 2025-08-08 16:47:26.33258"
+## [1] "run_time: 3.64907097816467"
+## [1] "End time: 2025-08-08 16:47:26.568021"
+## [1] "Pass took 3.9405"
 ## [1] "Start pass 40:"
-## [1] "Start time: 2025-08-08 07:35:24.126192"
+## [1] "Start time: 2025-08-08 16:47:26.568649"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:24.175932"
+## [1] "IRT-M start time: 2025-08-08 16:47:26.62423"
 ```
 
 ```
@@ -6873,15 +6869,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:27.284847"
-## [1] "run_time: 3.10891509056091"
-## [1] "End time: 2025-08-08 07:35:27.4954"
-## [1] "Pass took 3.3692"
+## [1] "IRT-M End time: 2025-08-08 16:47:30.249167"
+## [1] "run_time: 3.62493705749512"
+## [1] "End time: 2025-08-08 16:47:30.487077"
+## [1] "Pass took 3.9184"
 ## [1] "Start pass 41:"
-## [1] "Start time: 2025-08-08 07:35:27.497312"
+## [1] "Start time: 2025-08-08 16:47:30.48925"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:27.699303"
+## [1] "IRT-M start time: 2025-08-08 16:47:30.722943"
 ```
 
 ```
@@ -6889,15 +6885,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:38.081157"
-## [1] "run_time: 10.381854057312"
-## [1] "End time: 2025-08-08 07:35:38.802041"
-## [1] "Pass took 11.3047"
+## [1] "IRT-M End time: 2025-08-08 16:47:42.705338"
+## [1] "run_time: 11.9823949337006"
+## [1] "End time: 2025-08-08 16:47:43.869005"
+## [1] "Pass took 13.3798"
 ## [1] "Start pass 42:"
-## [1] "Start time: 2025-08-08 07:35:38.802379"
+## [1] "Start time: 2025-08-08 16:47:43.86937"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:38.987131"
+## [1] "IRT-M start time: 2025-08-08 16:47:44.094028"
 ```
 
 ```
@@ -6905,15 +6901,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:35:49.625333"
-## [1] "run_time: 10.6382019519806"
-## [1] "End time: 2025-08-08 07:35:50.396243"
-## [1] "Pass took 11.5939"
+## [1] "IRT-M End time: 2025-08-08 16:47:55.945556"
+## [1] "run_time: 11.851527929306"
+## [1] "End time: 2025-08-08 16:47:56.546809"
+## [1] "Pass took 12.6774"
 ## [1] "Start pass 43:"
-## [1] "Start time: 2025-08-08 07:35:50.396658"
+## [1] "Start time: 2025-08-08 16:47:56.547216"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:35:50.577884"
+## [1] "IRT-M start time: 2025-08-08 16:47:56.755209"
 ```
 
 ```
@@ -6921,15 +6917,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:01.157751"
-## [1] "run_time: 10.5798671245575"
-## [1] "End time: 2025-08-08 07:36:01.873382"
-## [1] "Pass took 11.4767"
+## [1] "IRT-M End time: 2025-08-08 16:48:08.548089"
+## [1] "run_time: 11.7928800582886"
+## [1] "End time: 2025-08-08 16:48:09.164989"
+## [1] "Pass took 12.6178"
 ## [1] "Start pass 44:"
-## [1] "Start time: 2025-08-08 07:36:01.873893"
+## [1] "Start time: 2025-08-08 16:48:09.165338"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:36:02.06267"
+## [1] "IRT-M start time: 2025-08-08 16:48:09.366312"
 ```
 
 ```
@@ -6937,15 +6933,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:12.72782"
-## [1] "run_time: 10.6651499271393"
-## [1] "End time: 2025-08-08 07:36:13.505124"
-## [1] "Pass took 11.6312"
+## [1] "IRT-M End time: 2025-08-08 16:48:21.615113"
+## [1] "run_time: 12.2488009929657"
+## [1] "End time: 2025-08-08 16:48:22.504341"
+## [1] "Pass took 13.339"
 ## [1] "Start pass 45:"
-## [1] "Start time: 2025-08-08 07:36:13.505667"
+## [1] "Start time: 2025-08-08 16:48:22.504822"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:36:13.697891"
+## [1] "IRT-M start time: 2025-08-08 16:48:22.703662"
 ```
 
 ```
@@ -6953,15 +6949,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:24.938735"
-## [1] "run_time: 11.2408440113068"
-## [1] "End time: 2025-08-08 07:36:25.466073"
-## [1] "Pass took 11.9604"
+## [1] "IRT-M End time: 2025-08-08 16:48:35.587299"
+## [1] "run_time: 12.8836371898651"
+## [1] "End time: 2025-08-08 16:48:36.156385"
+## [1] "Pass took 13.6516"
 ## [1] "Start pass 46:"
-## [1] "Start time: 2025-08-08 07:36:25.467857"
+## [1] "Start time: 2025-08-08 16:48:36.160316"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:36:25.647492"
+## [1] "IRT-M start time: 2025-08-08 16:48:36.37351"
 ```
 
 ```
@@ -6969,15 +6965,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:36.507491"
-## [1] "run_time: 10.8599991798401"
-## [1] "End time: 2025-08-08 07:36:37.209304"
-## [1] "Pass took 11.7414"
+## [1] "IRT-M End time: 2025-08-08 16:48:48.073732"
+## [1] "run_time: 11.7002220153809"
+## [1] "End time: 2025-08-08 16:48:48.703148"
+## [1] "Pass took 12.5428"
 ## [1] "Start pass 47:"
-## [1] "Start time: 2025-08-08 07:36:37.209668"
+## [1] "Start time: 2025-08-08 16:48:48.703576"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:36:37.388689"
+## [1] "IRT-M start time: 2025-08-08 16:48:48.916374"
 ```
 
 ```
@@ -6985,15 +6981,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:48.061637"
-## [1] "run_time: 10.672947883606"
-## [1] "End time: 2025-08-08 07:36:48.781158"
-## [1] "Pass took 11.5715"
+## [1] "IRT-M End time: 2025-08-08 16:49:00.4042"
+## [1] "run_time: 11.4878261089325"
+## [1] "End time: 2025-08-08 16:49:01.238929"
+## [1] "Pass took 12.5354"
 ## [1] "Start pass 48:"
-## [1] "Start time: 2025-08-08 07:36:48.781583"
+## [1] "Start time: 2025-08-08 16:49:01.239442"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:36:48.971803"
+## [1] "IRT-M start time: 2025-08-08 16:49:01.428976"
 ```
 
 ```
@@ -7001,15 +6997,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:36:59.547705"
-## [1] "run_time: 10.5759019851685"
-## [1] "End time: 2025-08-08 07:37:00.071548"
-## [1] "Pass took 11.29"
+## [1] "IRT-M End time: 2025-08-08 16:49:12.582941"
+## [1] "run_time: 11.1539649963379"
+## [1] "End time: 2025-08-08 16:49:13.343276"
+## [1] "Pass took 12.1038"
 ## [1] "Start pass 49:"
-## [1] "Start time: 2025-08-08 07:37:00.071902"
+## [1] "Start time: 2025-08-08 16:49:13.343644"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:37:00.278192"
+## [1] "IRT-M start time: 2025-08-08 16:49:13.535873"
 ```
 
 ```
@@ -7017,15 +7013,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:37:10.731279"
-## [1] "run_time: 10.4530868530273"
-## [1] "End time: 2025-08-08 07:37:11.40804"
-## [1] "Pass took 11.3361"
+## [1] "IRT-M End time: 2025-08-08 16:49:24.580009"
+## [1] "run_time: 11.0441360473633"
+## [1] "End time: 2025-08-08 16:49:25.111897"
+## [1] "Pass took 11.7683"
 ## [1] "Start pass 50:"
-## [1] "Start time: 2025-08-08 07:37:11.408379"
+## [1] "Start time: 2025-08-08 16:49:25.112514"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:37:11.589752"
+## [1] "IRT-M start time: 2025-08-08 16:49:25.328198"
 ```
 
 ```
@@ -7033,15 +7029,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:37:22.470681"
-## [1] "run_time: 10.8809289932251"
-## [1] "End time: 2025-08-08 07:37:23.169738"
-## [1] "Pass took 11.7614"
+## [1] "IRT-M End time: 2025-08-08 16:49:36.540187"
+## [1] "run_time: 11.2119889259338"
+## [1] "End time: 2025-08-08 16:49:37.266453"
+## [1] "Pass took 12.1539"
 ## [1] "Start pass 51:"
-## [1] "Start time: 2025-08-08 07:37:23.171937"
+## [1] "Start time: 2025-08-08 16:49:37.269181"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:37:23.286099"
+## [1] "IRT-M start time: 2025-08-08 16:49:37.402584"
 ```
 
 ```
@@ -7049,15 +7045,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:37:35.982493"
-## [1] "run_time: 12.6963939666748"
-## [1] "End time: 2025-08-08 07:37:36.814968"
-## [1] "Pass took 13.643"
+## [1] "IRT-M End time: 2025-08-08 16:49:51.433363"
+## [1] "run_time: 14.0307788848877"
+## [1] "End time: 2025-08-08 16:49:52.161719"
+## [1] "Pass took 14.8925"
 ## [1] "Start pass 52:"
-## [1] "Start time: 2025-08-08 07:37:36.815322"
+## [1] "Start time: 2025-08-08 16:49:52.162317"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:37:36.928986"
+## [1] "IRT-M start time: 2025-08-08 16:49:52.371039"
 ```
 
 ```
@@ -7065,15 +7061,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:37:49.469252"
-## [1] "run_time: 12.5402660369873"
-## [1] "End time: 2025-08-08 07:37:50.32535"
-## [1] "Pass took 13.51"
+## [1] "IRT-M End time: 2025-08-08 16:50:05.507662"
+## [1] "run_time: 13.1366231441498"
+## [1] "End time: 2025-08-08 16:50:06.472026"
+## [1] "Pass took 14.3097"
 ## [1] "Start pass 53:"
-## [1] "Start time: 2025-08-08 07:37:50.325717"
+## [1] "Start time: 2025-08-08 16:50:06.472709"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:37:50.448706"
+## [1] "IRT-M start time: 2025-08-08 16:50:06.619594"
 ```
 
 ```
@@ -7081,15 +7077,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:38:02.999506"
-## [1] "run_time: 12.5508000850677"
-## [1] "End time: 2025-08-08 07:38:03.814952"
-## [1] "Pass took 13.4892"
+## [1] "IRT-M End time: 2025-08-08 16:50:20.589041"
+## [1] "run_time: 13.9694468975067"
+## [1] "End time: 2025-08-08 16:50:21.433362"
+## [1] "Pass took 14.9607"
 ## [1] "Start pass 54:"
-## [1] "Start time: 2025-08-08 07:38:03.815446"
+## [1] "Start time: 2025-08-08 16:50:21.433739"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:38:03.935659"
+## [1] "IRT-M start time: 2025-08-08 16:50:21.555075"
 ```
 
 ```
@@ -7097,15 +7093,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:38:16.395647"
-## [1] "run_time: 12.459988117218"
-## [1] "End time: 2025-08-08 07:38:17.184775"
-## [1] "Pass took 13.3693"
+## [1] "IRT-M End time: 2025-08-08 16:50:36.040092"
+## [1] "run_time: 14.4850170612335"
+## [1] "End time: 2025-08-08 16:50:37.188358"
+## [1] "Pass took 15.7546"
 ## [1] "Start pass 55:"
-## [1] "Start time: 2025-08-08 07:38:17.185395"
+## [1] "Start time: 2025-08-08 16:50:37.189514"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:38:17.30645"
+## [1] "IRT-M start time: 2025-08-08 16:50:37.334627"
 ```
 
 ```
@@ -7113,15 +7109,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:38:29.787746"
-## [1] "run_time: 12.4812960624695"
-## [1] "End time: 2025-08-08 07:38:30.580688"
-## [1] "Pass took 13.3953"
+## [1] "IRT-M End time: 2025-08-08 16:50:56.345256"
+## [1] "run_time: 19.0106291770935"
+## [1] "End time: 2025-08-08 16:50:57.408276"
+## [1] "Pass took 20.2188"
 ## [1] "Start pass 56:"
-## [1] "Start time: 2025-08-08 07:38:30.583986"
+## [1] "Start time: 2025-08-08 16:50:57.411718"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:38:30.704527"
+## [1] "IRT-M start time: 2025-08-08 16:50:57.528747"
 ```
 
 ```
@@ -7129,15 +7125,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:38:43.388215"
-## [1] "run_time: 12.6836881637573"
-## [1] "End time: 2025-08-08 07:38:43.960093"
-## [1] "Pass took 13.3761"
+## [1] "IRT-M End time: 2025-08-08 16:51:12.275275"
+## [1] "run_time: 14.7465279102325"
+## [1] "End time: 2025-08-08 16:51:13.293272"
+## [1] "Pass took 15.8816"
 ## [1] "Start pass 57:"
-## [1] "Start time: 2025-08-08 07:38:43.96044"
+## [1] "Start time: 2025-08-08 16:51:13.293755"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:38:44.074972"
+## [1] "IRT-M start time: 2025-08-08 16:51:13.416946"
 ```
 
 ```
@@ -7145,15 +7141,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:38:56.549315"
-## [1] "run_time: 12.4743430614471"
-## [1] "End time: 2025-08-08 07:38:57.161036"
-## [1] "Pass took 13.2006"
+## [1] "IRT-M End time: 2025-08-08 16:51:27.973607"
+## [1] "run_time: 14.5566611289978"
+## [1] "End time: 2025-08-08 16:51:28.924593"
+## [1] "Pass took 15.6308"
 ## [1] "Start pass 58:"
-## [1] "Start time: 2025-08-08 07:38:57.16138"
+## [1] "Start time: 2025-08-08 16:51:28.925037"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:38:57.278074"
+## [1] "IRT-M start time: 2025-08-08 16:51:29.056087"
 ```
 
 ```
@@ -7161,15 +7157,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:39:09.950922"
-## [1] "run_time: 12.6728479862213"
-## [1] "End time: 2025-08-08 07:39:10.527979"
-## [1] "Pass took 13.3666"
+## [1] "IRT-M End time: 2025-08-08 16:51:42.500682"
+## [1] "run_time: 13.4445950984955"
+## [1] "End time: 2025-08-08 16:51:43.391347"
+## [1] "Pass took 14.4663"
 ## [1] "Start pass 59:"
-## [1] "Start time: 2025-08-08 07:39:10.528327"
+## [1] "Start time: 2025-08-08 16:51:43.391721"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:39:10.644319"
+## [1] "IRT-M start time: 2025-08-08 16:51:43.513592"
 ```
 
 ```
@@ -7177,15 +7173,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:39:23.274246"
-## [1] "run_time: 12.6299269199371"
-## [1] "End time: 2025-08-08 07:39:23.903295"
-## [1] "Pass took 13.375"
+## [1] "IRT-M End time: 2025-08-08 16:51:56.020151"
+## [1] "run_time: 12.5065588951111"
+## [1] "End time: 2025-08-08 16:51:56.82314"
+## [1] "Pass took 13.4314"
 ## [1] "Start pass 60:"
-## [1] "Start time: 2025-08-08 07:39:23.903638"
+## [1] "Start time: 2025-08-08 16:51:56.823505"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:39:24.018196"
+## [1] "IRT-M start time: 2025-08-08 16:51:56.939877"
 ```
 
 ```
@@ -7193,15 +7189,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:39:36.888028"
-## [1] "run_time: 12.8698318004608"
-## [1] "End time: 2025-08-08 07:39:37.482599"
-## [1] "Pass took 13.579"
+## [1] "IRT-M End time: 2025-08-08 16:52:09.998063"
+## [1] "run_time: 13.0581860542297"
+## [1] "End time: 2025-08-08 16:52:10.808848"
+## [1] "Pass took 13.9853"
 ## [1] "Start pass 61:"
-## [1] "Start time: 2025-08-08 07:39:37.486942"
+## [1] "Start time: 2025-08-08 16:52:10.811469"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:39:37.680206"
+## [1] "IRT-M start time: 2025-08-08 16:52:10.997981"
 ```
 
 ```
@@ -7209,15 +7205,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:39:49.048747"
-## [1] "run_time: 11.3685410022736"
-## [1] "End time: 2025-08-08 07:39:50.000788"
-## [1] "Pass took 12.5138"
+## [1] "IRT-M End time: 2025-08-08 16:52:22.755432"
+## [1] "run_time: 11.7574508190155"
+## [1] "End time: 2025-08-08 16:52:23.917432"
+## [1] "Pass took 13.106"
 ## [1] "Start pass 62:"
-## [1] "Start time: 2025-08-08 07:39:50.001154"
+## [1] "Start time: 2025-08-08 16:52:23.917802"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:39:50.185513"
+## [1] "IRT-M start time: 2025-08-08 16:52:24.105624"
 ```
 
 ```
@@ -7225,15 +7221,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:40:01.590063"
-## [1] "run_time: 11.404550075531"
-## [1] "End time: 2025-08-08 07:40:02.567213"
-## [1] "Pass took 12.5661"
+## [1] "IRT-M End time: 2025-08-08 16:52:35.644917"
+## [1] "run_time: 11.539293050766"
+## [1] "End time: 2025-08-08 16:52:36.702494"
+## [1] "Pass took 12.7847"
 ## [1] "Start pass 63:"
-## [1] "Start time: 2025-08-08 07:40:02.567556"
+## [1] "Start time: 2025-08-08 16:52:36.702964"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:40:02.755654"
+## [1] "IRT-M start time: 2025-08-08 16:52:36.900967"
 ```
 
 ```
@@ -7241,15 +7237,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:40:14.135805"
-## [1] "run_time: 11.3801507949829"
-## [1] "End time: 2025-08-08 07:40:15.097838"
-## [1] "Pass took 12.5303"
+## [1] "IRT-M End time: 2025-08-08 16:52:48.498401"
+## [1] "run_time: 11.5974340438843"
+## [1] "End time: 2025-08-08 16:52:49.530367"
+## [1] "Pass took 12.8274"
 ## [1] "Start pass 64:"
-## [1] "Start time: 2025-08-08 07:40:15.098401"
+## [1] "Start time: 2025-08-08 16:52:49.530725"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:40:15.281983"
+## [1] "IRT-M start time: 2025-08-08 16:52:49.717844"
 ```
 
 ```
@@ -7257,15 +7253,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:40:26.496159"
-## [1] "run_time: 11.2141761779785"
-## [1] "End time: 2025-08-08 07:40:27.422839"
-## [1] "Pass took 12.3244"
+## [1] "IRT-M End time: 2025-08-08 16:53:01.181927"
+## [1] "run_time: 11.4640829563141"
+## [1] "End time: 2025-08-08 16:53:02.159994"
+## [1] "Pass took 12.6293"
 ## [1] "Start pass 65:"
-## [1] "Start time: 2025-08-08 07:40:27.423193"
+## [1] "Start time: 2025-08-08 16:53:02.160389"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:40:27.610924"
+## [1] "IRT-M start time: 2025-08-08 16:53:02.358247"
 ```
 
 ```
@@ -7273,15 +7269,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:40:39.159103"
-## [1] "run_time: 11.5481789112091"
-## [1] "End time: 2025-08-08 07:40:40.126979"
-## [1] "Pass took 12.7038"
+## [1] "IRT-M End time: 2025-08-08 16:53:14.096646"
+## [1] "run_time: 11.7383990287781"
+## [1] "End time: 2025-08-08 16:53:14.808616"
+## [1] "Pass took 12.6482"
 ## [1] "Start pass 66:"
-## [1] "Start time: 2025-08-08 07:40:40.130607"
+## [1] "Start time: 2025-08-08 16:53:14.812422"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:40:40.315497"
+## [1] "IRT-M start time: 2025-08-08 16:53:15.000606"
 ```
 
 ```
@@ -7289,15 +7285,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:40:51.782204"
-## [1] "run_time: 11.4667069911957"
-## [1] "End time: 2025-08-08 07:40:52.770443"
-## [1] "Pass took 12.6398"
+## [1] "IRT-M End time: 2025-08-08 16:53:27.194611"
+## [1] "run_time: 12.1940050125122"
+## [1] "End time: 2025-08-08 16:53:27.966808"
+## [1] "Pass took 13.1544"
 ## [1] "Start pass 67:"
-## [1] "Start time: 2025-08-08 07:40:52.77085"
+## [1] "Start time: 2025-08-08 16:53:27.967159"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:40:52.955643"
+## [1] "IRT-M start time: 2025-08-08 16:53:28.167236"
 ```
 
 ```
@@ -7305,15 +7301,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:41:04.212851"
-## [1] "run_time: 11.257208108902"
-## [1] "End time: 2025-08-08 07:41:05.125506"
-## [1] "Pass took 12.3547"
+## [1] "IRT-M End time: 2025-08-08 16:53:39.650848"
+## [1] "run_time: 11.4836118221283"
+## [1] "End time: 2025-08-08 16:53:40.624947"
+## [1] "Pass took 12.6578"
 ## [1] "Start pass 68:"
-## [1] "Start time: 2025-08-08 07:41:05.125868"
+## [1] "Start time: 2025-08-08 16:53:40.625486"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:41:05.311638"
+## [1] "IRT-M start time: 2025-08-08 16:53:40.817465"
 ```
 
 ```
@@ -7321,15 +7317,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:41:16.694944"
-## [1] "run_time: 11.3833057880402"
-## [1] "End time: 2025-08-08 07:41:17.645284"
-## [1] "Pass took 12.5194"
+## [1] "IRT-M End time: 2025-08-08 16:53:52.168516"
+## [1] "run_time: 11.3510508537292"
+## [1] "End time: 2025-08-08 16:53:53.183816"
+## [1] "Pass took 12.5583"
 ## [1] "Start pass 69:"
-## [1] "Start time: 2025-08-08 07:41:17.645643"
+## [1] "Start time: 2025-08-08 16:53:53.184183"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:41:17.829558"
+## [1] "IRT-M start time: 2025-08-08 16:53:53.37733"
 ```
 
 ```
@@ -7337,15 +7333,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:41:29.109806"
-## [1] "run_time: 11.2802481651306"
-## [1] "End time: 2025-08-08 07:41:30.091571"
-## [1] "Pass took 12.4459"
+## [1] "IRT-M End time: 2025-08-08 16:54:04.65373"
+## [1] "run_time: 11.2763998508453"
+## [1] "End time: 2025-08-08 16:54:05.438014"
+## [1] "Pass took 12.2538"
 ## [1] "Start pass 70:"
-## [1] "Start time: 2025-08-08 07:41:30.091915"
+## [1] "Start time: 2025-08-08 16:54:05.438394"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:41:30.277616"
+## [1] "IRT-M start time: 2025-08-08 16:54:05.629219"
 ```
 
 ```
@@ -7353,15 +7349,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:41:41.9633"
-## [1] "run_time: 11.685683965683"
-## [1] "End time: 2025-08-08 07:41:42.928857"
-## [1] "Pass took 12.8369"
+## [1] "IRT-M End time: 2025-08-08 16:54:17.246147"
+## [1] "run_time: 11.6169278621674"
+## [1] "End time: 2025-08-08 16:54:17.981424"
+## [1] "Pass took 12.543"
 ## [1] "Start pass 71:"
-## [1] "Start time: 2025-08-08 07:41:42.93173"
+## [1] "Start time: 2025-08-08 16:54:17.98424"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:41:43.047208"
+## [1] "IRT-M start time: 2025-08-08 16:54:18.098409"
 ```
 
 ```
@@ -7369,15 +7365,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:41:52.334203"
-## [1] "run_time: 9.28699493408203"
-## [1] "End time: 2025-08-08 07:41:52.725947"
-## [1] "Pass took 9.7942"
+## [1] "IRT-M End time: 2025-08-08 16:54:27.836537"
+## [1] "run_time: 9.73812794685364"
+## [1] "End time: 2025-08-08 16:54:28.227528"
+## [1] "Pass took 10.2433"
 ## [1] "Start pass 72:"
-## [1] "Start time: 2025-08-08 07:41:52.726427"
+## [1] "Start time: 2025-08-08 16:54:28.227921"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:41:52.853014"
+## [1] "IRT-M start time: 2025-08-08 16:54:28.358867"
 ```
 
 ```
@@ -7385,15 +7381,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:02.200695"
-## [1] "run_time: 9.34768104553223"
-## [1] "End time: 2025-08-08 07:42:02.612304"
-## [1] "Pass took 9.8859"
+## [1] "IRT-M End time: 2025-08-08 16:54:37.576157"
+## [1] "run_time: 9.21729016304016"
+## [1] "End time: 2025-08-08 16:54:37.963463"
+## [1] "Pass took 9.7355"
 ## [1] "Start pass 73:"
-## [1] "Start time: 2025-08-08 07:42:02.612833"
+## [1] "Start time: 2025-08-08 16:54:37.963922"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:02.735787"
+## [1] "IRT-M start time: 2025-08-08 16:54:38.090478"
 ```
 
 ```
@@ -7401,15 +7397,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:12.154339"
-## [1] "run_time: 9.41855216026306"
-## [1] "End time: 2025-08-08 07:42:12.536269"
-## [1] "Pass took 9.9234"
+## [1] "IRT-M End time: 2025-08-08 16:54:47.146728"
+## [1] "run_time: 9.05625009536743"
+## [1] "End time: 2025-08-08 16:54:47.539382"
+## [1] "Pass took 9.5755"
 ## [1] "Start pass 74:"
-## [1] "Start time: 2025-08-08 07:42:12.53679"
+## [1] "Start time: 2025-08-08 16:54:47.539764"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:12.700125"
+## [1] "IRT-M start time: 2025-08-08 16:54:47.666135"
 ```
 
 ```
@@ -7417,15 +7413,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:21.863349"
-## [1] "run_time: 9.1632239818573"
-## [1] "End time: 2025-08-08 07:42:22.22683"
-## [1] "Pass took 9.69"
+## [1] "IRT-M End time: 2025-08-08 16:54:56.747134"
+## [1] "run_time: 9.08099889755249"
+## [1] "End time: 2025-08-08 16:54:57.124204"
+## [1] "Pass took 9.5844"
 ## [1] "Start pass 75:"
-## [1] "Start time: 2025-08-08 07:42:22.227189"
+## [1] "Start time: 2025-08-08 16:54:57.124607"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:22.369506"
+## [1] "IRT-M start time: 2025-08-08 16:54:57.251615"
 ```
 
 ```
@@ -7433,15 +7429,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:31.554999"
-## [1] "run_time: 9.1854932308197"
-## [1] "End time: 2025-08-08 07:42:31.927645"
-## [1] "Pass took 9.7005"
+## [1] "IRT-M End time: 2025-08-08 16:55:06.441106"
+## [1] "run_time: 9.18949103355408"
+## [1] "End time: 2025-08-08 16:55:06.840196"
+## [1] "Pass took 9.7156"
 ## [1] "Start pass 76:"
-## [1] "Start time: 2025-08-08 07:42:31.930606"
+## [1] "Start time: 2025-08-08 16:55:06.843495"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:32.048314"
+## [1] "IRT-M start time: 2025-08-08 16:55:06.968368"
 ```
 
 ```
@@ -7449,15 +7445,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:41.399855"
-## [1] "run_time: 9.3515408039093"
-## [1] "End time: 2025-08-08 07:42:41.771766"
-## [1] "Pass took 9.8412"
+## [1] "IRT-M End time: 2025-08-08 16:55:16.47838"
+## [1] "run_time: 9.51001191139221"
+## [1] "End time: 2025-08-08 16:55:16.883468"
+## [1] "Pass took 10.04"
 ## [1] "Start pass 77:"
-## [1] "Start time: 2025-08-08 07:42:41.772116"
+## [1] "Start time: 2025-08-08 16:55:16.883925"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:41.89587"
+## [1] "IRT-M start time: 2025-08-08 16:55:17.019784"
 ```
 
 ```
@@ -7465,15 +7461,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:42:51.123377"
-## [1] "run_time: 9.2275071144104"
-## [1] "End time: 2025-08-08 07:42:51.537029"
-## [1] "Pass took 9.7649"
+## [1] "IRT-M End time: 2025-08-08 16:55:26.092187"
+## [1] "run_time: 9.07240295410156"
+## [1] "End time: 2025-08-08 16:55:26.797363"
+## [1] "Pass took 9.9134"
 ## [1] "Start pass 78:"
-## [1] "Start time: 2025-08-08 07:42:51.53749"
+## [1] "Start time: 2025-08-08 16:55:26.797745"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:42:51.662036"
+## [1] "IRT-M start time: 2025-08-08 16:55:26.93158"
 ```
 
 ```
@@ -7481,15 +7477,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:00.784927"
-## [1] "run_time: 9.12289094924927"
-## [1] "End time: 2025-08-08 07:43:01.147181"
-## [1] "Pass took 9.6097"
+## [1] "IRT-M End time: 2025-08-08 16:55:35.995048"
+## [1] "run_time: 9.06346797943115"
+## [1] "End time: 2025-08-08 16:55:36.367724"
+## [1] "Pass took 9.57"
 ## [1] "Start pass 79:"
-## [1] "Start time: 2025-08-08 07:43:01.147757"
+## [1] "Start time: 2025-08-08 16:55:36.368095"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:01.296968"
+## [1] "IRT-M start time: 2025-08-08 16:55:36.494928"
 ```
 
 ```
@@ -7497,15 +7493,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:10.702127"
-## [1] "run_time: 9.40515899658203"
-## [1] "End time: 2025-08-08 07:43:11.084499"
-## [1] "Pass took 9.9367"
+## [1] "IRT-M End time: 2025-08-08 16:55:45.559761"
+## [1] "run_time: 9.06483316421509"
+## [1] "End time: 2025-08-08 16:55:45.954802"
+## [1] "Pass took 9.5867"
 ## [1] "Start pass 80:"
-## [1] "Start time: 2025-08-08 07:43:11.084897"
+## [1] "Start time: 2025-08-08 16:55:45.955253"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:11.221158"
+## [1] "IRT-M start time: 2025-08-08 16:55:46.08081"
 ```
 
 ```
@@ -7513,15 +7509,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:20.36825"
-## [1] "run_time: 9.14709186553955"
-## [1] "End time: 2025-08-08 07:43:20.737895"
-## [1] "Pass took 9.653"
+## [1] "IRT-M End time: 2025-08-08 16:55:55.116623"
+## [1] "run_time: 9.03581285476685"
+## [1] "End time: 2025-08-08 16:55:55.505694"
+## [1] "Pass took 9.5504"
 ## [1] "Start pass 81:"
-## [1] "Start time: 2025-08-08 07:43:20.742325"
+## [1] "Start time: 2025-08-08 16:55:55.509316"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:20.74953"
+## [1] "IRT-M start time: 2025-08-08 16:55:55.516461"
 ```
 
 ```
@@ -7529,15 +7525,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:21.186385"
-## [1] "run_time: 0.436854839324951"
-## [1] "End time: 2025-08-08 07:43:21.21858"
-## [1] "Pass took 0.4763"
+## [1] "IRT-M End time: 2025-08-08 16:55:55.911197"
+## [1] "run_time: 0.394736051559448"
+## [1] "End time: 2025-08-08 16:55:55.965996"
+## [1] "Pass took 0.4567"
 ## [1] "Start pass 82:"
-## [1] "Start time: 2025-08-08 07:43:21.218918"
+## [1] "Start time: 2025-08-08 16:55:55.966377"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:21.226042"
+## [1] "IRT-M start time: 2025-08-08 16:55:55.973702"
 ```
 
 ```
@@ -7545,15 +7541,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:21.642042"
-## [1] "run_time: 0.415999889373779"
-## [1] "End time: 2025-08-08 07:43:21.680137"
-## [1] "Pass took 0.4612"
+## [1] "IRT-M End time: 2025-08-08 16:55:56.389788"
+## [1] "run_time: 0.416085958480835"
+## [1] "End time: 2025-08-08 16:55:56.42701"
+## [1] "Pass took 0.4606"
 ## [1] "Start pass 83:"
-## [1] "Start time: 2025-08-08 07:43:21.680566"
+## [1] "Start time: 2025-08-08 16:55:56.42736"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:21.688705"
+## [1] "IRT-M start time: 2025-08-08 16:55:56.434856"
 ```
 
 ```
@@ -7561,15 +7557,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:22.088395"
-## [1] "run_time: 0.3996901512146"
-## [1] "End time: 2025-08-08 07:43:22.120277"
-## [1] "Pass took 0.4397"
+## [1] "IRT-M End time: 2025-08-08 16:55:57.004198"
+## [1] "run_time: 0.569342136383057"
+## [1] "End time: 2025-08-08 16:55:57.043565"
+## [1] "Pass took 0.6162"
 ## [1] "Start pass 84:"
-## [1] "Start time: 2025-08-08 07:43:22.120862"
+## [1] "Start time: 2025-08-08 16:55:57.043996"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:22.128755"
+## [1] "IRT-M start time: 2025-08-08 16:55:57.054853"
 ```
 
 ```
@@ -7577,15 +7573,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:22.547591"
-## [1] "run_time: 0.418835878372192"
-## [1] "End time: 2025-08-08 07:43:22.579749"
-## [1] "Pass took 0.4589"
+## [1] "IRT-M End time: 2025-08-08 16:55:57.478995"
+## [1] "run_time: 0.424142122268677"
+## [1] "End time: 2025-08-08 16:55:57.523899"
+## [1] "Pass took 0.4799"
 ## [1] "Start pass 85:"
-## [1] "Start time: 2025-08-08 07:43:22.580197"
+## [1] "Start time: 2025-08-08 16:55:57.524438"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:22.587179"
+## [1] "IRT-M start time: 2025-08-08 16:55:57.535539"
 ```
 
 ```
@@ -7593,15 +7589,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:23.023284"
-## [1] "run_time: 0.436105012893677"
-## [1] "End time: 2025-08-08 07:43:23.06001"
-## [1] "Pass took 0.4798"
+## [1] "IRT-M End time: 2025-08-08 16:55:57.966943"
+## [1] "run_time: 0.431404113769531"
+## [1] "End time: 2025-08-08 16:55:58.002975"
+## [1] "Pass took 0.4785"
 ## [1] "Start pass 86:"
-## [1] "Start time: 2025-08-08 07:43:23.063977"
+## [1] "Start time: 2025-08-08 16:55:58.006951"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:23.071207"
+## [1] "IRT-M start time: 2025-08-08 16:55:58.015316"
 ```
 
 ```
@@ -7609,15 +7605,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:23.518572"
-## [1] "run_time: 0.447365045547485"
-## [1] "End time: 2025-08-08 07:43:23.551208"
-## [1] "Pass took 0.4872"
+## [1] "IRT-M End time: 2025-08-08 16:55:58.452987"
+## [1] "run_time: 0.437670946121216"
+## [1] "End time: 2025-08-08 16:55:58.490161"
+## [1] "Pass took 0.4832"
 ## [1] "Start pass 87:"
-## [1] "Start time: 2025-08-08 07:43:23.551605"
+## [1] "Start time: 2025-08-08 16:55:58.490561"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:23.558616"
+## [1] "IRT-M start time: 2025-08-08 16:55:58.499603"
 ```
 
 ```
@@ -7625,15 +7621,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:23.947087"
-## [1] "run_time: 0.388471126556396"
-## [1] "End time: 2025-08-08 07:43:24.006319"
-## [1] "Pass took 0.4547"
+## [1] "IRT-M End time: 2025-08-08 16:55:59.096122"
+## [1] "run_time: 0.596518993377686"
+## [1] "End time: 2025-08-08 16:55:59.134929"
+## [1] "Pass took 0.6444"
 ## [1] "Start pass 88:"
-## [1] "Start time: 2025-08-08 07:43:24.006699"
+## [1] "Start time: 2025-08-08 16:55:59.135547"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:24.014778"
+## [1] "IRT-M start time: 2025-08-08 16:55:59.147464"
 ```
 
 ```
@@ -7641,15 +7637,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:24.417004"
-## [1] "run_time: 0.402226209640503"
-## [1] "End time: 2025-08-08 07:43:24.448242"
-## [1] "Pass took 0.4415"
+## [1] "IRT-M End time: 2025-08-08 16:55:59.606927"
+## [1] "run_time: 0.459462881088257"
+## [1] "End time: 2025-08-08 16:55:59.643096"
+## [1] "Pass took 0.5075"
 ## [1] "Start pass 89:"
-## [1] "Start time: 2025-08-08 07:43:24.448663"
+## [1] "Start time: 2025-08-08 16:55:59.643544"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:24.457073"
+## [1] "IRT-M start time: 2025-08-08 16:55:59.653821"
 ```
 
 ```
@@ -7657,15 +7653,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:24.89788"
-## [1] "run_time: 0.440807104110718"
-## [1] "End time: 2025-08-08 07:43:24.931623"
-## [1] "Pass took 0.483"
+## [1] "IRT-M End time: 2025-08-08 16:56:00.072153"
+## [1] "run_time: 0.418332099914551"
+## [1] "End time: 2025-08-08 16:56:00.111642"
+## [1] "Pass took 0.4681"
 ## [1] "Start pass 90:"
-## [1] "Start time: 2025-08-08 07:43:24.931961"
+## [1] "Start time: 2025-08-08 16:56:00.112113"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:24.939744"
+## [1] "IRT-M start time: 2025-08-08 16:56:00.123751"
 ```
 
 ```
@@ -7673,19 +7669,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:25.377967"
-## [1] "run_time: 0.438222885131836"
-## [1] "End time: 2025-08-08 07:43:25.410708"
-## [1] "Pass took 0.4787"
+## [1] "IRT-M End time: 2025-08-08 16:56:00.582481"
+## [1] "run_time: 0.458729982376099"
+## [1] "End time: 2025-08-08 16:56:00.621753"
+## [1] "Pass took 0.5096"
 ## [1] "Start pass 91:"
-## [1] "Start time: 2025-08-08 07:43:25.41442"
+## [1] "Start time: 2025-08-08 16:56:00.626171"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 92:"
-## [1] "Start time: 2025-08-08 07:43:25.43049"
+## [1] "Start time: 2025-08-08 16:56:00.649249"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:25.445827"
+## [1] "IRT-M start time: 2025-08-08 16:56:00.69172"
 ```
 
 ```
@@ -7693,27 +7689,27 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:26.531352"
-## [1] "run_time: 1.08552503585815"
-## [1] "End time: 2025-08-08 07:43:26.735278"
-## [1] "Pass took 1.3048"
+## [1] "IRT-M End time: 2025-08-08 16:56:01.98796"
+## [1] "run_time: 1.29624009132385"
+## [1] "End time: 2025-08-08 16:56:02.214662"
+## [1] "Pass took 1.5654"
 ## [1] "Start pass 93:"
-## [1] "Start time: 2025-08-08 07:43:26.73562"
+## [1] "Start time: 2025-08-08 16:56:02.215097"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 94:"
-## [1] "Start time: 2025-08-08 07:43:26.751528"
+## [1] "Start time: 2025-08-08 16:56:02.235155"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 95:"
-## [1] "Start time: 2025-08-08 07:43:26.767875"
+## [1] "Start time: 2025-08-08 16:56:02.256166"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 96:"
-## [1] "Start time: 2025-08-08 07:43:26.78375"
+## [1] "Start time: 2025-08-08 16:56:02.278154"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:26.798754"
+## [1] "IRT-M start time: 2025-08-08 16:56:02.296875"
 ```
 
 ```
@@ -7721,15 +7717,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:27.887936"
-## [1] "run_time: 1.08918213844299"
-## [1] "End time: 2025-08-08 07:43:28.099239"
-## [1] "Pass took 1.3155"
+## [1] "IRT-M End time: 2025-08-08 16:56:03.514618"
+## [1] "run_time: 1.21774291992188"
+## [1] "End time: 2025-08-08 16:56:03.762732"
+## [1] "Pass took 1.4846"
 ## [1] "Start pass 97:"
-## [1] "Start time: 2025-08-08 07:43:28.099806"
+## [1] "Start time: 2025-08-08 16:56:03.763317"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:28.116096"
+## [1] "IRT-M start time: 2025-08-08 16:56:03.785638"
 ```
 
 ```
@@ -7737,19 +7733,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:29.169313"
-## [1] "run_time: 1.0532169342041"
-## [1] "End time: 2025-08-08 07:43:29.40247"
-## [1] "Pass took 1.3027"
+## [1] "IRT-M End time: 2025-08-08 16:56:04.853315"
+## [1] "run_time: 1.06767702102661"
+## [1] "End time: 2025-08-08 16:56:05.102852"
+## [1] "Pass took 1.3395"
 ## [1] "Start pass 98:"
-## [1] "Start time: 2025-08-08 07:43:29.402804"
+## [1] "Start time: 2025-08-08 16:56:05.103256"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 99:"
-## [1] "Start time: 2025-08-08 07:43:29.418235"
+## [1] "Start time: 2025-08-08 16:56:05.127802"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:29.431507"
+## [1] "IRT-M start time: 2025-08-08 16:56:05.15864"
 ```
 
 ```
@@ -7757,15 +7753,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:30.545009"
-## [1] "run_time: 1.11350178718567"
-## [1] "End time: 2025-08-08 07:43:30.740795"
-## [1] "Pass took 1.3226"
+## [1] "IRT-M End time: 2025-08-08 16:56:06.361315"
+## [1] "run_time: 1.20267510414124"
+## [1] "End time: 2025-08-08 16:56:06.6113"
+## [1] "Pass took 1.4835"
 ## [1] "Start pass 100:"
-## [1] "Start time: 2025-08-08 07:43:30.74127"
+## [1] "Start time: 2025-08-08 16:56:06.611765"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:30.756584"
+## [1] "IRT-M start time: 2025-08-08 16:56:06.634785"
 ```
 
 ```
@@ -7773,23 +7769,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:31.859605"
-## [1] "run_time: 1.10302114486694"
-## [1] "End time: 2025-08-08 07:43:32.060584"
-## [1] "Pass took 1.3193"
+## [1] "IRT-M End time: 2025-08-08 16:56:07.737364"
+## [1] "run_time: 1.10257911682129"
+## [1] "End time: 2025-08-08 16:56:08.044873"
+## [1] "Pass took 1.4331"
 ## [1] "Start pass 101:"
-## [1] "Start time: 2025-08-08 07:43:32.065087"
+## [1] "Start time: 2025-08-08 16:56:08.048749"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 102:"
-## [1] "Start time: 2025-08-08 07:43:32.074698"
+## [1] "Start time: 2025-08-08 16:56:08.05801"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 103:"
-## [1] "Start time: 2025-08-08 07:43:32.083464"
+## [1] "Start time: 2025-08-08 16:56:08.067143"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:32.094919"
+## [1] "IRT-M start time: 2025-08-08 16:56:08.074613"
 ```
 
 ```
@@ -7797,15 +7793,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:33.001142"
-## [1] "run_time: 0.906223058700562"
-## [1] "End time: 2025-08-08 07:43:33.093758"
-## [1] "Pass took 1.0103"
+## [1] "IRT-M End time: 2025-08-08 16:56:09.543026"
+## [1] "run_time: 1.46841287612915"
+## [1] "End time: 2025-08-08 16:56:09.64421"
+## [1] "Pass took 1.5771"
 ## [1] "Start pass 104:"
-## [1] "Start time: 2025-08-08 07:43:33.094177"
+## [1] "Start time: 2025-08-08 16:56:09.644651"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:33.102553"
+## [1] "IRT-M start time: 2025-08-08 16:56:09.655076"
 ```
 
 ```
@@ -7813,15 +7809,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:34.019303"
-## [1] "run_time: 0.916750192642212"
-## [1] "End time: 2025-08-08 07:43:34.105373"
-## [1] "Pass took 1.0112"
+## [1] "IRT-M End time: 2025-08-08 16:56:10.578983"
+## [1] "run_time: 0.923907041549683"
+## [1] "End time: 2025-08-08 16:56:10.706488"
+## [1] "Pass took 1.0618"
 ## [1] "Start pass 105:"
-## [1] "Start time: 2025-08-08 07:43:34.105768"
+## [1] "Start time: 2025-08-08 16:56:10.706933"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:34.113412"
+## [1] "IRT-M start time: 2025-08-08 16:56:10.71705"
 ```
 
 ```
@@ -7829,15 +7825,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:35.022732"
-## [1] "run_time: 0.909320116043091"
-## [1] "End time: 2025-08-08 07:43:35.107877"
-## [1] "Pass took 1.0021"
+## [1] "IRT-M End time: 2025-08-08 16:56:11.64033"
+## [1] "run_time: 0.923280000686646"
+## [1] "End time: 2025-08-08 16:56:11.752291"
+## [1] "Pass took 1.0454"
 ## [1] "Start pass 106:"
-## [1] "Start time: 2025-08-08 07:43:35.112198"
+## [1] "Start time: 2025-08-08 16:56:11.756938"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:35.119596"
+## [1] "IRT-M start time: 2025-08-08 16:56:11.767418"
 ```
 
 ```
@@ -7845,15 +7841,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:36.019065"
-## [1] "run_time: 0.899468898773193"
-## [1] "End time: 2025-08-08 07:43:36.111588"
-## [1] "Pass took 0.9994"
+## [1] "IRT-M End time: 2025-08-08 16:56:12.836497"
+## [1] "run_time: 1.06907916069031"
+## [1] "End time: 2025-08-08 16:56:12.936741"
+## [1] "Pass took 1.1798"
 ## [1] "Start pass 107:"
-## [1] "Start time: 2025-08-08 07:43:36.111926"
+## [1] "Start time: 2025-08-08 16:56:12.937362"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:36.120181"
+## [1] "IRT-M start time: 2025-08-08 16:56:12.949577"
 ```
 
 ```
@@ -7861,15 +7857,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:37.004508"
-## [1] "run_time: 0.884326934814453"
-## [1] "End time: 2025-08-08 07:43:37.094121"
-## [1] "Pass took 0.9822"
+## [1] "IRT-M End time: 2025-08-08 16:56:13.867249"
+## [1] "run_time: 0.917671918869019"
+## [1] "End time: 2025-08-08 16:56:13.976843"
+## [1] "Pass took 1.0395"
 ## [1] "Start pass 108:"
-## [1] "Start time: 2025-08-08 07:43:37.094496"
+## [1] "Start time: 2025-08-08 16:56:13.977254"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:37.10268"
+## [1] "IRT-M start time: 2025-08-08 16:56:13.987548"
 ```
 
 ```
@@ -7877,15 +7873,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:38.023672"
-## [1] "run_time: 0.920992136001587"
-## [1] "End time: 2025-08-08 07:43:38.110942"
-## [1] "Pass took 1.0164"
+## [1] "IRT-M End time: 2025-08-08 16:56:14.911334"
+## [1] "run_time: 0.923785924911499"
+## [1] "End time: 2025-08-08 16:56:15.015355"
+## [1] "Pass took 1.0381"
 ## [1] "Start pass 109:"
-## [1] "Start time: 2025-08-08 07:43:38.111309"
+## [1] "Start time: 2025-08-08 16:56:15.015752"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:38.119168"
+## [1] "IRT-M start time: 2025-08-08 16:56:15.025679"
 ```
 
 ```
@@ -7893,19 +7889,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:43:39.010122"
-## [1] "run_time: 0.89095401763916"
-## [1] "End time: 2025-08-08 07:43:39.096384"
-## [1] "Pass took 0.9851"
+## [1] "IRT-M End time: 2025-08-08 16:56:15.935973"
+## [1] "run_time: 0.910293817520142"
+## [1] "End time: 2025-08-08 16:56:16.020112"
+## [1] "Pass took 1.0044"
 ## [1] "Start pass 110:"
-## [1] "Start time: 2025-08-08 07:43:39.096727"
+## [1] "Start time: 2025-08-08 16:56:16.02046"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 111:"
-## [1] "Start time: 2025-08-08 07:43:39.106078"
+## [1] "Start time: 2025-08-08 16:56:16.029829"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:43:39.645535"
+## [1] "IRT-M start time: 2025-08-08 16:56:16.837945"
 ```
 
 ```
@@ -7913,15 +7909,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:44:08.968946"
-## [1] "run_time: 29.323410987854"
-## [1] "End time: 2025-08-08 07:44:10.628121"
-## [1] "Pass took 31.522"
+## [1] "IRT-M End time: 2025-08-08 16:56:45.861984"
+## [1] "run_time: 29.0240390300751"
+## [1] "End time: 2025-08-08 16:56:47.762365"
+## [1] "Pass took 31.7325"
 ## [1] "Start pass 112:"
-## [1] "Start time: 2025-08-08 07:44:10.628501"
+## [1] "Start time: 2025-08-08 16:56:47.762771"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:44:11.100148"
+## [1] "IRT-M start time: 2025-08-08 16:56:48.251228"
 ```
 
 ```
@@ -7929,15 +7925,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:44:40.311339"
-## [1] "run_time: 29.2111909389496"
-## [1] "End time: 2025-08-08 07:44:41.727954"
-## [1] "Pass took 31.0995"
+## [1] "IRT-M End time: 2025-08-08 16:57:18.029788"
+## [1] "run_time: 29.778559923172"
+## [1] "End time: 2025-08-08 16:57:19.630882"
+## [1] "Pass took 31.8681"
 ## [1] "Start pass 113:"
-## [1] "Start time: 2025-08-08 07:44:41.728292"
+## [1] "Start time: 2025-08-08 16:57:19.6314"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:44:42.205144"
+## [1] "IRT-M start time: 2025-08-08 16:57:20.146593"
 ```
 
 ```
@@ -7945,15 +7941,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:45:11.579317"
-## [1] "run_time: 29.3741731643677"
-## [1] "End time: 2025-08-08 07:45:13.030554"
-## [1] "Pass took 31.3023"
+## [1] "IRT-M End time: 2025-08-08 16:57:49.273975"
+## [1] "run_time: 29.1273818016052"
+## [1] "End time: 2025-08-08 16:57:50.74746"
+## [1] "Pass took 31.1161"
 ## [1] "Start pass 114:"
-## [1] "Start time: 2025-08-08 07:45:13.030891"
+## [1] "Start time: 2025-08-08 16:57:50.747902"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:45:13.500215"
+## [1] "IRT-M start time: 2025-08-08 16:57:51.214292"
 ```
 
 ```
@@ -7961,15 +7957,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:45:42.764989"
-## [1] "run_time: 29.2647738456726"
-## [1] "End time: 2025-08-08 07:45:44.20767"
-## [1] "Pass took 31.1768"
+## [1] "IRT-M End time: 2025-08-08 16:58:20.614304"
+## [1] "run_time: 29.4000120162964"
+## [1] "End time: 2025-08-08 16:58:22.094622"
+## [1] "Pass took 31.3467"
 ## [1] "Start pass 115:"
-## [1] "Start time: 2025-08-08 07:45:44.208205"
+## [1] "Start time: 2025-08-08 16:58:22.095111"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:45:44.682679"
+## [1] "IRT-M start time: 2025-08-08 16:58:22.568582"
 ```
 
 ```
@@ -7977,15 +7973,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:46:13.94649"
-## [1] "run_time: 29.2638111114502"
-## [1] "End time: 2025-08-08 07:46:15.413361"
-## [1] "Pass took 31.2052"
+## [1] "IRT-M End time: 2025-08-08 16:58:51.847967"
+## [1] "run_time: 29.2793848514557"
+## [1] "End time: 2025-08-08 16:58:53.297784"
+## [1] "Pass took 31.2027"
 ## [1] "Start pass 116:"
-## [1] "Start time: 2025-08-08 07:46:15.41863"
+## [1] "Start time: 2025-08-08 16:58:53.30204"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:46:15.887893"
+## [1] "IRT-M start time: 2025-08-08 16:58:53.780351"
 ```
 
 ```
@@ -7993,15 +7989,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:46:47.269778"
-## [1] "run_time: 31.3818850517273"
-## [1] "End time: 2025-08-08 07:46:48.89838"
-## [1] "Pass took 33.4798"
+## [1] "IRT-M End time: 2025-08-08 16:59:23.403314"
+## [1] "run_time: 29.6229631900787"
+## [1] "End time: 2025-08-08 16:59:25.040216"
+## [1] "Pass took 31.7382"
 ## [1] "Start pass 117:"
-## [1] "Start time: 2025-08-08 07:46:48.898708"
+## [1] "Start time: 2025-08-08 16:59:25.040613"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:46:49.377214"
+## [1] "IRT-M start time: 2025-08-08 16:59:25.52031"
 ```
 
 ```
@@ -8009,15 +8005,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:47:18.701644"
-## [1] "run_time: 29.3244299888611"
-## [1] "End time: 2025-08-08 07:47:20.198971"
-## [1] "Pass took 31.3003"
+## [1] "IRT-M End time: 2025-08-08 16:59:54.55345"
+## [1] "run_time: 29.0331401824951"
+## [1] "End time: 2025-08-08 16:59:56.023431"
+## [1] "Pass took 30.9828"
 ## [1] "Start pass 118:"
-## [1] "Start time: 2025-08-08 07:47:20.199314"
+## [1] "Start time: 2025-08-08 16:59:56.023816"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:47:20.669672"
+## [1] "IRT-M start time: 2025-08-08 16:59:56.503306"
 ```
 
 ```
@@ -8025,15 +8021,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:47:49.880961"
-## [1] "run_time: 29.2112889289856"
-## [1] "End time: 2025-08-08 07:47:51.319973"
-## [1] "Pass took 31.1207"
+## [1] "IRT-M End time: 2025-08-08 17:00:25.443242"
+## [1] "run_time: 28.9399361610413"
+## [1] "End time: 2025-08-08 17:00:26.900049"
+## [1] "Pass took 30.8762"
 ## [1] "Start pass 119:"
-## [1] "Start time: 2025-08-08 07:47:51.320422"
+## [1] "Start time: 2025-08-08 17:00:26.900561"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:47:51.794866"
+## [1] "IRT-M start time: 2025-08-08 17:00:27.37648"
 ```
 
 ```
@@ -8041,15 +8037,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:48:22.749042"
-## [1] "run_time: 30.9541759490967"
-## [1] "End time: 2025-08-08 07:48:25.067503"
-## [1] "Pass took 33.7471"
+## [1] "IRT-M End time: 2025-08-08 17:00:56.452512"
+## [1] "run_time: 29.0760319232941"
+## [1] "End time: 2025-08-08 17:00:57.892989"
+## [1] "Pass took 30.9924"
 ## [1] "Start pass 120:"
-## [1] "Start time: 2025-08-08 07:48:25.067971"
+## [1] "Start time: 2025-08-08 17:00:57.893412"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:48:25.886557"
+## [1] "IRT-M start time: 2025-08-08 17:00:58.387307"
 ```
 
 ```
@@ -8057,15 +8053,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:48:55.378995"
-## [1] "run_time: 29.4924378395081"
-## [1] "End time: 2025-08-08 07:48:56.83909"
-## [1] "Pass took 31.7711"
+## [1] "IRT-M End time: 2025-08-08 17:01:27.190602"
+## [1] "run_time: 28.803295135498"
+## [1] "End time: 2025-08-08 17:01:28.628812"
+## [1] "Pass took 30.7354"
 ## [1] "Start pass 121:"
-## [1] "Start time: 2025-08-08 07:48:56.844397"
+## [1] "Start time: 2025-08-08 17:01:28.635113"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:48:56.869883"
+## [1] "IRT-M start time: 2025-08-08 17:01:28.662578"
 ```
 
 ```
@@ -8073,15 +8069,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:03.487156"
-## [1] "run_time: 6.61727285385132"
-## [1] "End time: 2025-08-08 07:49:03.712025"
-## [1] "Pass took 6.8676"
+## [1] "IRT-M End time: 2025-08-08 17:01:35.451043"
+## [1] "run_time: 6.78846478462219"
+## [1] "End time: 2025-08-08 17:01:35.697809"
+## [1] "Pass took 7.0627"
 ## [1] "Start pass 122:"
-## [1] "Start time: 2025-08-08 07:49:03.712707"
+## [1] "Start time: 2025-08-08 17:01:35.698315"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:03.74153"
+## [1] "IRT-M start time: 2025-08-08 17:01:35.734642"
 ```
 
 ```
@@ -8089,15 +8085,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:10.281478"
-## [1] "run_time: 6.53994798660278"
-## [1] "End time: 2025-08-08 07:49:10.494862"
-## [1] "Pass took 6.7822"
+## [1] "IRT-M End time: 2025-08-08 17:01:42.121484"
+## [1] "run_time: 6.3868420124054"
+## [1] "End time: 2025-08-08 17:01:42.345458"
+## [1] "Pass took 6.6471"
 ## [1] "Start pass 123:"
-## [1] "Start time: 2025-08-08 07:49:10.495218"
+## [1] "Start time: 2025-08-08 17:01:42.34582"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:10.524343"
+## [1] "IRT-M start time: 2025-08-08 17:01:42.375893"
 ```
 
 ```
@@ -8105,15 +8101,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:21.070945"
-## [1] "run_time: 10.5466020107269"
-## [1] "End time: 2025-08-08 07:49:21.35309"
-## [1] "Pass took 10.8579"
+## [1] "IRT-M End time: 2025-08-08 17:01:48.799052"
+## [1] "run_time: 6.42315888404846"
+## [1] "End time: 2025-08-08 17:01:49.013358"
+## [1] "Pass took 6.6675"
 ## [1] "Start pass 124:"
-## [1] "Start time: 2025-08-08 07:49:21.353818"
+## [1] "Start time: 2025-08-08 17:01:49.013725"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:21.399219"
+## [1] "IRT-M start time: 2025-08-08 17:01:49.043938"
 ```
 
 ```
@@ -8121,15 +8117,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:28.323816"
-## [1] "run_time: 6.9245970249176"
-## [1] "End time: 2025-08-08 07:49:28.547895"
-## [1] "Pass took 7.1941"
+## [1] "IRT-M End time: 2025-08-08 17:01:55.441415"
+## [1] "run_time: 6.39747714996338"
+## [1] "End time: 2025-08-08 17:01:55.652235"
+## [1] "Pass took 6.6385"
 ## [1] "Start pass 125:"
-## [1] "Start time: 2025-08-08 07:49:28.548551"
+## [1] "Start time: 2025-08-08 17:01:55.65259"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:28.57867"
+## [1] "IRT-M start time: 2025-08-08 17:01:55.68061"
 ```
 
 ```
@@ -8137,15 +8133,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:35.350541"
-## [1] "run_time: 6.7718710899353"
-## [1] "End time: 2025-08-08 07:49:35.555719"
-## [1] "Pass took 7.0072"
+## [1] "IRT-M End time: 2025-08-08 17:02:02.08116"
+## [1] "run_time: 6.40055012702942"
+## [1] "End time: 2025-08-08 17:02:02.299766"
+## [1] "Pass took 6.6472"
 ## [1] "Start pass 126:"
-## [1] "Start time: 2025-08-08 07:49:35.562233"
+## [1] "Start time: 2025-08-08 17:02:02.305267"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:35.592013"
+## [1] "IRT-M start time: 2025-08-08 17:02:02.333032"
 ```
 
 ```
@@ -8153,15 +8149,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:42.280036"
-## [1] "run_time: 6.68802309036255"
-## [1] "End time: 2025-08-08 07:49:42.505028"
-## [1] "Pass took 6.9428"
+## [1] "IRT-M End time: 2025-08-08 17:02:09.053276"
+## [1] "run_time: 6.72024416923523"
+## [1] "End time: 2025-08-08 17:02:09.283458"
+## [1] "Pass took 6.9782"
 ## [1] "Start pass 127:"
-## [1] "Start time: 2025-08-08 07:49:42.505536"
+## [1] "Start time: 2025-08-08 17:02:09.28385"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:42.534322"
+## [1] "IRT-M start time: 2025-08-08 17:02:09.312565"
 ```
 
 ```
@@ -8169,15 +8165,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:49.143118"
-## [1] "run_time: 6.60879588127136"
-## [1] "End time: 2025-08-08 07:49:49.352043"
-## [1] "Pass took 6.8465"
+## [1] "IRT-M End time: 2025-08-08 17:02:15.762238"
+## [1] "run_time: 6.44967293739319"
+## [1] "End time: 2025-08-08 17:02:15.988086"
+## [1] "Pass took 6.7042"
 ## [1] "Start pass 128:"
-## [1] "Start time: 2025-08-08 07:49:49.352593"
+## [1] "Start time: 2025-08-08 17:02:15.988492"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:49.383278"
+## [1] "IRT-M start time: 2025-08-08 17:02:16.018267"
 ```
 
 ```
@@ -8185,15 +8181,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:49:55.955717"
-## [1] "run_time: 6.57243919372559"
-## [1] "End time: 2025-08-08 07:49:56.190727"
-## [1] "Pass took 6.8381"
+## [1] "IRT-M End time: 2025-08-08 17:02:22.864024"
+## [1] "run_time: 6.84575700759888"
+## [1] "End time: 2025-08-08 17:02:23.112332"
+## [1] "Pass took 7.1238"
 ## [1] "Start pass 129:"
-## [1] "Start time: 2025-08-08 07:49:56.191119"
+## [1] "Start time: 2025-08-08 17:02:23.112737"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:49:56.222016"
+## [1] "IRT-M start time: 2025-08-08 17:02:23.141518"
 ```
 
 ```
@@ -8201,15 +8197,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:02.783218"
-## [1] "run_time: 6.56120181083679"
-## [1] "End time: 2025-08-08 07:50:03.015568"
-## [1] "Pass took 6.8244"
+## [1] "IRT-M End time: 2025-08-08 17:02:29.53778"
+## [1] "run_time: 6.3962619304657"
+## [1] "End time: 2025-08-08 17:02:29.742213"
+## [1] "Pass took 6.6295"
 ## [1] "Start pass 130:"
-## [1] "Start time: 2025-08-08 07:50:03.016036"
+## [1] "Start time: 2025-08-08 17:02:29.74258"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:03.04459"
+## [1] "IRT-M start time: 2025-08-08 17:02:29.77139"
 ```
 
 ```
@@ -8217,15 +8213,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:09.616042"
-## [1] "run_time: 6.57145190238953"
-## [1] "End time: 2025-08-08 07:50:09.829827"
-## [1] "Pass took 6.8138"
+## [1] "IRT-M End time: 2025-08-08 17:02:36.197359"
+## [1] "run_time: 6.42596912384033"
+## [1] "End time: 2025-08-08 17:02:36.402112"
+## [1] "Pass took 6.6595"
 ## [1] "Start pass 131:"
-## [1] "Start time: 2025-08-08 07:50:09.836098"
+## [1] "Start time: 2025-08-08 17:02:36.408795"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:09.887355"
+## [1] "IRT-M start time: 2025-08-08 17:02:36.46153"
 ```
 
 ```
@@ -8233,15 +8229,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:15.716277"
-## [1] "run_time: 5.82892179489136"
-## [1] "End time: 2025-08-08 07:50:16.680844"
-## [1] "Pass took 6.8447"
+## [1] "IRT-M End time: 2025-08-08 17:02:42.489648"
+## [1] "run_time: 6.02811813354492"
+## [1] "End time: 2025-08-08 17:02:43.122074"
+## [1] "Pass took 6.7133"
 ## [1] "Start pass 132:"
-## [1] "Start time: 2025-08-08 07:50:16.681235"
+## [1] "Start time: 2025-08-08 17:02:43.122482"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:16.731998"
+## [1] "IRT-M start time: 2025-08-08 17:02:43.174048"
 ```
 
 ```
@@ -8249,15 +8245,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:22.430717"
-## [1] "run_time: 5.6987190246582"
-## [1] "End time: 2025-08-08 07:50:22.985066"
-## [1] "Pass took 6.3038"
+## [1] "IRT-M End time: 2025-08-08 17:02:48.751963"
+## [1] "run_time: 5.57791495323181"
+## [1] "End time: 2025-08-08 17:02:49.3546"
+## [1] "Pass took 6.2321"
 ## [1] "Start pass 133:"
-## [1] "Start time: 2025-08-08 07:50:22.985416"
+## [1] "Start time: 2025-08-08 17:02:49.354971"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:23.042505"
+## [1] "IRT-M start time: 2025-08-08 17:02:49.402463"
 ```
 
 ```
@@ -8265,15 +8261,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:28.825933"
-## [1] "run_time: 5.78342795372009"
-## [1] "End time: 2025-08-08 07:50:29.414106"
-## [1] "Pass took 6.4287"
+## [1] "IRT-M End time: 2025-08-08 17:02:55.029398"
+## [1] "run_time: 5.62693500518799"
+## [1] "End time: 2025-08-08 17:02:55.604787"
+## [1] "Pass took 6.2498"
 ## [1] "Start pass 134:"
-## [1] "Start time: 2025-08-08 07:50:29.414449"
+## [1] "Start time: 2025-08-08 17:02:55.605192"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:29.463362"
+## [1] "IRT-M start time: 2025-08-08 17:02:55.665092"
 ```
 
 ```
@@ -8281,15 +8277,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:35.313266"
-## [1] "run_time: 5.84990406036377"
-## [1] "End time: 2025-08-08 07:50:35.886204"
-## [1] "Pass took 6.4718"
+## [1] "IRT-M End time: 2025-08-08 17:03:01.639762"
+## [1] "run_time: 5.97466993331909"
+## [1] "End time: 2025-08-08 17:03:02.205977"
+## [1] "Pass took 6.6008"
 ## [1] "Start pass 135:"
-## [1] "Start time: 2025-08-08 07:50:35.886569"
+## [1] "Start time: 2025-08-08 17:03:02.206515"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:35.939266"
+## [1] "IRT-M start time: 2025-08-08 17:03:02.266787"
 ```
 
 ```
@@ -8297,15 +8293,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:41.734724"
-## [1] "run_time: 5.7954580783844"
-## [1] "End time: 2025-08-08 07:50:42.326131"
-## [1] "Pass took 6.4396"
+## [1] "IRT-M End time: 2025-08-08 17:03:07.94186"
+## [1] "run_time: 5.67507290840149"
+## [1] "End time: 2025-08-08 17:03:08.493104"
+## [1] "Pass took 6.2866"
 ## [1] "Start pass 136:"
-## [1] "Start time: 2025-08-08 07:50:42.33281"
+## [1] "Start time: 2025-08-08 17:03:08.498159"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:42.388536"
+## [1] "IRT-M start time: 2025-08-08 17:03:08.549329"
 ```
 
 ```
@@ -8313,15 +8309,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:48.16289"
-## [1] "run_time: 5.77435398101807"
-## [1] "End time: 2025-08-08 07:50:48.77688"
-## [1] "Pass took 6.4441"
+## [1] "IRT-M End time: 2025-08-08 17:03:14.574179"
+## [1] "run_time: 6.0248498916626"
+## [1] "End time: 2025-08-08 17:03:15.182895"
+## [1] "Pass took 6.6847"
 ## [1] "Start pass 137:"
-## [1] "Start time: 2025-08-08 07:50:48.777225"
+## [1] "Start time: 2025-08-08 17:03:15.183519"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:48.832907"
+## [1] "IRT-M start time: 2025-08-08 17:03:15.246204"
 ```
 
 ```
@@ -8329,15 +8325,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:50:54.627686"
-## [1] "run_time: 5.79477906227112"
-## [1] "End time: 2025-08-08 07:50:55.373225"
-## [1] "Pass took 6.596"
+## [1] "IRT-M End time: 2025-08-08 17:03:21.162391"
+## [1] "run_time: 5.91618704795837"
+## [1] "End time: 2025-08-08 17:03:21.766989"
+## [1] "Pass took 6.5835"
 ## [1] "Start pass 138:"
-## [1] "Start time: 2025-08-08 07:50:55.37359"
+## [1] "Start time: 2025-08-08 17:03:21.767348"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:50:55.434582"
+## [1] "IRT-M start time: 2025-08-08 17:03:21.816678"
 ```
 
 ```
@@ -8345,15 +8341,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:01.250597"
-## [1] "run_time: 5.81601500511169"
-## [1] "End time: 2025-08-08 07:51:01.834459"
-## [1] "Pass took 6.4609"
+## [1] "IRT-M End time: 2025-08-08 17:03:27.502795"
+## [1] "run_time: 5.68611693382263"
+## [1] "End time: 2025-08-08 17:03:28.07739"
+## [1] "Pass took 6.31"
 ## [1] "Start pass 139:"
-## [1] "Start time: 2025-08-08 07:51:01.834822"
+## [1] "Start time: 2025-08-08 17:03:28.077756"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:51:01.889421"
+## [1] "IRT-M start time: 2025-08-08 17:03:28.126927"
 ```
 
 ```
@@ -8361,15 +8357,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:07.609496"
-## [1] "run_time: 5.72007513046265"
-## [1] "End time: 2025-08-08 07:51:08.189716"
-## [1] "Pass took 6.3549"
+## [1] "IRT-M End time: 2025-08-08 17:03:33.789097"
+## [1] "run_time: 5.66217017173767"
+## [1] "End time: 2025-08-08 17:03:34.351739"
+## [1] "Pass took 6.274"
 ## [1] "Start pass 140:"
-## [1] "Start time: 2025-08-08 07:51:08.190053"
+## [1] "Start time: 2025-08-08 17:03:34.352116"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:51:08.239054"
+## [1] "IRT-M start time: 2025-08-08 17:03:34.401586"
 ```
 
 ```
@@ -8377,15 +8373,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:14.014137"
-## [1] "run_time: 5.77508306503296"
-## [1] "End time: 2025-08-08 07:51:14.598588"
-## [1] "Pass took 6.4085"
+## [1] "IRT-M End time: 2025-08-08 17:03:39.991929"
+## [1] "run_time: 5.59034299850464"
+## [1] "End time: 2025-08-08 17:03:40.54508"
+## [1] "Pass took 6.193"
 ## [1] "Start pass 141:"
-## [1] "Start time: 2025-08-08 07:51:14.604798"
+## [1] "Start time: 2025-08-08 17:03:40.550961"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:51:14.806757"
+## [1] "IRT-M start time: 2025-08-08 17:03:40.739137"
 ```
 
 ```
@@ -8393,15 +8389,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:28.384304"
-## [1] "run_time: 13.5775470733643"
-## [1] "End time: 2025-08-08 07:51:30.388174"
-## [1] "Pass took 15.7834"
+## [1] "IRT-M End time: 2025-08-08 17:03:54.239235"
+## [1] "run_time: 13.500097990036"
+## [1] "End time: 2025-08-08 17:03:55.887407"
+## [1] "Pass took 15.3364"
 ## [1] "Start pass 142:"
-## [1] "Start time: 2025-08-08 07:51:30.388539"
+## [1] "Start time: 2025-08-08 17:03:55.887755"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:51:30.584818"
+## [1] "IRT-M start time: 2025-08-08 17:03:56.075729"
 ```
 
 ```
@@ -8409,15 +8405,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:44.574377"
-## [1] "run_time: 13.989559173584"
-## [1] "End time: 2025-08-08 07:51:46.042757"
-## [1] "Pass took 15.6542"
+## [1] "IRT-M End time: 2025-08-08 17:04:09.562441"
+## [1] "run_time: 13.4867122173309"
+## [1] "End time: 2025-08-08 17:04:11.024645"
+## [1] "Pass took 15.1369"
 ## [1] "Start pass 143:"
-## [1] "Start time: 2025-08-08 07:51:46.0431"
+## [1] "Start time: 2025-08-08 17:04:11.025156"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:51:46.246717"
+## [1] "IRT-M start time: 2025-08-08 17:04:11.214597"
 ```
 
 ```
@@ -8425,15 +8421,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:51:59.570148"
-## [1] "run_time: 13.3234310150146"
-## [1] "End time: 2025-08-08 07:52:00.968088"
-## [1] "Pass took 14.925"
+## [1] "IRT-M End time: 2025-08-08 17:04:24.742488"
+## [1] "run_time: 13.527890920639"
+## [1] "End time: 2025-08-08 17:04:26.122798"
+## [1] "Pass took 15.0976"
 ## [1] "Start pass 144:"
-## [1] "Start time: 2025-08-08 07:52:00.968438"
+## [1] "Start time: 2025-08-08 17:04:26.123154"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:52:01.168527"
+## [1] "IRT-M start time: 2025-08-08 17:04:26.313164"
 ```
 
 ```
@@ -8441,15 +8437,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:52:13.997062"
-## [1] "run_time: 12.8285350799561"
-## [1] "End time: 2025-08-08 07:52:15.403227"
-## [1] "Pass took 14.4348"
+## [1] "IRT-M End time: 2025-08-08 17:04:39.896054"
+## [1] "run_time: 13.5828900337219"
+## [1] "End time: 2025-08-08 17:04:41.320088"
+## [1] "Pass took 15.1969"
 ## [1] "Start pass 145:"
-## [1] "Start time: 2025-08-08 07:52:15.403571"
+## [1] "Start time: 2025-08-08 17:04:41.320461"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:52:15.6035"
+## [1] "IRT-M start time: 2025-08-08 17:04:41.519698"
 ```
 
 ```
@@ -8457,15 +8453,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:52:28.471142"
-## [1] "run_time: 12.8676421642303"
-## [1] "End time: 2025-08-08 07:52:29.934574"
-## [1] "Pass took 14.531"
+## [1] "IRT-M End time: 2025-08-08 17:04:55.160953"
+## [1] "run_time: 13.6412551403046"
+## [1] "End time: 2025-08-08 17:04:56.594422"
+## [1] "Pass took 15.274"
 ## [1] "Start pass 146:"
-## [1] "Start time: 2025-08-08 07:52:29.940095"
+## [1] "Start time: 2025-08-08 17:04:56.600585"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:52:30.138106"
+## [1] "IRT-M start time: 2025-08-08 17:04:56.78983"
 ```
 
 ```
@@ -8473,15 +8469,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:52:42.990863"
-## [1] "run_time: 12.8527569770813"
-## [1] "End time: 2025-08-08 07:52:44.355488"
-## [1] "Pass took 14.4154"
+## [1] "IRT-M End time: 2025-08-08 17:05:10.663626"
+## [1] "run_time: 13.8737959861755"
+## [1] "End time: 2025-08-08 17:05:12.310351"
+## [1] "Pass took 15.7098"
 ## [1] "Start pass 147:"
-## [1] "Start time: 2025-08-08 07:52:44.355895"
+## [1] "Start time: 2025-08-08 17:05:12.310701"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:52:44.576184"
+## [1] "IRT-M start time: 2025-08-08 17:05:12.507132"
 ```
 
 ```
@@ -8489,15 +8485,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:52:57.283849"
-## [1] "run_time: 12.7076649665833"
-## [1] "End time: 2025-08-08 07:52:58.725831"
-## [1] "Pass took 14.3699"
+## [1] "IRT-M End time: 2025-08-08 17:05:26.171506"
+## [1] "run_time: 13.6643738746643"
+## [1] "End time: 2025-08-08 17:05:27.638555"
+## [1] "Pass took 15.3279"
 ## [1] "Start pass 148:"
-## [1] "Start time: 2025-08-08 07:52:58.726241"
+## [1] "Start time: 2025-08-08 17:05:27.638906"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:52:58.915659"
+## [1] "IRT-M start time: 2025-08-08 17:05:27.82838"
 ```
 
 ```
@@ -8505,15 +8501,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:11.773442"
-## [1] "run_time: 12.8577830791473"
-## [1] "End time: 2025-08-08 07:53:13.158761"
-## [1] "Pass took 14.4325"
+## [1] "IRT-M End time: 2025-08-08 17:05:41.495752"
+## [1] "run_time: 13.6673719882965"
+## [1] "End time: 2025-08-08 17:05:42.949059"
+## [1] "Pass took 15.3102"
 ## [1] "Start pass 149:"
-## [1] "Start time: 2025-08-08 07:53:13.159099"
+## [1] "Start time: 2025-08-08 17:05:42.949574"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:13.350392"
+## [1] "IRT-M start time: 2025-08-08 17:05:43.162877"
 ```
 
 ```
@@ -8521,15 +8517,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:26.163469"
-## [1] "run_time: 12.8130769729614"
-## [1] "End time: 2025-08-08 07:53:27.593773"
-## [1] "Pass took 14.4347"
+## [1] "IRT-M End time: 2025-08-08 17:05:56.915034"
+## [1] "run_time: 13.7521569728851"
+## [1] "End time: 2025-08-08 17:05:58.351746"
+## [1] "Pass took 15.4022"
 ## [1] "Start pass 150:"
-## [1] "Start time: 2025-08-08 07:53:27.594135"
+## [1] "Start time: 2025-08-08 17:05:58.352257"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:27.795588"
+## [1] "IRT-M start time: 2025-08-08 17:05:58.560964"
 ```
 
 ```
@@ -8537,19 +8533,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:40.742088"
-## [1] "run_time: 12.9465000629425"
-## [1] "End time: 2025-08-08 07:53:42.110318"
-## [1] "Pass took 14.5162"
+## [1] "IRT-M End time: 2025-08-08 17:06:12.146598"
+## [1] "run_time: 13.5856339931488"
+## [1] "End time: 2025-08-08 17:06:13.588376"
+## [1] "Pass took 15.2361"
 ## [1] "Start pass 151:"
-## [1] "Start time: 2025-08-08 07:53:42.116546"
+## [1] "Start time: 2025-08-08 17:06:13.594093"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 152:"
-## [1] "Start time: 2025-08-08 07:53:42.143818"
+## [1] "Start time: 2025-08-08 17:06:13.621803"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:42.170343"
+## [1] "IRT-M start time: 2025-08-08 17:06:13.647751"
 ```
 
 ```
@@ -8557,15 +8553,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:44.334336"
-## [1] "run_time: 2.16399312019348"
-## [1] "End time: 2025-08-08 07:53:44.68591"
-## [1] "Pass took 2.5421"
+## [1] "IRT-M End time: 2025-08-08 17:06:16.395115"
+## [1] "run_time: 2.74736380577087"
+## [1] "End time: 2025-08-08 17:06:16.80098"
+## [1] "Pass took 3.1792"
 ## [1] "Start pass 153:"
-## [1] "Start time: 2025-08-08 07:53:44.686253"
+## [1] "Start time: 2025-08-08 17:06:16.801406"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:44.716516"
+## [1] "IRT-M start time: 2025-08-08 17:06:16.836882"
 ```
 
 ```
@@ -8573,15 +8569,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:46.837676"
-## [1] "run_time: 2.12116003036499"
-## [1] "End time: 2025-08-08 07:53:47.148087"
-## [1] "Pass took 2.4618"
+## [1] "IRT-M End time: 2025-08-08 17:06:19.173692"
+## [1] "run_time: 2.33680987358093"
+## [1] "End time: 2025-08-08 17:06:19.5508"
+## [1] "Pass took 2.7494"
 ## [1] "Start pass 154:"
-## [1] "Start time: 2025-08-08 07:53:47.148426"
+## [1] "Start time: 2025-08-08 17:06:19.551164"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:47.173367"
+## [1] "IRT-M start time: 2025-08-08 17:06:19.577715"
 ```
 
 ```
@@ -8589,19 +8585,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:49.329477"
-## [1] "run_time: 2.15611004829407"
-## [1] "End time: 2025-08-08 07:53:49.640938"
-## [1] "Pass took 2.4925"
+## [1] "IRT-M End time: 2025-08-08 17:06:21.905605"
+## [1] "run_time: 2.32789015769958"
+## [1] "End time: 2025-08-08 17:06:22.237536"
+## [1] "Pass took 2.6864"
 ## [1] "Start pass 155:"
-## [1] "Start time: 2025-08-08 07:53:49.64126"
+## [1] "Start time: 2025-08-08 17:06:22.238068"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 156:"
-## [1] "Start time: 2025-08-08 07:53:49.668496"
+## [1] "Start time: 2025-08-08 17:06:22.268885"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:49.693455"
+## [1] "IRT-M start time: 2025-08-08 17:06:22.297735"
 ```
 
 ```
@@ -8609,15 +8605,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:51.810653"
-## [1] "run_time: 2.11719799041748"
-## [1] "End time: 2025-08-08 07:53:52.127821"
-## [1] "Pass took 2.4593"
+## [1] "IRT-M End time: 2025-08-08 17:06:24.909102"
+## [1] "run_time: 2.61136698722839"
+## [1] "End time: 2025-08-08 17:06:25.307489"
+## [1] "Pass took 3.0386"
 ## [1] "Start pass 157:"
-## [1] "Start time: 2025-08-08 07:53:52.128362"
+## [1] "Start time: 2025-08-08 17:06:25.307914"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:52.155561"
+## [1] "IRT-M start time: 2025-08-08 17:06:25.34195"
 ```
 
 ```
@@ -8625,15 +8621,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:54.299627"
-## [1] "run_time: 2.14406609535217"
-## [1] "End time: 2025-08-08 07:53:54.617701"
-## [1] "Pass took 2.4893"
+## [1] "IRT-M End time: 2025-08-08 17:06:27.750927"
+## [1] "run_time: 2.40897703170776"
+## [1] "End time: 2025-08-08 17:06:28.116754"
+## [1] "Pass took 2.8088"
 ## [1] "Start pass 158:"
-## [1] "Start time: 2025-08-08 07:53:54.618042"
+## [1] "Start time: 2025-08-08 17:06:28.117127"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:54.643804"
+## [1] "IRT-M start time: 2025-08-08 17:06:28.144833"
 ```
 
 ```
@@ -8641,15 +8637,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:56.793066"
-## [1] "run_time: 2.14926195144653"
-## [1] "End time: 2025-08-08 07:53:57.111122"
-## [1] "Pass took 2.4931"
+## [1] "IRT-M End time: 2025-08-08 17:06:30.554197"
+## [1] "run_time: 2.40936398506165"
+## [1] "End time: 2025-08-08 17:06:30.882918"
+## [1] "Pass took 2.7658"
 ## [1] "Start pass 159:"
-## [1] "Start time: 2025-08-08 07:53:57.11147"
+## [1] "Start time: 2025-08-08 17:06:30.883301"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:57.137872"
+## [1] "IRT-M start time: 2025-08-08 17:06:30.916126"
 ```
 
 ```
@@ -8657,15 +8653,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:53:59.269121"
-## [1] "run_time: 2.13124895095825"
-## [1] "End time: 2025-08-08 07:53:59.587695"
-## [1] "Pass took 2.4762"
+## [1] "IRT-M End time: 2025-08-08 17:06:33.264467"
+## [1] "run_time: 2.34834098815918"
+## [1] "End time: 2025-08-08 17:06:33.627572"
+## [1] "Pass took 2.7443"
 ## [1] "Start pass 160:"
-## [1] "Start time: 2025-08-08 07:53:59.588029"
+## [1] "Start time: 2025-08-08 17:06:33.627953"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:53:59.615595"
+## [1] "IRT-M start time: 2025-08-08 17:06:33.657951"
 ```
 
 ```
@@ -8673,15 +8669,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:01.75302"
-## [1] "run_time: 2.1374249458313"
-## [1] "End time: 2025-08-08 07:54:02.051541"
-## [1] "Pass took 2.4635"
+## [1] "IRT-M End time: 2025-08-08 17:06:36.021188"
+## [1] "run_time: 2.36323690414429"
+## [1] "End time: 2025-08-08 17:06:36.371787"
+## [1] "Pass took 2.7438"
 ## [1] "Start pass 161:"
-## [1] "Start time: 2025-08-08 07:54:02.057066"
+## [1] "Start time: 2025-08-08 17:06:36.377557"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:02.082515"
+## [1] "IRT-M start time: 2025-08-08 17:06:36.402207"
 ```
 
 ```
@@ -8689,15 +8685,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:03.538101"
-## [1] "run_time: 1.45558595657349"
-## [1] "End time: 2025-08-08 07:54:03.664958"
-## [1] "Pass took 1.6079"
+## [1] "IRT-M End time: 2025-08-08 17:06:38.169734"
+## [1] "run_time: 1.76752710342407"
+## [1] "End time: 2025-08-08 17:06:38.71005"
+## [1] "Pass took 2.3325"
 ## [1] "Start pass 162:"
-## [1] "Start time: 2025-08-08 07:54:03.665342"
+## [1] "Start time: 2025-08-08 17:06:38.710666"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:03.691971"
+## [1] "IRT-M start time: 2025-08-08 17:06:38.739165"
 ```
 
 ```
@@ -8705,15 +8701,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:05.300382"
-## [1] "run_time: 1.60841083526611"
-## [1] "End time: 2025-08-08 07:54:05.420325"
-## [1] "Pass took 1.755"
+## [1] "IRT-M End time: 2025-08-08 17:06:40.302848"
+## [1] "run_time: 1.5636830329895"
+## [1] "End time: 2025-08-08 17:06:40.446937"
+## [1] "Pass took 1.7363"
 ## [1] "Start pass 163:"
-## [1] "Start time: 2025-08-08 07:54:05.420645"
+## [1] "Start time: 2025-08-08 17:06:40.447441"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:05.446398"
+## [1] "IRT-M start time: 2025-08-08 17:06:40.477889"
 ```
 
 ```
@@ -8721,15 +8717,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:06.926803"
-## [1] "run_time: 1.48040509223938"
-## [1] "End time: 2025-08-08 07:54:07.052992"
-## [1] "Pass took 1.6323"
+## [1] "IRT-M End time: 2025-08-08 17:06:42.039793"
+## [1] "run_time: 1.56190395355225"
+## [1] "End time: 2025-08-08 17:06:42.18133"
+## [1] "Pass took 1.7339"
 ## [1] "Start pass 164:"
-## [1] "Start time: 2025-08-08 07:54:07.053312"
+## [1] "Start time: 2025-08-08 17:06:42.181741"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:07.077504"
+## [1] "IRT-M start time: 2025-08-08 17:06:42.209308"
 ```
 
 ```
@@ -8737,15 +8733,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:08.568446"
-## [1] "run_time: 1.49094200134277"
-## [1] "End time: 2025-08-08 07:54:08.691366"
-## [1] "Pass took 1.6381"
+## [1] "IRT-M End time: 2025-08-08 17:06:43.846178"
+## [1] "run_time: 1.63687014579773"
+## [1] "End time: 2025-08-08 17:06:43.994672"
+## [1] "Pass took 1.8129"
 ## [1] "Start pass 165:"
-## [1] "Start time: 2025-08-08 07:54:08.691692"
+## [1] "Start time: 2025-08-08 17:06:43.995042"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:08.716767"
+## [1] "IRT-M start time: 2025-08-08 17:06:44.030276"
 ```
 
 ```
@@ -8753,15 +8749,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:10.094367"
-## [1] "run_time: 1.3775999546051"
-## [1] "End time: 2025-08-08 07:54:10.215647"
-## [1] "Pass took 1.524"
+## [1] "IRT-M End time: 2025-08-08 17:06:45.585776"
+## [1] "run_time: 1.55550003051758"
+## [1] "End time: 2025-08-08 17:06:45.734036"
+## [1] "Pass took 1.739"
 ## [1] "Start pass 166:"
-## [1] "Start time: 2025-08-08 07:54:10.221283"
+## [1] "Start time: 2025-08-08 17:06:45.741332"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:10.246758"
+## [1] "IRT-M start time: 2025-08-08 17:06:45.805336"
 ```
 
 ```
@@ -8769,15 +8765,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:11.623885"
-## [1] "run_time: 1.37712693214417"
-## [1] "End time: 2025-08-08 07:54:11.749989"
-## [1] "Pass took 1.5287"
+## [1] "IRT-M End time: 2025-08-08 17:06:47.467803"
+## [1] "run_time: 1.66246700286865"
+## [1] "End time: 2025-08-08 17:06:47.64106"
+## [1] "Pass took 1.8997"
 ## [1] "Start pass 167:"
-## [1] "Start time: 2025-08-08 07:54:11.750499"
+## [1] "Start time: 2025-08-08 17:06:47.641466"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:11.777188"
+## [1] "IRT-M start time: 2025-08-08 17:06:47.676963"
 ```
 
 ```
@@ -8785,15 +8781,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:13.183664"
-## [1] "run_time: 1.40647602081299"
-## [1] "End time: 2025-08-08 07:54:13.305809"
-## [1] "Pass took 1.5553"
+## [1] "IRT-M End time: 2025-08-08 17:06:49.232269"
+## [1] "run_time: 1.55530595779419"
+## [1] "End time: 2025-08-08 17:06:49.377313"
+## [1] "Pass took 1.7358"
 ## [1] "Start pass 168:"
-## [1] "Start time: 2025-08-08 07:54:13.306194"
+## [1] "Start time: 2025-08-08 17:06:49.377777"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:13.332161"
+## [1] "IRT-M start time: 2025-08-08 17:06:49.45352"
 ```
 
 ```
@@ -8801,15 +8797,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:14.736198"
-## [1] "run_time: 1.40403699874878"
-## [1] "End time: 2025-08-08 07:54:14.860371"
-## [1] "Pass took 1.5542"
+## [1] "IRT-M End time: 2025-08-08 17:06:51.007217"
+## [1] "run_time: 1.55369687080383"
+## [1] "End time: 2025-08-08 17:06:51.170297"
+## [1] "Pass took 1.7925"
 ## [1] "Start pass 169:"
-## [1] "Start time: 2025-08-08 07:54:14.860849"
+## [1] "Start time: 2025-08-08 17:06:51.170673"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:14.886784"
+## [1] "IRT-M start time: 2025-08-08 17:06:51.202556"
 ```
 
 ```
@@ -8817,15 +8813,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:16.285934"
-## [1] "run_time: 1.39914989471436"
-## [1] "End time: 2025-08-08 07:54:16.418918"
-## [1] "Pass took 1.5581"
+## [1] "IRT-M End time: 2025-08-08 17:06:52.798625"
+## [1] "run_time: 1.59606909751892"
+## [1] "End time: 2025-08-08 17:06:52.961629"
+## [1] "Pass took 1.791"
 ## [1] "Start pass 170:"
-## [1] "Start time: 2025-08-08 07:54:16.419345"
+## [1] "Start time: 2025-08-08 17:06:52.962247"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:16.445989"
+## [1] "IRT-M start time: 2025-08-08 17:06:52.998563"
 ```
 
 ```
@@ -8833,23 +8829,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:17.852996"
-## [1] "run_time: 1.40700721740723"
-## [1] "End time: 2025-08-08 07:54:17.982575"
-## [1] "Pass took 1.5632"
+## [1] "IRT-M End time: 2025-08-08 17:06:55.303889"
+## [1] "run_time: 2.30532598495483"
+## [1] "End time: 2025-08-08 17:06:55.448789"
+## [1] "Pass took 2.4865"
 ## [1] "Start pass 171:"
-## [1] "Start time: 2025-08-08 07:54:17.988713"
+## [1] "Start time: 2025-08-08 17:06:55.456827"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 172:"
-## [1] "Start time: 2025-08-08 07:54:17.995038"
+## [1] "Start time: 2025-08-08 17:06:55.469836"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 173:"
-## [1] "Start time: 2025-08-08 07:54:18.000745"
+## [1] "Start time: 2025-08-08 17:06:55.476855"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:18.005318"
+## [1] "IRT-M start time: 2025-08-08 17:06:55.48291"
 ```
 
 ```
@@ -8857,15 +8853,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:18.48241"
-## [1] "run_time: 0.477092027664185"
-## [1] "End time: 2025-08-08 07:54:18.584956"
-## [1] "Pass took 0.5842"
+## [1] "IRT-M End time: 2025-08-08 17:06:56.264831"
+## [1] "run_time: 0.781921148300171"
+## [1] "End time: 2025-08-08 17:06:56.380792"
+## [1] "Pass took 0.9039"
 ## [1] "Start pass 174:"
-## [1] "Start time: 2025-08-08 07:54:18.585294"
+## [1] "Start time: 2025-08-08 17:06:56.381403"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:18.589702"
+## [1] "IRT-M start time: 2025-08-08 17:06:56.389083"
 ```
 
 ```
@@ -8873,27 +8869,27 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:19.05265"
-## [1] "run_time: 0.462948083877563"
-## [1] "End time: 2025-08-08 07:54:19.130038"
-## [1] "Pass took 0.5447"
+## [1] "IRT-M End time: 2025-08-08 17:06:57.08841"
+## [1] "run_time: 0.699326992034912"
+## [1] "End time: 2025-08-08 17:06:57.191545"
+## [1] "Pass took 0.8101"
 ## [1] "Start pass 175:"
-## [1] "Start time: 2025-08-08 07:54:19.130422"
+## [1] "Start time: 2025-08-08 17:06:57.191998"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 176:"
-## [1] "Start time: 2025-08-08 07:54:19.136435"
+## [1] "Start time: 2025-08-08 17:06:57.202176"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 177:"
-## [1] "Start time: 2025-08-08 07:54:19.141513"
+## [1] "Start time: 2025-08-08 17:06:57.209724"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 178:"
-## [1] "Start time: 2025-08-08 07:54:19.146431"
+## [1] "Start time: 2025-08-08 17:06:57.217273"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:19.150445"
+## [1] "IRT-M start time: 2025-08-08 17:06:57.22405"
 ```
 
 ```
@@ -8901,23 +8897,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:19.618165"
-## [1] "run_time: 0.467720031738281"
-## [1] "End time: 2025-08-08 07:54:19.691161"
-## [1] "Pass took 0.5447"
+## [1] "IRT-M End time: 2025-08-08 17:06:57.907495"
+## [1] "run_time: 0.683444976806641"
+## [1] "End time: 2025-08-08 17:06:58.000314"
+## [1] "Pass took 0.783"
 ## [1] "Start pass 179:"
-## [1] "Start time: 2025-08-08 07:54:19.691541"
+## [1] "Start time: 2025-08-08 17:06:58.000959"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 180:"
-## [1] "Start time: 2025-08-08 07:54:19.6979"
+## [1] "Start time: 2025-08-08 17:06:58.010122"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 181:"
-## [1] "Start time: 2025-08-08 07:54:19.703856"
+## [1] "Start time: 2025-08-08 17:06:58.017103"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:20.179159"
+## [1] "IRT-M start time: 2025-08-08 17:06:58.856387"
 ```
 
 ```
@@ -8925,15 +8921,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:54:44.919051"
-## [1] "run_time: 24.7398920059204"
-## [1] "End time: 2025-08-08 07:54:45.643907"
-## [1] "Pass took 25.9401"
+## [1] "IRT-M End time: 2025-08-08 17:07:25.083818"
+## [1] "run_time: 26.2274310588837"
+## [1] "End time: 2025-08-08 17:07:25.875319"
+## [1] "Pass took 27.8582"
 ## [1] "Start pass 182:"
-## [1] "Start time: 2025-08-08 07:54:45.64423"
+## [1] "Start time: 2025-08-08 17:07:25.875714"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:54:46.108967"
+## [1] "IRT-M start time: 2025-08-08 17:07:26.383048"
 ```
 
 ```
@@ -8941,15 +8937,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:55:11.170412"
-## [1] "run_time: 25.0614449977875"
-## [1] "End time: 2025-08-08 07:55:12.206068"
-## [1] "Pass took 26.5618"
+## [1] "IRT-M End time: 2025-08-08 17:07:51.012031"
+## [1] "run_time: 24.6289830207825"
+## [1] "End time: 2025-08-08 17:07:51.771232"
+## [1] "Pass took 25.8955"
 ## [1] "Start pass 183:"
-## [1] "Start time: 2025-08-08 07:55:12.206478"
+## [1] "Start time: 2025-08-08 17:07:51.771613"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:55:12.721039"
+## [1] "IRT-M start time: 2025-08-08 17:07:52.300888"
 ```
 
 ```
@@ -8957,15 +8953,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:55:37.999337"
-## [1] "run_time: 25.2782979011536"
-## [1] "End time: 2025-08-08 07:55:38.762013"
-## [1] "Pass took 26.5555"
+## [1] "IRT-M End time: 2025-08-08 17:08:16.992876"
+## [1] "run_time: 24.691987991333"
+## [1] "End time: 2025-08-08 17:08:18.054419"
+## [1] "Pass took 26.2828"
 ## [1] "Start pass 184:"
-## [1] "Start time: 2025-08-08 07:55:38.762355"
+## [1] "Start time: 2025-08-08 17:08:18.054885"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:55:39.22783"
+## [1] "IRT-M start time: 2025-08-08 17:08:18.549576"
 ```
 
 ```
@@ -8973,15 +8969,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:56:04.084046"
-## [1] "run_time: 24.8562159538269"
-## [1] "End time: 2025-08-08 07:56:04.826874"
-## [1] "Pass took 26.0645"
+## [1] "IRT-M End time: 2025-08-08 17:08:43.116273"
+## [1] "run_time: 24.5666968822479"
+## [1] "End time: 2025-08-08 17:08:43.848961"
+## [1] "Pass took 25.7941"
 ## [1] "Start pass 185:"
-## [1] "Start time: 2025-08-08 07:56:04.827378"
+## [1] "Start time: 2025-08-08 17:08:43.849401"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:56:05.520858"
+## [1] "IRT-M start time: 2025-08-08 17:08:44.569516"
 ```
 
 ```
@@ -8989,15 +8985,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:56:30.533742"
-## [1] "run_time: 25.0128839015961"
-## [1] "End time: 2025-08-08 07:56:31.258663"
-## [1] "Pass took 26.4313"
+## [1] "IRT-M End time: 2025-08-08 17:09:09.166363"
+## [1] "run_time: 24.5968470573425"
+## [1] "End time: 2025-08-08 17:09:09.863998"
+## [1] "Pass took 26.0146"
 ## [1] "Start pass 186:"
-## [1] "Start time: 2025-08-08 07:56:31.264951"
+## [1] "Start time: 2025-08-08 17:09:09.871271"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:56:31.735347"
+## [1] "IRT-M start time: 2025-08-08 17:09:10.369805"
 ```
 
 ```
@@ -9005,15 +9001,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:56:56.444976"
-## [1] "run_time: 24.7096290588379"
-## [1] "End time: 2025-08-08 07:56:57.166287"
-## [1] "Pass took 25.9013"
+## [1] "IRT-M End time: 2025-08-08 17:09:35.008719"
+## [1] "run_time: 24.6389138698578"
+## [1] "End time: 2025-08-08 17:09:35.820719"
+## [1] "Pass took 25.9494"
 ## [1] "Start pass 187:"
-## [1] "Start time: 2025-08-08 07:56:57.166649"
+## [1] "Start time: 2025-08-08 17:09:35.82113"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:56:57.631623"
+## [1] "IRT-M start time: 2025-08-08 17:09:36.325659"
 ```
 
 ```
@@ -9021,15 +9017,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:57:22.301001"
-## [1] "run_time: 24.6693780422211"
-## [1] "End time: 2025-08-08 07:57:23.015498"
-## [1] "Pass took 25.8488"
+## [1] "IRT-M End time: 2025-08-08 17:10:00.68782"
+## [1] "run_time: 24.3621609210968"
+## [1] "End time: 2025-08-08 17:10:01.720554"
+## [1] "Pass took 25.8994"
 ## [1] "Start pass 188:"
-## [1] "Start time: 2025-08-08 07:57:23.015851"
+## [1] "Start time: 2025-08-08 17:10:01.72092"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:57:23.475409"
+## [1] "IRT-M start time: 2025-08-08 17:10:02.195946"
 ```
 
 ```
@@ -9037,15 +9033,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:57:48.595834"
-## [1] "run_time: 25.1204249858856"
-## [1] "End time: 2025-08-08 07:57:49.842017"
-## [1] "Pass took 26.8262"
+## [1] "IRT-M End time: 2025-08-08 17:10:26.909788"
+## [1] "run_time: 24.7138419151306"
+## [1] "End time: 2025-08-08 17:10:27.645684"
+## [1] "Pass took 25.9248"
 ## [1] "Start pass 189:"
-## [1] "Start time: 2025-08-08 07:57:49.842392"
+## [1] "Start time: 2025-08-08 17:10:27.646039"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:57:50.335243"
+## [1] "IRT-M start time: 2025-08-08 17:10:28.242343"
 ```
 
 ```
@@ -9053,15 +9049,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:58:15.170053"
-## [1] "run_time: 24.8348100185394"
-## [1] "End time: 2025-08-08 07:58:15.890178"
-## [1] "Pass took 26.0478"
+## [1] "IRT-M End time: 2025-08-08 17:10:52.82508"
+## [1] "run_time: 24.5827369689941"
+## [1] "End time: 2025-08-08 17:10:53.998219"
+## [1] "Pass took 26.3522"
 ## [1] "Start pass 190:"
-## [1] "Start time: 2025-08-08 07:58:15.890597"
+## [1] "Start time: 2025-08-08 17:10:53.998787"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:58:16.348821"
+## [1] "IRT-M start time: 2025-08-08 17:10:54.513213"
 ```
 
 ```
@@ -9069,15 +9065,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:58:40.755917"
-## [1] "run_time: 24.4070961475372"
-## [1] "End time: 2025-08-08 07:58:41.467906"
-## [1] "Pass took 25.5773"
+## [1] "IRT-M End time: 2025-08-08 17:11:18.651263"
+## [1] "run_time: 24.1380500793457"
+## [1] "End time: 2025-08-08 17:11:19.402352"
+## [1] "Pass took 25.4036"
 ## [1] "Start pass 191:"
-## [1] "Start time: 2025-08-08 07:58:41.475613"
+## [1] "Start time: 2025-08-08 17:11:19.409123"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:58:41.571872"
+## [1] "IRT-M start time: 2025-08-08 17:11:19.503901"
 ```
 
 ```
@@ -9085,15 +9081,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:58:46.88438"
-## [1] "run_time: 5.31250810623169"
-## [1] "End time: 2025-08-08 07:58:47.361805"
-## [1] "Pass took 5.8862"
+## [1] "IRT-M End time: 2025-08-08 17:11:24.908609"
+## [1] "run_time: 5.40470790863037"
+## [1] "End time: 2025-08-08 17:11:25.441661"
+## [1] "Pass took 6.0325"
 ## [1] "Start pass 192:"
-## [1] "Start time: 2025-08-08 07:58:47.362137"
+## [1] "Start time: 2025-08-08 17:11:25.442073"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:58:47.457341"
+## [1] "IRT-M start time: 2025-08-08 17:11:25.561787"
 ```
 
 ```
@@ -9101,15 +9097,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:58:52.710088"
-## [1] "run_time: 5.25274705886841"
-## [1] "End time: 2025-08-08 07:58:53.200083"
-## [1] "Pass took 5.8379"
+## [1] "IRT-M End time: 2025-08-08 17:11:30.748673"
+## [1] "run_time: 5.18688607215881"
+## [1] "End time: 2025-08-08 17:11:31.555039"
+## [1] "Pass took 6.113"
 ## [1] "Start pass 193:"
-## [1] "Start time: 2025-08-08 07:58:53.200618"
+## [1] "Start time: 2025-08-08 17:11:31.555503"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:58:53.294079"
+## [1] "IRT-M start time: 2025-08-08 17:11:31.667509"
 ```
 
 ```
@@ -9117,15 +9113,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:58:58.573504"
-## [1] "run_time: 5.27942490577698"
-## [1] "End time: 2025-08-08 07:58:59.223572"
-## [1] "Pass took 6.023"
+## [1] "IRT-M End time: 2025-08-08 17:11:36.944964"
+## [1] "run_time: 5.27745485305786"
+## [1] "End time: 2025-08-08 17:11:37.441126"
+## [1] "Pass took 5.8856"
 ## [1] "Start pass 194:"
-## [1] "Start time: 2025-08-08 07:58:59.224011"
+## [1] "Start time: 2025-08-08 17:11:37.441484"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:58:59.337114"
+## [1] "IRT-M start time: 2025-08-08 17:11:37.537247"
 ```
 
 ```
@@ -9133,15 +9129,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:04.670486"
-## [1] "run_time: 5.33337187767029"
-## [1] "End time: 2025-08-08 07:59:05.130869"
-## [1] "Pass took 5.9069"
+## [1] "IRT-M End time: 2025-08-08 17:11:42.761756"
+## [1] "run_time: 5.2245090007782"
+## [1] "End time: 2025-08-08 17:11:43.228601"
+## [1] "Pass took 5.7871"
 ## [1] "Start pass 195:"
-## [1] "Start time: 2025-08-08 07:59:05.131418"
+## [1] "Start time: 2025-08-08 17:11:43.229128"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:05.232324"
+## [1] "IRT-M start time: 2025-08-08 17:11:43.322296"
 ```
 
 ```
@@ -9149,15 +9145,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:10.501667"
-## [1] "run_time: 5.26934313774109"
-## [1] "End time: 2025-08-08 07:59:10.98206"
-## [1] "Pass took 5.8506"
+## [1] "IRT-M End time: 2025-08-08 17:11:48.593319"
+## [1] "run_time: 5.27102303504944"
+## [1] "End time: 2025-08-08 17:11:49.067151"
+## [1] "Pass took 5.838"
 ## [1] "Start pass 196:"
-## [1] "Start time: 2025-08-08 07:59:10.988686"
+## [1] "Start time: 2025-08-08 17:11:49.073969"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:11.080397"
+## [1] "IRT-M start time: 2025-08-08 17:11:49.169397"
 ```
 
 ```
@@ -9165,15 +9161,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:16.312386"
-## [1] "run_time: 5.23198914527893"
-## [1] "End time: 2025-08-08 07:59:16.78459"
-## [1] "Pass took 5.7959"
+## [1] "IRT-M End time: 2025-08-08 17:11:54.574132"
+## [1] "run_time: 5.40473484992981"
+## [1] "End time: 2025-08-08 17:11:55.088305"
+## [1] "Pass took 6.0143"
 ## [1] "Start pass 197:"
-## [1] "Start time: 2025-08-08 07:59:16.784919"
+## [1] "Start time: 2025-08-08 17:11:55.088746"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:16.878516"
+## [1] "IRT-M start time: 2025-08-08 17:11:55.216964"
 ```
 
 ```
@@ -9181,15 +9177,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:22.231061"
-## [1] "run_time: 5.35254502296448"
-## [1] "End time: 2025-08-08 07:59:22.699677"
-## [1] "Pass took 5.9148"
+## [1] "IRT-M End time: 2025-08-08 17:12:00.533295"
+## [1] "run_time: 5.316330909729"
+## [1] "End time: 2025-08-08 17:12:01.296674"
+## [1] "Pass took 6.2079"
 ## [1] "Start pass 198:"
-## [1] "Start time: 2025-08-08 07:59:22.700132"
+## [1] "Start time: 2025-08-08 17:12:01.297284"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:22.795109"
+## [1] "IRT-M start time: 2025-08-08 17:12:01.40957"
 ```
 
 ```
@@ -9197,15 +9193,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:28.075652"
-## [1] "run_time: 5.28054285049438"
-## [1] "End time: 2025-08-08 07:59:28.555982"
-## [1] "Pass took 5.8559"
+## [1] "IRT-M End time: 2025-08-08 17:12:06.713493"
+## [1] "run_time: 5.3039231300354"
+## [1] "End time: 2025-08-08 17:12:07.205197"
+## [1] "Pass took 5.9079"
 ## [1] "Start pass 199:"
-## [1] "Start time: 2025-08-08 07:59:28.556311"
+## [1] "Start time: 2025-08-08 17:12:07.205543"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:28.649963"
+## [1] "IRT-M start time: 2025-08-08 17:12:07.302577"
 ```
 
 ```
@@ -9213,15 +9209,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:33.977456"
-## [1] "run_time: 5.32749319076538"
-## [1] "End time: 2025-08-08 07:59:34.435114"
-## [1] "Pass took 5.8788"
+## [1] "IRT-M End time: 2025-08-08 17:12:12.489302"
+## [1] "run_time: 5.18672490119934"
+## [1] "End time: 2025-08-08 17:12:12.964193"
+## [1] "Pass took 5.7587"
 ## [1] "Start pass 200:"
-## [1] "Start time: 2025-08-08 07:59:34.435446"
+## [1] "Start time: 2025-08-08 17:12:12.964549"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:34.529783"
+## [1] "IRT-M start time: 2025-08-08 17:12:13.058441"
 ```
 
 ```
@@ -9229,15 +9225,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:39.684339"
-## [1] "run_time: 5.15455603599548"
-## [1] "End time: 2025-08-08 07:59:40.180481"
-## [1] "Pass took 5.745"
+## [1] "IRT-M End time: 2025-08-08 17:12:18.177617"
+## [1] "run_time: 5.11917614936829"
+## [1] "End time: 2025-08-08 17:12:18.642851"
+## [1] "Pass took 5.6783"
 ## [1] "Start pass 201:"
-## [1] "Start time: 2025-08-08 07:59:40.187274"
+## [1] "Start time: 2025-08-08 17:12:18.650218"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:40.282082"
+## [1] "IRT-M start time: 2025-08-08 17:12:18.75646"
 ```
 
 ```
@@ -9245,15 +9241,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:47.604282"
-## [1] "run_time: 7.32219982147217"
-## [1] "End time: 2025-08-08 07:59:48.99085"
-## [1] "Pass took 8.8036"
+## [1] "IRT-M End time: 2025-08-08 17:12:26.238772"
+## [1] "run_time: 7.48231196403503"
+## [1] "End time: 2025-08-08 17:12:27.796681"
+## [1] "Pass took 9.1465"
 ## [1] "Start pass 202:"
-## [1] "Start time: 2025-08-08 07:59:48.991199"
+## [1] "Start time: 2025-08-08 17:12:27.797051"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:49.090598"
+## [1] "IRT-M start time: 2025-08-08 17:12:27.895136"
 ```
 
 ```
@@ -9261,15 +9257,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 07:59:56.240971"
-## [1] "run_time: 7.15037298202515"
-## [1] "End time: 2025-08-08 07:59:57.655044"
-## [1] "Pass took 8.6638"
+## [1] "IRT-M End time: 2025-08-08 17:12:34.959446"
+## [1] "run_time: 7.06430983543396"
+## [1] "End time: 2025-08-08 17:12:36.399191"
+## [1] "Pass took 8.6021"
 ## [1] "Start pass 203:"
-## [1] "Start time: 2025-08-08 07:59:57.655528"
+## [1] "Start time: 2025-08-08 17:12:36.399556"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 07:59:57.751495"
+## [1] "IRT-M start time: 2025-08-08 17:12:36.511221"
 ```
 
 ```
@@ -9277,15 +9273,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:05.061217"
-## [1] "run_time: 7.30972218513489"
-## [1] "End time: 2025-08-08 08:00:06.421371"
-## [1] "Pass took 8.7658"
+## [1] "IRT-M End time: 2025-08-08 17:12:43.781365"
+## [1] "run_time: 7.27014398574829"
+## [1] "End time: 2025-08-08 17:12:45.175763"
+## [1] "Pass took 8.7762"
 ## [1] "Start pass 204:"
-## [1] "Start time: 2025-08-08 08:00:06.421711"
+## [1] "Start time: 2025-08-08 17:12:45.176131"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:06.518212"
+## [1] "IRT-M start time: 2025-08-08 17:12:45.275374"
 ```
 
 ```
@@ -9293,19 +9289,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:13.743527"
-## [1] "run_time: 7.22531485557556"
-## [1] "End time: 2025-08-08 08:00:15.094081"
-## [1] "Pass took 8.6724"
+## [1] "IRT-M End time: 2025-08-08 17:12:52.435482"
+## [1] "run_time: 7.16010808944702"
+## [1] "End time: 2025-08-08 17:12:53.800313"
+## [1] "Pass took 8.6242"
 ## [1] "Start pass 205:"
-## [1] "Start time: 2025-08-08 08:00:15.094425"
+## [1] "Start time: 2025-08-08 17:12:53.800667"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 206:"
-## [1] "Start time: 2025-08-08 08:00:15.194172"
+## [1] "Start time: 2025-08-08 17:12:53.898599"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:15.292885"
+## [1] "IRT-M start time: 2025-08-08 17:12:54.002341"
 ```
 
 ```
@@ -9313,19 +9309,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:22.585939"
-## [1] "run_time: 7.29305386543274"
-## [1] "End time: 2025-08-08 08:00:23.956405"
-## [1] "Pass took 8.7622"
+## [1] "IRT-M End time: 2025-08-08 17:13:01.454782"
+## [1] "run_time: 7.45244097709656"
+## [1] "End time: 2025-08-08 17:13:02.995115"
+## [1] "Pass took 9.0965"
 ## [1] "Start pass 207:"
-## [1] "Start time: 2025-08-08 08:00:23.956766"
+## [1] "Start time: 2025-08-08 17:13:02.995486"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 208:"
-## [1] "Start time: 2025-08-08 08:00:24.051528"
+## [1] "Start time: 2025-08-08 17:13:03.094608"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:24.150925"
+## [1] "IRT-M start time: 2025-08-08 17:13:03.338963"
 ```
 
 ```
@@ -9333,15 +9329,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:31.392852"
-## [1] "run_time: 7.24192714691162"
-## [1] "End time: 2025-08-08 08:00:32.773718"
-## [1] "Pass took 8.7222"
+## [1] "IRT-M End time: 2025-08-08 17:13:10.567363"
+## [1] "run_time: 7.22839999198914"
+## [1] "End time: 2025-08-08 17:13:12.131029"
+## [1] "Pass took 9.0364"
 ## [1] "Start pass 209:"
-## [1] "Start time: 2025-08-08 08:00:32.774202"
+## [1] "Start time: 2025-08-08 17:13:12.131399"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:32.871092"
+## [1] "IRT-M start time: 2025-08-08 17:13:12.232059"
 ```
 
 ```
@@ -9349,15 +9345,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:40.096353"
-## [1] "run_time: 7.22526097297668"
-## [1] "End time: 2025-08-08 08:00:41.470398"
-## [1] "Pass took 8.6962"
+## [1] "IRT-M End time: 2025-08-08 17:13:19.454001"
+## [1] "run_time: 7.22194194793701"
+## [1] "End time: 2025-08-08 17:13:20.834851"
+## [1] "Pass took 8.7035"
 ## [1] "Start pass 210:"
-## [1] "Start time: 2025-08-08 08:00:41.470792"
+## [1] "Start time: 2025-08-08 17:13:20.835228"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:41.570283"
+## [1] "IRT-M start time: 2025-08-08 17:13:20.939713"
 ```
 
 ```
@@ -9365,15 +9361,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:48.754393"
-## [1] "run_time: 7.18411016464233"
-## [1] "End time: 2025-08-08 08:00:50.138696"
-## [1] "Pass took 8.6679"
+## [1] "IRT-M End time: 2025-08-08 17:13:28.032617"
+## [1] "run_time: 7.09290409088135"
+## [1] "End time: 2025-08-08 17:13:29.431644"
+## [1] "Pass took 8.5964"
 ## [1] "Start pass 211:"
-## [1] "Start time: 2025-08-08 08:00:50.145625"
+## [1] "Start time: 2025-08-08 17:13:29.438576"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:50.14984"
+## [1] "IRT-M start time: 2025-08-08 17:13:29.442919"
 ```
 
 ```
@@ -9381,15 +9377,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:50.372636"
-## [1] "run_time: 0.222795963287354"
-## [1] "End time: 2025-08-08 08:00:50.402363"
-## [1] "Pass took 0.2567"
+## [1] "IRT-M End time: 2025-08-08 17:13:29.65276"
+## [1] "run_time: 0.209841012954712"
+## [1] "End time: 2025-08-08 17:13:29.685523"
+## [1] "Pass took 0.2469"
 ## [1] "Start pass 212:"
-## [1] "Start time: 2025-08-08 08:00:50.402816"
+## [1] "Start time: 2025-08-08 17:13:29.685839"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:50.407578"
+## [1] "IRT-M start time: 2025-08-08 17:13:29.69042"
 ```
 
 ```
@@ -9397,15 +9393,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:50.634977"
-## [1] "run_time: 0.227399110794067"
-## [1] "End time: 2025-08-08 08:00:50.663383"
-## [1] "Pass took 0.2606"
+## [1] "IRT-M End time: 2025-08-08 17:13:29.895753"
+## [1] "run_time: 0.20533299446106"
+## [1] "End time: 2025-08-08 17:13:29.923399"
+## [1] "Pass took 0.2376"
 ## [1] "Start pass 213:"
-## [1] "Start time: 2025-08-08 08:00:50.663715"
+## [1] "Start time: 2025-08-08 17:13:29.923744"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:50.667732"
+## [1] "IRT-M start time: 2025-08-08 17:13:29.927606"
 ```
 
 ```
@@ -9413,15 +9409,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:50.887081"
-## [1] "run_time: 0.219348907470703"
-## [1] "End time: 2025-08-08 08:00:50.915484"
-## [1] "Pass took 0.2518"
+## [1] "IRT-M End time: 2025-08-08 17:13:30.138014"
+## [1] "run_time: 0.210407972335815"
+## [1] "End time: 2025-08-08 17:13:30.165793"
+## [1] "Pass took 0.242"
 ## [1] "Start pass 214:"
-## [1] "Start time: 2025-08-08 08:00:50.920093"
+## [1] "Start time: 2025-08-08 17:13:30.166144"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:50.924335"
+## [1] "IRT-M start time: 2025-08-08 17:13:30.169919"
 ```
 
 ```
@@ -9429,19 +9425,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:51.138341"
-## [1] "run_time: 0.214005947113037"
-## [1] "End time: 2025-08-08 08:00:51.167619"
-## [1] "Pass took 0.2475"
+## [1] "IRT-M End time: 2025-08-08 17:13:30.387402"
+## [1] "run_time: 0.217483043670654"
+## [1] "End time: 2025-08-08 17:13:30.415842"
+## [1] "Pass took 0.2497"
 ## [1] "Start pass 215:"
-## [1] "Start time: 2025-08-08 08:00:51.168139"
+## [1] "Start time: 2025-08-08 17:13:30.416191"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 216:"
-## [1] "Start time: 2025-08-08 08:00:51.173553"
+## [1] "Start time: 2025-08-08 17:13:30.421932"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:51.177175"
+## [1] "IRT-M start time: 2025-08-08 17:13:30.425803"
 ```
 
 ```
@@ -9449,19 +9445,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:51.390784"
-## [1] "run_time: 0.213608980178833"
-## [1] "End time: 2025-08-08 08:00:51.419161"
-## [1] "Pass took 0.2456"
+## [1] "IRT-M End time: 2025-08-08 17:13:30.635187"
+## [1] "run_time: 0.209383964538574"
+## [1] "End time: 2025-08-08 17:13:30.88972"
+## [1] "Pass took 0.4678"
 ## [1] "Start pass 217:"
-## [1] "Start time: 2025-08-08 08:00:51.419441"
+## [1] "Start time: 2025-08-08 17:13:30.890365"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 218:"
-## [1] "Start time: 2025-08-08 08:00:51.424212"
+## [1] "Start time: 2025-08-08 17:13:30.899171"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:51.428323"
+## [1] "IRT-M start time: 2025-08-08 17:13:30.904979"
 ```
 
 ```
@@ -9469,23 +9465,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:51.646068"
-## [1] "run_time: 0.217745065689087"
-## [1] "End time: 2025-08-08 08:00:51.677584"
-## [1] "Pass took 0.2534"
+## [1] "IRT-M End time: 2025-08-08 17:13:31.125994"
+## [1] "run_time: 0.221014976501465"
+## [1] "End time: 2025-08-08 17:13:31.157479"
+## [1] "Pass took 0.2583"
 ## [1] "Start pass 219:"
-## [1] "Start time: 2025-08-08 08:00:51.677916"
+## [1] "Start time: 2025-08-08 17:13:31.158068"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 220:"
-## [1] "Start time: 2025-08-08 08:00:51.684068"
+## [1] "Start time: 2025-08-08 17:13:31.164592"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 221:"
-## [1] "Start time: 2025-08-08 08:00:51.689171"
+## [1] "Start time: 2025-08-08 17:13:31.17042"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:51.789018"
+## [1] "IRT-M start time: 2025-08-08 17:13:31.29925"
 ```
 
 ```
@@ -9493,15 +9489,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:00:57.544096"
-## [1] "run_time: 5.75507807731628"
-## [1] "End time: 2025-08-08 08:00:58.453527"
-## [1] "Pass took 6.7644"
+## [1] "IRT-M End time: 2025-08-08 17:13:37.077926"
+## [1] "run_time: 5.77867603302002"
+## [1] "End time: 2025-08-08 17:13:38.224747"
+## [1] "Pass took 7.0543"
 ## [1] "Start pass 222:"
-## [1] "Start time: 2025-08-08 08:00:58.453878"
+## [1] "Start time: 2025-08-08 17:13:38.225091"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:00:58.549642"
+## [1] "IRT-M start time: 2025-08-08 17:13:38.320322"
 ```
 
 ```
@@ -9509,15 +9505,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:04.311854"
-## [1] "run_time: 5.76221179962158"
-## [1] "End time: 2025-08-08 08:01:05.009684"
-## [1] "Pass took 6.5558"
+## [1] "IRT-M End time: 2025-08-08 17:13:43.979068"
+## [1] "run_time: 5.65874600410461"
+## [1] "End time: 2025-08-08 17:13:44.683406"
+## [1] "Pass took 6.4583"
 ## [1] "Start pass 223:"
-## [1] "Start time: 2025-08-08 08:01:05.010018"
+## [1] "Start time: 2025-08-08 17:13:44.683757"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:05.105988"
+## [1] "IRT-M start time: 2025-08-08 17:13:44.77749"
 ```
 
 ```
@@ -9525,15 +9521,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:10.888581"
-## [1] "run_time: 5.78259301185608"
-## [1] "End time: 2025-08-08 08:01:11.780953"
-## [1] "Pass took 6.7709"
+## [1] "IRT-M End time: 2025-08-08 17:13:50.523946"
+## [1] "run_time: 5.74645614624023"
+## [1] "End time: 2025-08-08 17:13:51.242256"
+## [1] "Pass took 6.5585"
 ## [1] "Start pass 224:"
-## [1] "Start time: 2025-08-08 08:01:11.781486"
+## [1] "Start time: 2025-08-08 17:13:51.242591"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:11.876634"
+## [1] "IRT-M start time: 2025-08-08 17:13:51.336826"
 ```
 
 ```
@@ -9541,15 +9537,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:17.626948"
-## [1] "run_time: 5.75031423568726"
-## [1] "End time: 2025-08-08 08:01:18.328787"
-## [1] "Pass took 6.5473"
+## [1] "IRT-M End time: 2025-08-08 17:13:57.074619"
+## [1] "run_time: 5.73779296875"
+## [1] "End time: 2025-08-08 17:13:57.762336"
+## [1] "Pass took 6.5197"
 ## [1] "Start pass 225:"
-## [1] "Start time: 2025-08-08 08:01:18.329187"
+## [1] "Start time: 2025-08-08 17:13:57.76282"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:18.423587"
+## [1] "IRT-M start time: 2025-08-08 17:13:57.860447"
 ```
 
 ```
@@ -9557,15 +9553,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:24.161175"
-## [1] "run_time: 5.73758792877197"
-## [1] "End time: 2025-08-08 08:01:24.86844"
-## [1] "Pass took 6.5393"
+## [1] "IRT-M End time: 2025-08-08 17:14:03.510683"
+## [1] "run_time: 5.65023612976074"
+## [1] "End time: 2025-08-08 17:14:04.196652"
+## [1] "Pass took 6.4338"
 ## [1] "Start pass 226:"
-## [1] "Start time: 2025-08-08 08:01:24.875833"
+## [1] "Start time: 2025-08-08 17:14:04.204512"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:24.968834"
+## [1] "IRT-M start time: 2025-08-08 17:14:04.306239"
 ```
 
 ```
@@ -9573,15 +9569,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:30.804459"
-## [1] "run_time: 5.83562517166138"
-## [1] "End time: 2025-08-08 08:01:31.750914"
-## [1] "Pass took 6.8751"
+## [1] "IRT-M End time: 2025-08-08 17:14:10.163879"
+## [1] "run_time: 5.85764002799988"
+## [1] "End time: 2025-08-08 17:14:10.945273"
+## [1] "Pass took 6.7408"
 ## [1] "Start pass 227:"
-## [1] "Start time: 2025-08-08 08:01:31.751234"
+## [1] "Start time: 2025-08-08 17:14:10.945651"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:31.846787"
+## [1] "IRT-M start time: 2025-08-08 17:14:11.073747"
 ```
 
 ```
@@ -9589,15 +9585,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:37.738634"
-## [1] "run_time: 5.89184713363647"
-## [1] "End time: 2025-08-08 08:01:38.460879"
-## [1] "Pass took 6.7096"
+## [1] "IRT-M End time: 2025-08-08 17:14:16.97667"
+## [1] "run_time: 5.90292310714722"
+## [1] "End time: 2025-08-08 17:14:17.989337"
+## [1] "Pass took 7.0437"
 ## [1] "Start pass 228:"
-## [1] "Start time: 2025-08-08 08:01:38.461255"
+## [1] "Start time: 2025-08-08 17:14:17.98967"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:38.556454"
+## [1] "IRT-M start time: 2025-08-08 17:14:18.085562"
 ```
 
 ```
@@ -9605,15 +9601,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:44.359296"
-## [1] "run_time: 5.80284214019775"
-## [1] "End time: 2025-08-08 08:01:45.068401"
-## [1] "Pass took 6.6071"
+## [1] "IRT-M End time: 2025-08-08 17:14:23.84061"
+## [1] "run_time: 5.75504803657532"
+## [1] "End time: 2025-08-08 17:14:24.555867"
+## [1] "Pass took 6.5662"
 ## [1] "Start pass 229:"
-## [1] "Start time: 2025-08-08 08:01:45.068737"
+## [1] "Start time: 2025-08-08 17:14:24.556278"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:45.162936"
+## [1] "IRT-M start time: 2025-08-08 17:14:24.655015"
 ```
 
 ```
@@ -9621,15 +9617,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:50.857587"
-## [1] "run_time: 5.69465112686157"
-## [1] "End time: 2025-08-08 08:01:51.746005"
-## [1] "Pass took 6.6773"
+## [1] "IRT-M End time: 2025-08-08 17:14:30.309405"
+## [1] "run_time: 5.65439009666443"
+## [1] "End time: 2025-08-08 17:14:31.236477"
+## [1] "Pass took 6.6802"
 ## [1] "Start pass 230:"
-## [1] "Start time: 2025-08-08 08:01:51.746344"
+## [1] "Start time: 2025-08-08 17:14:31.236836"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:51.842766"
+## [1] "IRT-M start time: 2025-08-08 17:14:31.333252"
 ```
 
 ```
@@ -9637,15 +9633,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:01:57.719643"
-## [1] "run_time: 5.87687706947327"
-## [1] "End time: 2025-08-08 08:01:58.411209"
-## [1] "Pass took 6.6649"
+## [1] "IRT-M End time: 2025-08-08 17:14:37.166959"
+## [1] "run_time: 5.8337070941925"
+## [1] "End time: 2025-08-08 17:14:37.868249"
+## [1] "Pass took 6.6314"
 ## [1] "Start pass 231:"
-## [1] "Start time: 2025-08-08 08:01:58.4187"
+## [1] "Start time: 2025-08-08 17:14:37.875693"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:01:58.467404"
+## [1] "IRT-M start time: 2025-08-08 17:14:37.928898"
 ```
 
 ```
@@ -9653,15 +9649,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:01.636861"
-## [1] "run_time: 3.16945719718933"
-## [1] "End time: 2025-08-08 08:02:02.110376"
-## [1] "Pass took 3.6917"
+## [1] "IRT-M End time: 2025-08-08 17:14:41.217266"
+## [1] "run_time: 3.28836798667908"
+## [1] "End time: 2025-08-08 17:14:41.751181"
+## [1] "Pass took 3.8755"
 ## [1] "Start pass 232:"
-## [1] "Start time: 2025-08-08 08:02:02.110758"
+## [1] "Start time: 2025-08-08 17:14:41.751611"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:02.159165"
+## [1] "IRT-M start time: 2025-08-08 17:14:41.816045"
 ```
 
 ```
@@ -9669,15 +9665,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:05.429225"
-## [1] "run_time: 3.27006006240845"
-## [1] "End time: 2025-08-08 08:02:05.890599"
-## [1] "Pass took 3.7798"
+## [1] "IRT-M End time: 2025-08-08 17:14:45.080308"
+## [1] "run_time: 3.26426291465759"
+## [1] "End time: 2025-08-08 17:14:45.577201"
+## [1] "Pass took 3.8256"
 ## [1] "Start pass 233:"
-## [1] "Start time: 2025-08-08 08:02:05.890933"
+## [1] "Start time: 2025-08-08 17:14:45.577563"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:05.939863"
+## [1] "IRT-M start time: 2025-08-08 17:14:45.627854"
 ```
 
 ```
@@ -9685,15 +9681,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:08.992706"
-## [1] "run_time: 3.05284309387207"
-## [1] "End time: 2025-08-08 08:02:09.661813"
-## [1] "Pass took 3.7709"
+## [1] "IRT-M End time: 2025-08-08 17:14:48.707055"
+## [1] "run_time: 3.07920098304749"
+## [1] "End time: 2025-08-08 17:14:49.174141"
+## [1] "Pass took 3.5966"
 ## [1] "Start pass 234:"
-## [1] "Start time: 2025-08-08 08:02:09.662158"
+## [1] "Start time: 2025-08-08 17:14:49.174504"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:09.710528"
+## [1] "IRT-M start time: 2025-08-08 17:14:49.223563"
 ```
 
 ```
@@ -9701,15 +9697,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:12.92855"
-## [1] "run_time: 3.218022108078"
-## [1] "End time: 2025-08-08 08:02:13.382542"
-## [1] "Pass took 3.7204"
+## [1] "IRT-M End time: 2025-08-08 17:14:52.396532"
+## [1] "run_time: 3.1729691028595"
+## [1] "End time: 2025-08-08 17:14:52.84651"
+## [1] "Pass took 3.672"
 ## [1] "Start pass 235:"
-## [1] "Start time: 2025-08-08 08:02:13.382883"
+## [1] "Start time: 2025-08-08 17:14:52.846874"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:13.436541"
+## [1] "IRT-M start time: 2025-08-08 17:14:52.897456"
 ```
 
 ```
@@ -9717,15 +9713,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:16.626569"
-## [1] "run_time: 3.19002795219421"
-## [1] "End time: 2025-08-08 08:02:17.08815"
-## [1] "Pass took 3.7053"
+## [1] "IRT-M End time: 2025-08-08 17:14:56.062109"
+## [1] "run_time: 3.16465306282043"
+## [1] "End time: 2025-08-08 17:14:56.516478"
+## [1] "Pass took 3.6696"
 ## [1] "Start pass 236:"
-## [1] "Start time: 2025-08-08 08:02:17.096241"
+## [1] "Start time: 2025-08-08 17:14:56.524398"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:17.145207"
+## [1] "IRT-M start time: 2025-08-08 17:14:56.574404"
 ```
 
 ```
@@ -9733,15 +9729,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:20.26291"
-## [1] "run_time: 3.11770296096802"
-## [1] "End time: 2025-08-08 08:02:20.737834"
-## [1] "Pass took 3.6416"
+## [1] "IRT-M End time: 2025-08-08 17:14:59.841942"
+## [1] "run_time: 3.26753807067871"
+## [1] "End time: 2025-08-08 17:15:00.373337"
+## [1] "Pass took 3.8489"
 ## [1] "Start pass 237:"
-## [1] "Start time: 2025-08-08 08:02:20.738201"
+## [1] "Start time: 2025-08-08 17:15:00.373788"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:20.791517"
+## [1] "IRT-M start time: 2025-08-08 17:15:00.450594"
 ```
 
 ```
@@ -9749,19 +9745,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:23.896776"
-## [1] "run_time: 3.10525894165039"
-## [1] "End time: 2025-08-08 08:02:24.363739"
-## [1] "Pass took 3.6255"
+## [1] "IRT-M End time: 2025-08-08 17:15:03.53355"
+## [1] "run_time: 3.08295607566833"
+## [1] "End time: 2025-08-08 17:15:04.00389"
+## [1] "Pass took 3.6301"
 ## [1] "Start pass 238:"
-## [1] "Start time: 2025-08-08 08:02:24.364086"
+## [1] "Start time: 2025-08-08 17:15:04.004267"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 239:"
-## [1] "Start time: 2025-08-08 08:02:24.415848"
+## [1] "Start time: 2025-08-08 17:15:04.055499"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:24.4642"
+## [1] "IRT-M start time: 2025-08-08 17:15:04.105258"
 ```
 
 ```
@@ -9769,15 +9765,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:27.576452"
-## [1] "run_time: 3.11225199699402"
-## [1] "End time: 2025-08-08 08:02:28.048166"
-## [1] "Pass took 3.6323"
+## [1] "IRT-M End time: 2025-08-08 17:15:07.335786"
+## [1] "run_time: 3.2305281162262"
+## [1] "End time: 2025-08-08 17:15:07.869515"
+## [1] "Pass took 3.814"
 ## [1] "Start pass 240:"
-## [1] "Start time: 2025-08-08 08:02:28.048496"
+## [1] "Start time: 2025-08-08 17:15:07.869937"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:28.098704"
+## [1] "IRT-M start time: 2025-08-08 17:15:07.935269"
 ```
 
 ```
@@ -9785,95 +9781,95 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:31.351001"
-## [1] "run_time: 3.25229692459106"
-## [1] "End time: 2025-08-08 08:02:31.814736"
-## [1] "Pass took 3.7662"
+## [1] "IRT-M End time: 2025-08-08 17:15:11.141196"
+## [1] "run_time: 3.2059268951416"
+## [1] "End time: 2025-08-08 17:15:11.620297"
+## [1] "Pass took 3.7504"
 ## [1] "Start pass 241:"
-## [1] "Start time: 2025-08-08 08:02:31.822594"
+## [1] "Start time: 2025-08-08 17:15:11.62836"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 242:"
-## [1] "Start time: 2025-08-08 08:02:31.87562"
+## [1] "Start time: 2025-08-08 17:15:11.685255"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 243:"
-## [1] "Start time: 2025-08-08 08:02:31.933153"
+## [1] "Start time: 2025-08-08 17:15:11.857812"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 244:"
-## [1] "Start time: 2025-08-08 08:02:31.99426"
+## [1] "Start time: 2025-08-08 17:15:11.926944"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 245:"
-## [1] "Start time: 2025-08-08 08:02:32.046686"
+## [1] "Start time: 2025-08-08 17:15:11.999265"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 246:"
-## [1] "Start time: 2025-08-08 08:02:32.097211"
+## [1] "Start time: 2025-08-08 17:15:12.067023"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 247:"
-## [1] "Start time: 2025-08-08 08:02:32.149736"
+## [1] "Start time: 2025-08-08 17:15:12.136913"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 248:"
-## [1] "Start time: 2025-08-08 08:02:32.203662"
+## [1] "Start time: 2025-08-08 17:15:12.207207"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 249:"
-## [1] "Start time: 2025-08-08 08:02:32.260591"
+## [1] "Start time: 2025-08-08 17:15:12.287484"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 250:"
-## [1] "Start time: 2025-08-08 08:02:32.31253"
+## [1] "Start time: 2025-08-08 17:15:12.353514"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 251:"
-## [1] "Start time: 2025-08-08 08:02:32.363658"
+## [1] "Start time: 2025-08-08 17:15:12.422174"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 252:"
-## [1] "Start time: 2025-08-08 08:02:32.378976"
+## [1] "Start time: 2025-08-08 17:15:12.441243"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 253:"
-## [1] "Start time: 2025-08-08 08:02:32.394487"
+## [1] "Start time: 2025-08-08 17:15:12.461907"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 254:"
-## [1] "Start time: 2025-08-08 08:02:32.409845"
+## [1] "Start time: 2025-08-08 17:15:12.484484"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 255:"
-## [1] "Start time: 2025-08-08 08:02:32.426169"
+## [1] "Start time: 2025-08-08 17:15:12.50462"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 256:"
-## [1] "Start time: 2025-08-08 08:02:32.446922"
+## [1] "Start time: 2025-08-08 17:15:12.52133"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 257:"
-## [1] "Start time: 2025-08-08 08:02:32.462505"
+## [1] "Start time: 2025-08-08 17:15:12.537674"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 258:"
-## [1] "Start time: 2025-08-08 08:02:32.477468"
+## [1] "Start time: 2025-08-08 17:15:12.553281"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 259:"
-## [1] "Start time: 2025-08-08 08:02:32.492799"
+## [1] "Start time: 2025-08-08 17:15:12.568644"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 260:"
-## [1] "Start time: 2025-08-08 08:02:32.507972"
+## [1] "Start time: 2025-08-08 17:15:12.584211"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 261:"
-## [1] "Start time: 2025-08-08 08:02:32.522532"
+## [1] "Start time: 2025-08-08 17:15:12.599898"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:32.674081"
+## [1] "IRT-M start time: 2025-08-08 17:15:12.719882"
 ```
 
 ```
@@ -9881,15 +9877,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:39.320169"
-## [1] "run_time: 6.64608788490295"
-## [1] "End time: 2025-08-08 08:02:39.530109"
-## [1] "Pass took 7.0076"
+## [1] "IRT-M End time: 2025-08-08 17:15:19.914654"
+## [1] "run_time: 7.19477200508118"
+## [1] "End time: 2025-08-08 17:15:20.121388"
+## [1] "Pass took 7.5215"
 ## [1] "Start pass 262:"
-## [1] "Start time: 2025-08-08 08:02:39.530442"
+## [1] "Start time: 2025-08-08 17:15:20.121717"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:39.653998"
+## [1] "IRT-M start time: 2025-08-08 17:15:20.253821"
 ```
 
 ```
@@ -9897,15 +9893,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:46.332664"
-## [1] "run_time: 6.67866611480713"
-## [1] "End time: 2025-08-08 08:02:46.544768"
-## [1] "Pass took 7.0143"
+## [1] "IRT-M End time: 2025-08-08 17:15:26.720047"
+## [1] "run_time: 6.46622610092163"
+## [1] "End time: 2025-08-08 17:15:26.944223"
+## [1] "Pass took 6.8225"
 ## [1] "Start pass 263:"
-## [1] "Start time: 2025-08-08 08:02:46.545169"
+## [1] "Start time: 2025-08-08 17:15:26.94454"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:46.665147"
+## [1] "IRT-M start time: 2025-08-08 17:15:27.0724"
 ```
 
 ```
@@ -9913,15 +9909,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:02:53.349539"
-## [1] "run_time: 6.68439197540283"
-## [1] "End time: 2025-08-08 08:02:53.559287"
-## [1] "Pass took 7.0141"
+## [1] "IRT-M End time: 2025-08-08 17:15:33.677486"
+## [1] "run_time: 6.60508584976196"
+## [1] "End time: 2025-08-08 17:15:33.881173"
+## [1] "Pass took 6.9366"
 ## [1] "Start pass 264:"
-## [1] "Start time: 2025-08-08 08:02:53.559627"
+## [1] "Start time: 2025-08-08 17:15:33.881778"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:02:53.674104"
+## [1] "IRT-M start time: 2025-08-08 17:15:33.995912"
 ```
 
 ```
@@ -9929,15 +9925,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:00.294707"
-## [1] "run_time: 6.62060308456421"
-## [1] "End time: 2025-08-08 08:03:00.499167"
-## [1] "Pass took 6.9395"
+## [1] "IRT-M End time: 2025-08-08 17:15:40.599355"
+## [1] "run_time: 6.60344290733337"
+## [1] "End time: 2025-08-08 17:15:40.800518"
+## [1] "Pass took 6.9187"
 ## [1] "Start pass 265:"
-## [1] "Start time: 2025-08-08 08:03:00.499509"
+## [1] "Start time: 2025-08-08 17:15:40.800859"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:00.620931"
+## [1] "IRT-M start time: 2025-08-08 17:15:40.920459"
 ```
 
 ```
@@ -9945,15 +9941,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:07.342577"
-## [1] "run_time: 6.72164607048035"
-## [1] "End time: 2025-08-08 08:03:07.546403"
-## [1] "Pass took 7.0469"
+## [1] "IRT-M End time: 2025-08-08 17:15:47.552634"
+## [1] "run_time: 6.63217496871948"
+## [1] "End time: 2025-08-08 17:15:47.751314"
+## [1] "Pass took 6.9505"
 ## [1] "Start pass 266:"
-## [1] "Start time: 2025-08-08 08:03:07.554041"
+## [1] "Start time: 2025-08-08 17:15:47.760019"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:07.669972"
+## [1] "IRT-M start time: 2025-08-08 17:15:47.876359"
 ```
 
 ```
@@ -9961,15 +9957,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:14.206591"
-## [1] "run_time: 6.53661894798279"
-## [1] "End time: 2025-08-08 08:03:14.408641"
-## [1] "Pass took 6.8546"
+## [1] "IRT-M End time: 2025-08-08 17:15:54.571793"
+## [1] "run_time: 6.69543409347534"
+## [1] "End time: 2025-08-08 17:15:54.806922"
+## [1] "Pass took 7.0469"
 ## [1] "Start pass 267:"
-## [1] "Start time: 2025-08-08 08:03:14.409061"
+## [1] "Start time: 2025-08-08 17:15:54.807325"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:14.522549"
+## [1] "IRT-M start time: 2025-08-08 17:15:54.95976"
 ```
 
 ```
@@ -9977,15 +9973,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:21.200013"
-## [1] "run_time: 6.6774640083313"
-## [1] "End time: 2025-08-08 08:03:21.417059"
-## [1] "Pass took 7.008"
+## [1] "IRT-M End time: 2025-08-08 17:16:01.576235"
+## [1] "run_time: 6.61647510528564"
+## [1] "End time: 2025-08-08 17:16:01.784801"
+## [1] "Pass took 6.9775"
 ## [1] "Start pass 268:"
-## [1] "Start time: 2025-08-08 08:03:21.417411"
+## [1] "Start time: 2025-08-08 17:16:01.785221"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:21.550775"
+## [1] "IRT-M start time: 2025-08-08 17:16:01.903093"
 ```
 
 ```
@@ -9993,15 +9989,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:28.227239"
-## [1] "run_time: 6.67646384239197"
-## [1] "End time: 2025-08-08 08:03:28.439673"
-## [1] "Pass took 7.0223"
+## [1] "IRT-M End time: 2025-08-08 17:16:08.5461"
+## [1] "run_time: 6.64300680160522"
+## [1] "End time: 2025-08-08 17:16:08.753671"
+## [1] "Pass took 6.9684"
 ## [1] "Start pass 269:"
-## [1] "Start time: 2025-08-08 08:03:28.440005"
+## [1] "Start time: 2025-08-08 17:16:08.754031"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:28.558565"
+## [1] "IRT-M start time: 2025-08-08 17:16:08.877089"
 ```
 
 ```
@@ -10009,15 +10005,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:35.346622"
-## [1] "run_time: 6.78805708885193"
-## [1] "End time: 2025-08-08 08:03:35.550516"
-## [1] "Pass took 7.1105"
+## [1] "IRT-M End time: 2025-08-08 17:16:15.538537"
+## [1] "run_time: 6.66144800186157"
+## [1] "End time: 2025-08-08 17:16:15.74409"
+## [1] "Pass took 6.9901"
 ## [1] "Start pass 270:"
-## [1] "Start time: 2025-08-08 08:03:35.551106"
+## [1] "Start time: 2025-08-08 17:16:15.744514"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:35.67397"
+## [1] "IRT-M start time: 2025-08-08 17:16:15.865732"
 ```
 
 ```
@@ -10025,15 +10021,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:42.351194"
-## [1] "run_time: 6.67722392082214"
-## [1] "End time: 2025-08-08 08:03:42.554027"
-## [1] "Pass took 7.0029"
+## [1] "IRT-M End time: 2025-08-08 17:16:23.831825"
+## [1] "run_time: 7.96609306335449"
+## [1] "End time: 2025-08-08 17:16:24.09255"
+## [1] "Pass took 8.348"
 ## [1] "Start pass 271:"
-## [1] "Start time: 2025-08-08 08:03:42.562922"
+## [1] "Start time: 2025-08-08 17:16:24.101516"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:42.657756"
+## [1] "IRT-M start time: 2025-08-08 17:16:24.233315"
 ```
 
 ```
@@ -10041,19 +10037,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:03:52.186605"
-## [1] "run_time: 9.52884888648987"
-## [1] "End time: 2025-08-08 08:03:54.360115"
-## [1] "Pass took 11.7972"
+## [1] "IRT-M End time: 2025-08-08 17:16:34.459433"
+## [1] "run_time: 10.2261180877686"
+## [1] "End time: 2025-08-08 17:16:37.082589"
+## [1] "Pass took 12.9811"
 ## [1] "Start pass 272:"
-## [1] "Start time: 2025-08-08 08:03:54.360466"
+## [1] "Start time: 2025-08-08 17:16:37.082996"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 273:"
-## [1] "Start time: 2025-08-08 08:03:54.461349"
+## [1] "Start time: 2025-08-08 17:16:37.218581"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:03:54.567218"
+## [1] "IRT-M start time: 2025-08-08 17:16:37.512958"
 ```
 
 ```
@@ -10061,15 +10057,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:04:03.993743"
-## [1] "run_time: 9.42652487754822"
-## [1] "End time: 2025-08-08 08:04:06.063911"
-## [1] "Pass took 11.6026"
+## [1] "IRT-M End time: 2025-08-08 17:16:47.037838"
+## [1] "run_time: 9.52487993240356"
+## [1] "End time: 2025-08-08 17:16:49.356462"
+## [1] "Pass took 12.1379"
 ## [1] "Start pass 274:"
-## [1] "Start time: 2025-08-08 08:04:06.064264"
+## [1] "Start time: 2025-08-08 17:16:49.357155"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:04:06.158982"
+## [1] "IRT-M start time: 2025-08-08 17:16:49.478499"
 ```
 
 ```
@@ -10077,23 +10073,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:04:15.571471"
-## [1] "run_time: 9.41248893737793"
-## [1] "End time: 2025-08-08 08:04:17.659039"
-## [1] "Pass took 11.5948"
+## [1] "IRT-M End time: 2025-08-08 17:16:58.858438"
+## [1] "run_time: 9.37993907928467"
+## [1] "End time: 2025-08-08 17:17:00.949191"
+## [1] "Pass took 11.592"
 ## [1] "Start pass 275:"
-## [1] "Start time: 2025-08-08 08:04:17.659378"
+## [1] "Start time: 2025-08-08 17:17:00.949556"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 276:"
-## [1] "Start time: 2025-08-08 08:04:17.755866"
+## [1] "Start time: 2025-08-08 17:17:01.052674"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 277:"
-## [1] "Start time: 2025-08-08 08:04:17.85276"
+## [1] "Start time: 2025-08-08 17:17:01.15952"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:04:17.954946"
+## [1] "IRT-M start time: 2025-08-08 17:17:01.270069"
 ```
 
 ```
@@ -10101,15 +10097,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:04:27.435348"
-## [1] "run_time: 9.48040199279785"
-## [1] "End time: 2025-08-08 08:04:29.543766"
-## [1] "Pass took 11.691"
+## [1] "IRT-M End time: 2025-08-08 17:17:10.903884"
+## [1] "run_time: 9.63381505012512"
+## [1] "End time: 2025-08-08 17:17:13.729582"
+## [1] "Pass took 12.5701"
 ## [1] "Start pass 278:"
-## [1] "Start time: 2025-08-08 08:04:29.544391"
+## [1] "Start time: 2025-08-08 17:17:13.729953"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:04:29.650982"
+## [1] "IRT-M start time: 2025-08-08 17:17:13.825244"
 ```
 
 ```
@@ -10117,15 +10113,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:04:39.037785"
-## [1] "run_time: 9.386803150177"
-## [1] "End time: 2025-08-08 08:04:41.130164"
-## [1] "Pass took 11.5858"
+## [1] "IRT-M End time: 2025-08-08 17:17:23.493939"
+## [1] "run_time: 9.66869497299194"
+## [1] "End time: 2025-08-08 17:17:25.608807"
+## [1] "Pass took 11.8789"
 ## [1] "Start pass 279:"
-## [1] "Start time: 2025-08-08 08:04:41.130519"
+## [1] "Start time: 2025-08-08 17:17:25.609237"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:04:41.225579"
+## [1] "IRT-M start time: 2025-08-08 17:17:25.730452"
 ```
 
 ```
@@ -10133,15 +10129,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:04:50.74106"
-## [1] "run_time: 9.51548099517822"
-## [1] "End time: 2025-08-08 08:04:52.860568"
-## [1] "Pass took 11.73"
+## [1] "IRT-M End time: 2025-08-08 17:17:35.17481"
+## [1] "run_time: 9.44435787200928"
+## [1] "End time: 2025-08-08 17:17:37.26898"
+## [1] "Pass took 11.6597"
 ## [1] "Start pass 280:"
-## [1] "Start time: 2025-08-08 08:04:52.860918"
+## [1] "Start time: 2025-08-08 17:17:37.269339"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:04:52.957814"
+## [1] "IRT-M start time: 2025-08-08 17:17:37.367971"
 ```
 
 ```
@@ -10149,15 +10145,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:02.345835"
-## [1] "run_time: 9.38802099227905"
-## [1] "End time: 2025-08-08 08:05:04.669274"
-## [1] "Pass took 11.8084"
+## [1] "IRT-M End time: 2025-08-08 17:17:46.677126"
+## [1] "run_time: 9.30915498733521"
+## [1] "End time: 2025-08-08 17:17:48.780328"
+## [1] "Pass took 11.511"
 ## [1] "Start pass 281:"
-## [1] "Start time: 2025-08-08 08:05:04.678656"
+## [1] "Start time: 2025-08-08 17:17:48.788858"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:04.817591"
+## [1] "IRT-M start time: 2025-08-08 17:17:48.902675"
 ```
 
 ```
@@ -10165,15 +10161,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:11.07307"
-## [1] "run_time: 6.25547909736633"
-## [1] "End time: 2025-08-08 08:05:11.207511"
-## [1] "Pass took 6.5289"
+## [1] "IRT-M End time: 2025-08-08 17:17:55.363827"
+## [1] "run_time: 6.46115207672119"
+## [1] "End time: 2025-08-08 17:17:55.522241"
+## [1] "Pass took 6.7334"
 ## [1] "Start pass 282:"
-## [1] "Start time: 2025-08-08 08:05:11.207845"
+## [1] "Start time: 2025-08-08 17:17:55.522751"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:11.319226"
+## [1] "IRT-M start time: 2025-08-08 17:17:55.68639"
 ```
 
 ```
@@ -10181,15 +10177,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:17.368065"
-## [1] "run_time: 6.04883909225464"
-## [1] "End time: 2025-08-08 08:05:17.500078"
-## [1] "Pass took 6.2922"
+## [1] "IRT-M End time: 2025-08-08 17:18:01.725963"
+## [1] "run_time: 6.03957319259644"
+## [1] "End time: 2025-08-08 17:18:01.873283"
+## [1] "Pass took 6.3505"
 ## [1] "Start pass 283:"
-## [1] "Start time: 2025-08-08 08:05:17.500407"
+## [1] "Start time: 2025-08-08 17:18:01.87368"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:17.614689"
+## [1] "IRT-M start time: 2025-08-08 17:18:01.989316"
 ```
 
 ```
@@ -10197,15 +10193,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:23.795839"
-## [1] "run_time: 6.18114995956421"
-## [1] "End time: 2025-08-08 08:05:23.928735"
-## [1] "Pass took 6.4283"
+## [1] "IRT-M End time: 2025-08-08 17:18:08.106809"
+## [1] "run_time: 6.11749291419983"
+## [1] "End time: 2025-08-08 17:18:08.250356"
+## [1] "Pass took 6.3767"
 ## [1] "Start pass 284:"
-## [1] "Start time: 2025-08-08 08:05:23.929086"
+## [1] "Start time: 2025-08-08 17:18:08.250727"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:24.050124"
+## [1] "IRT-M start time: 2025-08-08 17:18:08.385338"
 ```
 
 ```
@@ -10213,15 +10209,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:30.271997"
-## [1] "run_time: 6.22187304496765"
-## [1] "End time: 2025-08-08 08:05:30.407737"
-## [1] "Pass took 6.4787"
+## [1] "IRT-M End time: 2025-08-08 17:18:14.515412"
+## [1] "run_time: 6.13007402420044"
+## [1] "End time: 2025-08-08 17:18:14.654652"
+## [1] "Pass took 6.4039"
 ## [1] "Start pass 285:"
-## [1] "Start time: 2025-08-08 08:05:30.408163"
+## [1] "Start time: 2025-08-08 17:18:14.655201"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:30.523476"
+## [1] "IRT-M start time: 2025-08-08 17:18:14.78152"
 ```
 
 ```
@@ -10229,15 +10225,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:36.643699"
-## [1] "run_time: 6.12022304534912"
-## [1] "End time: 2025-08-08 08:05:36.774901"
-## [1] "Pass took 6.3667"
+## [1] "IRT-M End time: 2025-08-08 17:18:21.230669"
+## [1] "run_time: 6.4491491317749"
+## [1] "End time: 2025-08-08 17:18:21.379755"
+## [1] "Pass took 6.7246"
 ## [1] "Start pass 286:"
-## [1] "Start time: 2025-08-08 08:05:36.787813"
+## [1] "Start time: 2025-08-08 17:18:21.388628"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:36.898398"
+## [1] "IRT-M start time: 2025-08-08 17:18:21.517042"
 ```
 
 ```
@@ -10245,15 +10241,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:43.014977"
-## [1] "run_time: 6.11657905578613"
-## [1] "End time: 2025-08-08 08:05:43.149394"
-## [1] "Pass took 6.3616"
+## [1] "IRT-M End time: 2025-08-08 17:18:27.796526"
+## [1] "run_time: 6.27948403358459"
+## [1] "End time: 2025-08-08 17:18:27.953477"
+## [1] "Pass took 6.5648"
 ## [1] "Start pass 287:"
-## [1] "Start time: 2025-08-08 08:05:43.149958"
+## [1] "Start time: 2025-08-08 17:18:27.953879"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:43.270121"
+## [1] "IRT-M start time: 2025-08-08 17:18:28.106417"
 ```
 
 ```
@@ -10261,15 +10257,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:49.394698"
-## [1] "run_time: 6.12457680702209"
-## [1] "End time: 2025-08-08 08:05:49.528413"
-## [1] "Pass took 6.3785"
+## [1] "IRT-M End time: 2025-08-08 17:18:34.235009"
+## [1] "run_time: 6.12859201431274"
+## [1] "End time: 2025-08-08 17:18:34.378951"
+## [1] "Pass took 6.4251"
 ## [1] "Start pass 288:"
-## [1] "Start time: 2025-08-08 08:05:49.528761"
+## [1] "Start time: 2025-08-08 17:18:34.379319"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:49.669227"
+## [1] "IRT-M start time: 2025-08-08 17:18:34.502823"
 ```
 
 ```
@@ -10277,15 +10273,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:05:55.883771"
-## [1] "run_time: 6.21454405784607"
-## [1] "End time: 2025-08-08 08:05:56.016562"
-## [1] "Pass took 6.4878"
+## [1] "IRT-M End time: 2025-08-08 17:18:40.743723"
+## [1] "run_time: 6.24089980125427"
+## [1] "End time: 2025-08-08 17:18:40.880623"
+## [1] "Pass took 6.5013"
 ## [1] "Start pass 289:"
-## [1] "Start time: 2025-08-08 08:05:56.016914"
+## [1] "Start time: 2025-08-08 17:18:40.881019"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:05:56.130509"
+## [1] "IRT-M start time: 2025-08-08 17:18:41.001543"
 ```
 
 ```
@@ -10293,15 +10289,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:02.342315"
-## [1] "run_time: 6.21180605888367"
-## [1] "End time: 2025-08-08 08:06:02.486733"
-## [1] "Pass took 6.4698"
+## [1] "IRT-M End time: 2025-08-08 17:18:47.150295"
+## [1] "run_time: 6.14875197410583"
+## [1] "End time: 2025-08-08 17:18:47.289505"
+## [1] "Pass took 6.4085"
 ## [1] "Start pass 290:"
-## [1] "Start time: 2025-08-08 08:06:02.487086"
+## [1] "Start time: 2025-08-08 17:18:47.289921"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:02.617192"
+## [1] "IRT-M start time: 2025-08-08 17:18:47.410352"
 ```
 
 ```
@@ -10309,15 +10305,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:08.850818"
-## [1] "run_time: 6.23362588882446"
-## [1] "End time: 2025-08-08 08:06:08.986745"
-## [1] "Pass took 6.4997"
+## [1] "IRT-M End time: 2025-08-08 17:18:53.66165"
+## [1] "run_time: 6.25129795074463"
+## [1] "End time: 2025-08-08 17:18:53.796357"
+## [1] "Pass took 6.5064"
 ## [1] "Start pass 291:"
-## [1] "Start time: 2025-08-08 08:06:08.995748"
+## [1] "Start time: 2025-08-08 17:18:53.805298"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:09.020639"
+## [1] "IRT-M start time: 2025-08-08 17:18:53.830756"
 ```
 
 ```
@@ -10325,15 +10321,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:10.681793"
-## [1] "run_time: 1.66115403175354"
-## [1] "End time: 2025-08-08 08:06:10.724736"
-## [1] "Pass took 1.729"
+## [1] "IRT-M End time: 2025-08-08 17:18:55.644688"
+## [1] "run_time: 1.81393194198608"
+## [1] "End time: 2025-08-08 17:18:55.696662"
+## [1] "Pass took 1.8914"
 ## [1] "Start pass 292:"
-## [1] "Start time: 2025-08-08 08:06:10.725247"
+## [1] "Start time: 2025-08-08 17:18:55.697179"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:10.751133"
+## [1] "IRT-M start time: 2025-08-08 17:18:55.732264"
 ```
 
 ```
@@ -10341,15 +10337,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:12.409388"
-## [1] "run_time: 1.65825510025024"
-## [1] "End time: 2025-08-08 08:06:12.454236"
-## [1] "Pass took 1.729"
+## [1] "IRT-M End time: 2025-08-08 17:18:57.471245"
+## [1] "run_time: 1.73898100852966"
+## [1] "End time: 2025-08-08 17:18:57.518261"
+## [1] "Pass took 1.8211"
 ## [1] "Start pass 293:"
-## [1] "Start time: 2025-08-08 08:06:12.454649"
+## [1] "Start time: 2025-08-08 17:18:57.518641"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:12.482054"
+## [1] "IRT-M start time: 2025-08-08 17:18:57.551693"
 ```
 
 ```
@@ -10357,15 +10353,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:14.145683"
-## [1] "run_time: 1.66362905502319"
-## [1] "End time: 2025-08-08 08:06:14.189694"
-## [1] "Pass took 1.735"
+## [1] "IRT-M End time: 2025-08-08 17:18:59.20872"
+## [1] "run_time: 1.65702700614929"
+## [1] "End time: 2025-08-08 17:18:59.251755"
+## [1] "Pass took 1.7331"
 ## [1] "Start pass 294:"
-## [1] "Start time: 2025-08-08 08:06:14.190056"
+## [1] "Start time: 2025-08-08 17:18:59.252094"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:14.215464"
+## [1] "IRT-M start time: 2025-08-08 17:18:59.276915"
 ```
 
 ```
@@ -10373,15 +10369,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:15.880726"
-## [1] "run_time: 1.66526198387146"
-## [1] "End time: 2025-08-08 08:06:15.923502"
-## [1] "Pass took 1.7334"
+## [1] "IRT-M End time: 2025-08-08 17:19:00.908352"
+## [1] "run_time: 1.63143682479858"
+## [1] "End time: 2025-08-08 17:19:00.95223"
+## [1] "Pass took 1.7001"
 ## [1] "Start pass 295:"
-## [1] "Start time: 2025-08-08 08:06:15.923833"
+## [1] "Start time: 2025-08-08 17:19:00.952573"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:15.948129"
+## [1] "IRT-M start time: 2025-08-08 17:19:00.978379"
 ```
 
 ```
@@ -10389,15 +10385,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:17.570139"
-## [1] "run_time: 1.62200999259949"
-## [1] "End time: 2025-08-08 08:06:17.614169"
-## [1] "Pass took 1.6903"
+## [1] "IRT-M End time: 2025-08-08 17:19:02.592667"
+## [1] "run_time: 1.61428809165955"
+## [1] "End time: 2025-08-08 17:19:02.640259"
+## [1] "Pass took 1.6877"
 ## [1] "Start pass 296:"
-## [1] "Start time: 2025-08-08 08:06:17.623554"
+## [1] "Start time: 2025-08-08 17:19:02.649772"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:17.648275"
+## [1] "IRT-M start time: 2025-08-08 17:19:02.674328"
 ```
 
 ```
@@ -10405,15 +10401,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:19.280883"
-## [1] "run_time: 1.63260817527771"
-## [1] "End time: 2025-08-08 08:06:19.324847"
-## [1] "Pass took 1.7013"
+## [1] "IRT-M End time: 2025-08-08 17:19:04.504769"
+## [1] "run_time: 1.83044099807739"
+## [1] "End time: 2025-08-08 17:19:04.555027"
+## [1] "Pass took 1.9053"
 ## [1] "Start pass 297:"
-## [1] "Start time: 2025-08-08 08:06:19.325192"
+## [1] "Start time: 2025-08-08 17:19:04.555442"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:19.35063"
+## [1] "IRT-M start time: 2025-08-08 17:19:04.589758"
 ```
 
 ```
@@ -10421,15 +10417,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:21.006765"
-## [1] "run_time: 1.65613484382629"
-## [1] "End time: 2025-08-08 08:06:21.051938"
-## [1] "Pass took 1.7267"
+## [1] "IRT-M End time: 2025-08-08 17:19:06.310257"
+## [1] "run_time: 1.72049903869629"
+## [1] "End time: 2025-08-08 17:19:06.355819"
+## [1] "Pass took 1.8004"
 ## [1] "Start pass 298:"
-## [1] "Start time: 2025-08-08 08:06:21.052418"
+## [1] "Start time: 2025-08-08 17:19:06.356173"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:21.078577"
+## [1] "IRT-M start time: 2025-08-08 17:19:06.3812"
 ```
 
 ```
@@ -10437,15 +10433,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:22.759048"
-## [1] "run_time: 1.68047094345093"
-## [1] "End time: 2025-08-08 08:06:22.804248"
-## [1] "Pass took 1.7518"
+## [1] "IRT-M End time: 2025-08-08 17:19:08.024677"
+## [1] "run_time: 1.64347696304321"
+## [1] "End time: 2025-08-08 17:19:08.071791"
+## [1] "Pass took 1.7156"
 ## [1] "Start pass 299:"
-## [1] "Start time: 2025-08-08 08:06:22.804593"
+## [1] "Start time: 2025-08-08 17:19:08.072154"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:22.832236"
+## [1] "IRT-M start time: 2025-08-08 17:19:08.09881"
 ```
 
 ```
@@ -10453,15 +10449,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:24.438441"
-## [1] "run_time: 1.60620498657227"
-## [1] "End time: 2025-08-08 08:06:24.48119"
-## [1] "Pass took 1.6766"
+## [1] "IRT-M End time: 2025-08-08 17:19:09.735018"
+## [1] "run_time: 1.63620805740356"
+## [1] "End time: 2025-08-08 17:19:09.777897"
+## [1] "Pass took 1.7057"
 ## [1] "Start pass 300:"
-## [1] "Start time: 2025-08-08 08:06:24.481513"
+## [1] "Start time: 2025-08-08 17:19:09.778226"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:24.506027"
+## [1] "IRT-M start time: 2025-08-08 17:19:09.803447"
 ```
 
 ```
@@ -10469,19 +10465,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:26.128178"
-## [1] "run_time: 1.62215089797974"
-## [1] "End time: 2025-08-08 08:06:26.172127"
-## [1] "Pass took 1.6906"
+## [1] "IRT-M End time: 2025-08-08 17:19:11.404044"
+## [1] "run_time: 1.60059690475464"
+## [1] "End time: 2025-08-08 17:19:11.447544"
+## [1] "Pass took 1.6693"
 ## [1] "Start pass 301:"
-## [1] "Start time: 2025-08-08 08:06:26.180977"
+## [1] "Start time: 2025-08-08 17:19:11.456748"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 302:"
-## [1] "Start time: 2025-08-08 08:06:26.231553"
+## [1] "Start time: 2025-08-08 17:19:11.510439"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:26.282496"
+## [1] "IRT-M start time: 2025-08-08 17:19:11.562477"
 ```
 
 ```
@@ -10489,47 +10485,47 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:31.231683"
-## [1] "run_time: 4.94918704032898"
-## [1] "End time: 2025-08-08 08:06:32.660804"
-## [1] "Pass took 6.4293"
+## [1] "IRT-M End time: 2025-08-08 17:19:16.747017"
+## [1] "run_time: 5.18453979492188"
+## [1] "End time: 2025-08-08 17:19:18.020109"
+## [1] "Pass took 6.5097"
 ## [1] "Start pass 303:"
-## [1] "Start time: 2025-08-08 08:06:32.661144"
+## [1] "Start time: 2025-08-08 17:19:18.020489"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 304:"
-## [1] "Start time: 2025-08-08 08:06:32.717604"
+## [1] "Start time: 2025-08-08 17:19:18.074958"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 305:"
-## [1] "Start time: 2025-08-08 08:06:32.775276"
+## [1] "Start time: 2025-08-08 17:19:18.132697"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 306:"
-## [1] "Start time: 2025-08-08 08:06:32.83265"
+## [1] "Start time: 2025-08-08 17:19:18.1906"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 307:"
-## [1] "Start time: 2025-08-08 08:06:32.888542"
+## [1] "Start time: 2025-08-08 17:19:18.395321"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 308:"
-## [1] "Start time: 2025-08-08 08:06:32.947872"
+## [1] "Start time: 2025-08-08 17:19:18.472856"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 309:"
-## [1] "Start time: 2025-08-08 08:06:33.000279"
+## [1] "Start time: 2025-08-08 17:19:18.546857"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 310:"
-## [1] "Start time: 2025-08-08 08:06:33.053188"
+## [1] "Start time: 2025-08-08 17:19:18.615809"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 311:"
-## [1] "Start time: 2025-08-08 08:06:33.103558"
+## [1] "Start time: 2025-08-08 17:19:18.690608"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:33.153573"
+## [1] "IRT-M start time: 2025-08-08 17:19:18.771938"
 ```
 
 ```
@@ -10537,15 +10533,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:37.025642"
-## [1] "run_time: 3.87206888198853"
-## [1] "End time: 2025-08-08 08:06:37.342883"
-## [1] "Pass took 4.2393"
+## [1] "IRT-M End time: 2025-08-08 17:19:22.647979"
+## [1] "run_time: 3.87604093551636"
+## [1] "End time: 2025-08-08 17:19:22.982895"
+## [1] "Pass took 4.2923"
 ## [1] "Start pass 312:"
-## [1] "Start time: 2025-08-08 08:06:37.343212"
+## [1] "Start time: 2025-08-08 17:19:22.983334"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:37.394829"
+## [1] "IRT-M start time: 2025-08-08 17:19:23.031735"
 ```
 
 ```
@@ -10553,15 +10549,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:41.227223"
-## [1] "run_time: 3.83239388465881"
-## [1] "End time: 2025-08-08 08:06:41.54096"
-## [1] "Pass took 4.1977"
+## [1] "IRT-M End time: 2025-08-08 17:19:26.793379"
+## [1] "run_time: 3.76164412498474"
+## [1] "End time: 2025-08-08 17:19:27.11564"
+## [1] "Pass took 4.1323"
 ## [1] "Start pass 313:"
-## [1] "Start time: 2025-08-08 08:06:41.541294"
+## [1] "Start time: 2025-08-08 17:19:27.115994"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:41.590184"
+## [1] "IRT-M start time: 2025-08-08 17:19:27.165622"
 ```
 
 ```
@@ -10569,15 +10565,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:45.456237"
-## [1] "run_time: 3.86605310440063"
-## [1] "End time: 2025-08-08 08:06:45.806904"
-## [1] "Pass took 4.2656"
+## [1] "IRT-M End time: 2025-08-08 17:19:30.991155"
+## [1] "run_time: 3.82553291320801"
+## [1] "End time: 2025-08-08 17:19:31.333509"
+## [1] "Pass took 4.2175"
 ## [1] "Start pass 314:"
-## [1] "Start time: 2025-08-08 08:06:45.807248"
+## [1] "Start time: 2025-08-08 17:19:31.333873"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:45.860266"
+## [1] "IRT-M start time: 2025-08-08 17:19:31.392548"
 ```
 
 ```
@@ -10585,15 +10581,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:49.626393"
-## [1] "run_time: 3.76612710952759"
-## [1] "End time: 2025-08-08 08:06:49.9499"
-## [1] "Pass took 4.1427"
+## [1] "IRT-M End time: 2025-08-08 17:19:35.13769"
+## [1] "run_time: 3.74514198303223"
+## [1] "End time: 2025-08-08 17:19:35.451088"
+## [1] "Pass took 4.1172"
 ## [1] "Start pass 315:"
-## [1] "Start time: 2025-08-08 08:06:49.950233"
+## [1] "Start time: 2025-08-08 17:19:35.451498"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:49.998929"
+## [1] "IRT-M start time: 2025-08-08 17:19:35.500116"
 ```
 
 ```
@@ -10601,15 +10597,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:53.782652"
-## [1] "run_time: 3.78372287750244"
-## [1] "End time: 2025-08-08 08:06:54.094565"
-## [1] "Pass took 4.1443"
+## [1] "IRT-M End time: 2025-08-08 17:19:39.238557"
+## [1] "run_time: 3.738440990448"
+## [1] "End time: 2025-08-08 17:19:39.55038"
+## [1] "Pass took 4.0989"
 ## [1] "Start pass 316:"
-## [1] "Start time: 2025-08-08 08:06:54.104255"
+## [1] "Start time: 2025-08-08 17:19:39.560389"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:54.160773"
+## [1] "IRT-M start time: 2025-08-08 17:19:39.610201"
 ```
 
 ```
@@ -10617,15 +10613,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:06:57.932179"
-## [1] "run_time: 3.77140593528748"
-## [1] "End time: 2025-08-08 08:06:58.248881"
-## [1] "Pass took 4.1446"
+## [1] "IRT-M End time: 2025-08-08 17:19:43.584658"
+## [1] "run_time: 3.97445702552795"
+## [1] "End time: 2025-08-08 17:19:43.932452"
+## [1] "Pass took 4.3721"
 ## [1] "Start pass 317:"
-## [1] "Start time: 2025-08-08 08:06:58.249321"
+## [1] "Start time: 2025-08-08 17:19:43.932843"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:06:58.299626"
+## [1] "IRT-M start time: 2025-08-08 17:19:44.001063"
 ```
 
 ```
@@ -10633,15 +10629,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:07:02.054252"
-## [1] "run_time: 3.75462579727173"
-## [1] "End time: 2025-08-08 08:07:02.369602"
-## [1] "Pass took 4.1203"
+## [1] "IRT-M End time: 2025-08-08 17:19:47.782064"
+## [1] "run_time: 3.78100085258484"
+## [1] "End time: 2025-08-08 17:19:48.09366"
+## [1] "Pass took 4.1608"
 ## [1] "Start pass 318:"
-## [1] "Start time: 2025-08-08 08:07:02.369969"
+## [1] "Start time: 2025-08-08 17:19:48.094015"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:07:02.422477"
+## [1] "IRT-M start time: 2025-08-08 17:19:48.14285"
 ```
 
 ```
@@ -10649,15 +10645,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:07:06.21134"
-## [1] "run_time: 3.78886294364929"
-## [1] "End time: 2025-08-08 08:07:06.52914"
-## [1] "Pass took 4.1592"
+## [1] "IRT-M End time: 2025-08-08 17:19:51.924336"
+## [1] "run_time: 3.78148603439331"
+## [1] "End time: 2025-08-08 17:19:52.252562"
+## [1] "Pass took 4.1585"
 ## [1] "Start pass 319:"
-## [1] "Start time: 2025-08-08 08:07:06.529655"
+## [1] "Start time: 2025-08-08 17:19:52.252931"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:07:06.580043"
+## [1] "IRT-M start time: 2025-08-08 17:19:52.302117"
 ```
 
 ```
@@ -10665,15 +10661,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:07:10.347979"
-## [1] "run_time: 3.76793599128723"
-## [1] "End time: 2025-08-08 08:07:10.663505"
-## [1] "Pass took 4.1339"
+## [1] "IRT-M End time: 2025-08-08 17:19:56.049756"
+## [1] "run_time: 3.74763894081116"
+## [1] "End time: 2025-08-08 17:19:56.372389"
+## [1] "Pass took 4.1195"
 ## [1] "Start pass 320:"
-## [1] "Start time: 2025-08-08 08:07:10.663861"
+## [1] "Start time: 2025-08-08 17:19:56.372764"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:07:10.714355"
+## [1] "IRT-M start time: 2025-08-08 17:19:56.42209"
 ```
 
 ```
@@ -10681,207 +10677,207 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:07:14.512036"
-## [1] "run_time: 3.79768109321594"
-## [1] "End time: 2025-08-08 08:07:14.824781"
-## [1] "Pass took 4.1609"
-## [1] "Start pass 321:"
-## [1] "Start time: 2025-08-08 08:07:14.834655"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:07:15.298716"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:07:39.437338"
-## [1] "run_time: 24.138622045517"
-## [1] "End time: 2025-08-08 08:07:39.951812"
-## [1] "Pass took 25.1172"
-## [1] "Start pass 322:"
-## [1] "Start time: 2025-08-08 08:07:39.952217"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:07:40.524736"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:08:03.893792"
-## [1] "run_time: 23.3690559864044"
-## [1] "End time: 2025-08-08 08:08:04.372964"
-## [1] "Pass took 24.4207"
-## [1] "Start pass 323:"
-## [1] "Start time: 2025-08-08 08:08:04.373306"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:08:04.845517"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:08:28.063747"
-## [1] "run_time: 23.218230009079"
-## [1] "End time: 2025-08-08 08:08:28.536862"
-## [1] "Pass took 24.1636"
-## [1] "Start pass 324:"
-## [1] "Start time: 2025-08-08 08:08:28.537216"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:08:29.022802"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:08:52.473973"
-## [1] "run_time: 23.4511709213257"
-## [1] "End time: 2025-08-08 08:08:52.975425"
-## [1] "Pass took 24.4382"
-## [1] "Start pass 325:"
-## [1] "Start time: 2025-08-08 08:08:52.976053"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:08:53.437973"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:09:17.258287"
-## [1] "run_time: 23.8203139305115"
-## [1] "End time: 2025-08-08 08:09:17.768266"
-## [1] "Pass took 24.7922"
-## [1] "Start pass 326:"
-## [1] "Start time: 2025-08-08 08:09:17.780192"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:09:18.242851"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:09:41.88325"
-## [1] "run_time: 23.640398979187"
-## [1] "End time: 2025-08-08 08:09:42.357157"
-## [1] "Pass took 24.577"
-## [1] "Start pass 327:"
-## [1] "Start time: 2025-08-08 08:09:42.357507"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:09:42.822378"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:10:05.919992"
-## [1] "run_time: 23.0976140499115"
-## [1] "End time: 2025-08-08 08:10:06.709356"
-## [1] "Pass took 24.3518"
-## [1] "Start pass 328:"
-## [1] "Start time: 2025-08-08 08:10:06.709816"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:10:07.276338"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:10:30.935962"
-## [1] "run_time: 23.6596238613129"
-## [1] "End time: 2025-08-08 08:10:31.45649"
-## [1] "Pass took 24.7467"
-## [1] "Start pass 329:"
-## [1] "Start time: 2025-08-08 08:10:31.456849"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:10:31.954438"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:10:55.528405"
-## [1] "run_time: 23.5739669799805"
-## [1] "End time: 2025-08-08 08:10:56.034683"
-## [1] "Pass took 24.5778"
-## [1] "Start pass 330:"
-## [1] "Start time: 2025-08-08 08:10:56.035021"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:10:56.491145"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:11:25.834221"
-## [1] "run_time: 29.3430759906769"
-## [1] "End time: 2025-08-08 08:11:26.49139"
-## [1] "Pass took 30.4564"
-## [1] "Start pass 331:"
-## [1] "Start time: 2025-08-08 08:11:26.503709"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:26.550959"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:11:30.973887"
-## [1] "run_time: 4.42292785644531"
-## [1] "End time: 2025-08-08 08:11:31.1068"
-## [1] "Pass took 4.6031"
-## [1] "Start pass 332:"
-## [1] "Start time: 2025-08-08 08:11:31.107222"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:31.141045"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:11:35.169449"
-## [1] "run_time: 4.02840399742126"
-## [1] "End time: 2025-08-08 08:11:35.33673"
+## [1] "IRT-M End time: 2025-08-08 17:20:00.236208"
+## [1] "run_time: 3.81411790847778"
+## [1] "End time: 2025-08-08 17:20:00.602284"
 ## [1] "Pass took 4.2295"
+## [1] "Start pass 321:"
+## [1] "Start time: 2025-08-08 17:20:00.61187"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:20:01.107633"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:20:24.854996"
+## [1] "run_time: 23.7473628520966"
+## [1] "End time: 2025-08-08 17:20:25.397484"
+## [1] "Pass took 24.7856"
+## [1] "Start pass 322:"
+## [1] "Start time: 2025-08-08 17:20:25.397903"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:20:25.911968"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:20:49.324187"
+## [1] "run_time: 23.4122190475464"
+## [1] "End time: 2025-08-08 17:20:49.818367"
+## [1] "Pass took 24.4205"
+## [1] "Start pass 323:"
+## [1] "Start time: 2025-08-08 17:20:49.818708"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:20:50.286297"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:21:13.332081"
+## [1] "run_time: 23.045783996582"
+## [1] "End time: 2025-08-08 17:21:13.811879"
+## [1] "Pass took 23.9932"
+## [1] "Start pass 324:"
+## [1] "Start time: 2025-08-08 17:21:13.812384"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:21:14.312109"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:21:37.472517"
+## [1] "run_time: 23.1604080200195"
+## [1] "End time: 2025-08-08 17:21:37.955447"
+## [1] "Pass took 24.1431"
+## [1] "Start pass 325:"
+## [1] "Start time: 2025-08-08 17:21:37.955919"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:21:38.417774"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:22:02.116592"
+## [1] "run_time: 23.6988179683685"
+## [1] "End time: 2025-08-08 17:22:02.610298"
+## [1] "Pass took 24.6544"
+## [1] "Start pass 326:"
+## [1] "Start time: 2025-08-08 17:22:02.621823"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:22:03.097377"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:22:26.998694"
+## [1] "run_time: 23.9013168811798"
+## [1] "End time: 2025-08-08 17:22:27.544976"
+## [1] "Pass took 24.9232"
+## [1] "Start pass 327:"
+## [1] "Start time: 2025-08-08 17:22:27.545373"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:22:28.0706"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:22:51.016922"
+## [1] "run_time: 22.9463219642639"
+## [1] "End time: 2025-08-08 17:22:51.524282"
+## [1] "Pass took 23.9789"
+## [1] "Start pass 328:"
+## [1] "Start time: 2025-08-08 17:22:51.52466"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:22:52.033342"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:23:15.473938"
+## [1] "run_time: 23.4405961036682"
+## [1] "End time: 2025-08-08 17:23:15.970136"
+## [1] "Pass took 24.4455"
+## [1] "Start pass 329:"
+## [1] "Start time: 2025-08-08 17:23:15.970496"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:23:16.458831"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:23:39.799116"
+## [1] "run_time: 23.3402848243713"
+## [1] "End time: 2025-08-08 17:23:40.282872"
+## [1] "Pass took 24.3124"
+## [1] "Start pass 330:"
+## [1] "Start time: 2025-08-08 17:23:40.283259"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:23:40.784158"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:24:04.405527"
+## [1] "run_time: 23.6213691234589"
+## [1] "End time: 2025-08-08 17:24:04.885762"
+## [1] "Pass took 24.6025"
+## [1] "Start pass 331:"
+## [1] "Start time: 2025-08-08 17:24:04.897919"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:24:04.923535"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:24:08.477641"
+## [1] "run_time: 3.55410599708557"
+## [1] "End time: 2025-08-08 17:24:08.617046"
+## [1] "Pass took 3.7191"
+## [1] "Start pass 332:"
+## [1] "Start time: 2025-08-08 17:24:08.617464"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:24:08.647233"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:24:11.932734"
+## [1] "run_time: 3.28550100326538"
+## [1] "End time: 2025-08-08 17:24:12.053548"
+## [1] "Pass took 3.4361"
 ## [1] "Start pass 333:"
-## [1] "Start time: 2025-08-08 08:11:35.337274"
+## [1] "Start time: 2025-08-08 17:24:12.05416"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:35.366112"
+## [1] "IRT-M start time: 2025-08-08 17:24:12.080128"
 ```
 
 ```
@@ -10889,15 +10885,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:39.173789"
-## [1] "run_time: 3.80767703056335"
-## [1] "End time: 2025-08-08 08:11:39.299094"
-## [1] "Pass took 3.9618"
+## [1] "IRT-M End time: 2025-08-08 17:24:15.360981"
+## [1] "run_time: 3.2808530330658"
+## [1] "End time: 2025-08-08 17:24:15.479888"
+## [1] "Pass took 3.4257"
 ## [1] "Start pass 334:"
-## [1] "Start time: 2025-08-08 08:11:39.29961"
+## [1] "Start time: 2025-08-08 17:24:15.480256"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:39.328838"
+## [1] "IRT-M start time: 2025-08-08 17:24:15.506466"
 ```
 
 ```
@@ -10905,15 +10901,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:43.80458"
-## [1] "run_time: 4.47574186325073"
-## [1] "End time: 2025-08-08 08:11:43.933945"
-## [1] "Pass took 4.6343"
+## [1] "IRT-M End time: 2025-08-08 17:24:18.806535"
+## [1] "run_time: 3.30006909370422"
+## [1] "End time: 2025-08-08 17:24:18.921469"
+## [1] "Pass took 3.4412"
 ## [1] "Start pass 335:"
-## [1] "Start time: 2025-08-08 08:11:43.93433"
+## [1] "Start time: 2025-08-08 17:24:18.921957"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:43.964769"
+## [1] "IRT-M start time: 2025-08-08 17:24:18.948483"
 ```
 
 ```
@@ -10921,15 +10917,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:47.7954"
-## [1] "run_time: 3.83063101768494"
-## [1] "End time: 2025-08-08 08:11:47.924111"
-## [1] "Pass took 3.9898"
+## [1] "IRT-M End time: 2025-08-08 17:24:22.255153"
+## [1] "run_time: 3.30666995048523"
+## [1] "End time: 2025-08-08 17:24:22.370798"
+## [1] "Pass took 3.4488"
 ## [1] "Start pass 336:"
-## [1] "Start time: 2025-08-08 08:11:47.936327"
+## [1] "Start time: 2025-08-08 17:24:22.380868"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:47.962162"
+## [1] "IRT-M start time: 2025-08-08 17:24:22.406708"
 ```
 
 ```
@@ -10937,15 +10933,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:51.944492"
-## [1] "run_time: 3.98233008384705"
-## [1] "End time: 2025-08-08 08:11:52.075903"
-## [1] "Pass took 4.1396"
+## [1] "IRT-M End time: 2025-08-08 17:24:26.008723"
+## [1] "run_time: 3.60201501846313"
+## [1] "End time: 2025-08-08 17:24:26.139091"
+## [1] "Pass took 3.7582"
 ## [1] "Start pass 337:"
-## [1] "Start time: 2025-08-08 08:11:52.076426"
+## [1] "Start time: 2025-08-08 17:24:26.139496"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:52.106012"
+## [1] "IRT-M start time: 2025-08-08 17:24:26.168522"
 ```
 
 ```
@@ -10953,15 +10949,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:55.871732"
-## [1] "run_time: 3.76571989059448"
-## [1] "End time: 2025-08-08 08:11:56.025461"
-## [1] "Pass took 3.949"
+## [1] "IRT-M End time: 2025-08-08 17:24:29.439661"
+## [1] "run_time: 3.27113914489746"
+## [1] "End time: 2025-08-08 17:24:29.559056"
+## [1] "Pass took 3.4196"
 ## [1] "Start pass 338:"
-## [1] "Start time: 2025-08-08 08:11:56.026051"
+## [1] "Start time: 2025-08-08 17:24:29.559435"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:56.055594"
+## [1] "IRT-M start time: 2025-08-08 17:24:29.585808"
 ```
 
 ```
@@ -10969,15 +10965,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:11:59.765905"
-## [1] "run_time: 3.71031093597412"
-## [1] "End time: 2025-08-08 08:11:59.898719"
-## [1] "Pass took 3.8727"
+## [1] "IRT-M End time: 2025-08-08 17:24:32.924238"
+## [1] "run_time: 3.33842992782593"
+## [1] "End time: 2025-08-08 17:24:33.039043"
+## [1] "Pass took 3.4796"
 ## [1] "Start pass 339:"
-## [1] "Start time: 2025-08-08 08:11:59.899086"
+## [1] "Start time: 2025-08-08 17:24:33.039402"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:11:59.924949"
+## [1] "IRT-M start time: 2025-08-08 17:24:33.065483"
 ```
 
 ```
@@ -10985,15 +10981,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:03.736622"
-## [1] "run_time: 3.81167316436768"
-## [1] "End time: 2025-08-08 08:12:03.947181"
-## [1] "Pass took 4.0481"
+## [1] "IRT-M End time: 2025-08-08 17:24:36.351361"
+## [1] "run_time: 3.28587794303894"
+## [1] "End time: 2025-08-08 17:24:36.466761"
+## [1] "Pass took 3.4274"
 ## [1] "Start pass 340:"
-## [1] "Start time: 2025-08-08 08:12:03.947677"
+## [1] "Start time: 2025-08-08 17:24:36.467288"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:03.980611"
+## [1] "IRT-M start time: 2025-08-08 17:24:36.493248"
 ```
 
 ```
@@ -11001,15 +10997,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:07.807178"
-## [1] "run_time: 3.82656693458557"
-## [1] "End time: 2025-08-08 08:12:07.931814"
-## [1] "Pass took 3.9841"
+## [1] "IRT-M End time: 2025-08-08 17:24:39.756019"
+## [1] "run_time: 3.26277112960815"
+## [1] "End time: 2025-08-08 17:24:39.883089"
+## [1] "Pass took 3.4158"
 ## [1] "Start pass 341:"
-## [1] "Start time: 2025-08-08 08:12:07.942169"
+## [1] "Start time: 2025-08-08 17:24:39.893917"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:07.954807"
+## [1] "IRT-M start time: 2025-08-08 17:24:39.905327"
 ```
 
 ```
@@ -11017,15 +11013,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:09.646014"
-## [1] "run_time: 1.69120693206787"
-## [1] "End time: 2025-08-08 08:12:09.744618"
-## [1] "Pass took 1.8024"
+## [1] "IRT-M End time: 2025-08-08 17:24:41.514851"
+## [1] "run_time: 1.60952401161194"
+## [1] "End time: 2025-08-08 17:24:41.621168"
+## [1] "Pass took 1.7273"
 ## [1] "Start pass 342:"
-## [1] "Start time: 2025-08-08 08:12:09.744992"
+## [1] "Start time: 2025-08-08 17:24:41.621599"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:09.757971"
+## [1] "IRT-M start time: 2025-08-08 17:24:41.637738"
 ```
 
 ```
@@ -11033,15 +11029,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:11.451039"
-## [1] "run_time: 1.69306802749634"
-## [1] "End time: 2025-08-08 08:12:11.555572"
-## [1] "Pass took 1.8106"
+## [1] "IRT-M End time: 2025-08-08 17:24:43.15498"
+## [1] "run_time: 1.51724195480347"
+## [1] "End time: 2025-08-08 17:24:43.284059"
+## [1] "Pass took 1.6625"
 ## [1] "Start pass 343:"
-## [1] "Start time: 2025-08-08 08:12:11.55598"
+## [1] "Start time: 2025-08-08 17:24:43.284459"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:11.569993"
+## [1] "IRT-M start time: 2025-08-08 17:24:43.299952"
 ```
 
 ```
@@ -11049,15 +11045,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:13.219541"
-## [1] "run_time: 1.64954805374146"
-## [1] "End time: 2025-08-08 08:12:13.335279"
-## [1] "Pass took 1.7793"
+## [1] "IRT-M End time: 2025-08-08 17:24:44.835068"
+## [1] "run_time: 1.53511595726013"
+## [1] "End time: 2025-08-08 17:24:44.931131"
+## [1] "Pass took 1.6467"
 ## [1] "Start pass 344:"
-## [1] "Start time: 2025-08-08 08:12:13.335646"
+## [1] "Start time: 2025-08-08 17:24:44.931551"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:13.347279"
+## [1] "IRT-M start time: 2025-08-08 17:24:44.943969"
 ```
 
 ```
@@ -11065,15 +11061,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:15.006557"
-## [1] "run_time: 1.65927791595459"
-## [1] "End time: 2025-08-08 08:12:15.109145"
-## [1] "Pass took 1.7735"
+## [1] "IRT-M End time: 2025-08-08 17:24:46.363331"
+## [1] "run_time: 1.41936206817627"
+## [1] "End time: 2025-08-08 17:24:46.45635"
+## [1] "Pass took 1.5248"
 ## [1] "Start pass 345:"
-## [1] "Start time: 2025-08-08 08:12:15.109678"
+## [1] "Start time: 2025-08-08 17:24:46.456722"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:15.123184"
+## [1] "IRT-M start time: 2025-08-08 17:24:46.468689"
 ```
 
 ```
@@ -11081,15 +11077,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:16.812275"
-## [1] "run_time: 1.68909096717834"
-## [1] "End time: 2025-08-08 08:12:16.907672"
-## [1] "Pass took 1.798"
+## [1] "IRT-M End time: 2025-08-08 17:24:47.882756"
+## [1] "run_time: 1.414067029953"
+## [1] "End time: 2025-08-08 17:24:47.969489"
+## [1] "Pass took 1.5128"
 ## [1] "Start pass 346:"
-## [1] "Start time: 2025-08-08 08:12:16.91979"
+## [1] "Start time: 2025-08-08 17:24:47.979962"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:16.932819"
+## [1] "IRT-M start time: 2025-08-08 17:24:47.996417"
 ```
 
 ```
@@ -11097,15 +11093,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:18.861423"
-## [1] "run_time: 1.92860412597656"
-## [1] "End time: 2025-08-08 08:12:18.961742"
-## [1] "Pass took 2.042"
+## [1] "IRT-M End time: 2025-08-08 17:24:49.600349"
+## [1] "run_time: 1.60393190383911"
+## [1] "End time: 2025-08-08 17:24:49.705191"
+## [1] "Pass took 1.7252"
 ## [1] "Start pass 347:"
-## [1] "Start time: 2025-08-08 08:12:18.962367"
+## [1] "Start time: 2025-08-08 17:24:49.705616"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:18.975167"
+## [1] "IRT-M start time: 2025-08-08 17:24:49.724495"
 ```
 
 ```
@@ -11113,15 +11109,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:20.684915"
-## [1] "run_time: 1.70974802970886"
-## [1] "End time: 2025-08-08 08:12:20.781254"
-## [1] "Pass took 1.8189"
+## [1] "IRT-M End time: 2025-08-08 17:24:51.251768"
+## [1] "run_time: 1.52727317810059"
+## [1] "End time: 2025-08-08 17:24:51.343396"
+## [1] "Pass took 1.6378"
 ## [1] "Start pass 348:"
-## [1] "Start time: 2025-08-08 08:12:20.78164"
+## [1] "Start time: 2025-08-08 17:24:51.343743"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:20.797441"
+## [1] "IRT-M start time: 2025-08-08 17:24:51.355621"
 ```
 
 ```
@@ -11129,15 +11125,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:22.456564"
-## [1] "run_time: 1.65912294387817"
-## [1] "End time: 2025-08-08 08:12:22.559025"
-## [1] "Pass took 1.7774"
+## [1] "IRT-M End time: 2025-08-08 17:24:52.797312"
+## [1] "run_time: 1.44169092178345"
+## [1] "End time: 2025-08-08 17:24:52.886037"
+## [1] "Pass took 1.5423"
 ## [1] "Start pass 349:"
-## [1] "Start time: 2025-08-08 08:12:22.559579"
+## [1] "Start time: 2025-08-08 17:24:52.886414"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:22.572749"
+## [1] "IRT-M start time: 2025-08-08 17:24:52.898473"
 ```
 
 ```
@@ -11145,15 +11141,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:24.241444"
-## [1] "run_time: 1.66869521141052"
-## [1] "End time: 2025-08-08 08:12:24.331142"
-## [1] "Pass took 1.7716"
+## [1] "IRT-M End time: 2025-08-08 17:24:54.324303"
+## [1] "run_time: 1.42582988739014"
+## [1] "End time: 2025-08-08 17:24:54.417527"
+## [1] "Pass took 1.5311"
 ## [1] "Start pass 350:"
-## [1] "Start time: 2025-08-08 08:12:24.33152"
+## [1] "Start time: 2025-08-08 17:24:54.417891"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:24.344186"
+## [1] "IRT-M start time: 2025-08-08 17:24:54.429816"
 ```
 
 ```
@@ -11161,15 +11157,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:26.062044"
-## [1] "run_time: 1.717857837677"
-## [1] "End time: 2025-08-08 08:12:26.187907"
-## [1] "Pass took 1.8564"
+## [1] "IRT-M End time: 2025-08-08 17:24:55.831685"
+## [1] "run_time: 1.40186905860901"
+## [1] "End time: 2025-08-08 17:24:55.921085"
+## [1] "Pass took 1.5032"
 ## [1] "Start pass 351:"
-## [1] "Start time: 2025-08-08 08:12:26.199601"
+## [1] "Start time: 2025-08-08 17:24:55.93243"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:26.213037"
+## [1] "IRT-M start time: 2025-08-08 17:24:55.944921"
 ```
 
 ```
@@ -11177,15 +11173,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:29.065676"
-## [1] "run_time: 2.85263895988464"
-## [1] "End time: 2025-08-08 08:12:29.2678"
-## [1] "Pass took 3.0682"
+## [1] "IRT-M End time: 2025-08-08 17:24:58.687196"
+## [1] "run_time: 2.74227499961853"
+## [1] "End time: 2025-08-08 17:24:58.858289"
+## [1] "Pass took 2.9259"
 ## [1] "Start pass 352:"
-## [1] "Start time: 2025-08-08 08:12:29.268196"
+## [1] "Start time: 2025-08-08 17:24:58.86218"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:29.285204"
+## [1] "IRT-M start time: 2025-08-08 17:24:58.900571"
 ```
 
 ```
@@ -11193,15 +11189,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:32.570661"
-## [1] "run_time: 3.28545713424683"
-## [1] "End time: 2025-08-08 08:12:32.758055"
-## [1] "Pass took 3.4899"
+## [1] "IRT-M End time: 2025-08-08 17:25:01.440393"
+## [1] "run_time: 2.53982186317444"
+## [1] "End time: 2025-08-08 17:25:01.597098"
+## [1] "Pass took 2.7349"
 ## [1] "Start pass 353:"
-## [1] "Start time: 2025-08-08 08:12:32.758429"
+## [1] "Start time: 2025-08-08 17:25:01.59755"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:32.773067"
+## [1] "IRT-M start time: 2025-08-08 17:25:01.610668"
 ```
 
 ```
@@ -11209,15 +11205,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:35.678834"
-## [1] "run_time: 2.90576696395874"
-## [1] "End time: 2025-08-08 08:12:35.852396"
-## [1] "Pass took 3.094"
+## [1] "IRT-M End time: 2025-08-08 17:25:04.093236"
+## [1] "run_time: 2.48256802558899"
+## [1] "End time: 2025-08-08 17:25:04.24785"
+## [1] "Pass took 2.6503"
 ## [1] "Start pass 354:"
-## [1] "Start time: 2025-08-08 08:12:35.852861"
+## [1] "Start time: 2025-08-08 17:25:04.24839"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:35.867828"
+## [1] "IRT-M start time: 2025-08-08 17:25:04.26082"
 ```
 
 ```
@@ -11225,15 +11221,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:38.719163"
-## [1] "run_time: 2.85133504867554"
-## [1] "End time: 2025-08-08 08:12:38.881027"
-## [1] "Pass took 3.0282"
+## [1] "IRT-M End time: 2025-08-08 17:25:06.82956"
+## [1] "run_time: 2.56874012947083"
+## [1] "End time: 2025-08-08 17:25:06.980361"
+## [1] "Pass took 2.732"
 ## [1] "Start pass 355:"
-## [1] "Start time: 2025-08-08 08:12:38.88141"
+## [1] "Start time: 2025-08-08 17:25:06.980941"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:38.893488"
+## [1] "IRT-M start time: 2025-08-08 17:25:06.993234"
 ```
 
 ```
@@ -11241,15 +11237,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:41.793619"
-## [1] "run_time: 2.90013098716736"
-## [1] "End time: 2025-08-08 08:12:41.956958"
-## [1] "Pass took 3.0755"
+## [1] "IRT-M End time: 2025-08-08 17:25:09.523139"
+## [1] "run_time: 2.52990508079529"
+## [1] "End time: 2025-08-08 17:25:09.67547"
+## [1] "Pass took 2.6945"
 ## [1] "Start pass 356:"
-## [1] "Start time: 2025-08-08 08:12:41.969076"
+## [1] "Start time: 2025-08-08 17:25:09.686326"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:41.982827"
+## [1] "IRT-M start time: 2025-08-08 17:25:09.697965"
 ```
 
 ```
@@ -11257,15 +11253,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:44.937884"
-## [1] "run_time: 2.95505714416504"
-## [1] "End time: 2025-08-08 08:12:45.120066"
-## [1] "Pass took 3.151"
+## [1] "IRT-M End time: 2025-08-08 17:25:12.448517"
+## [1] "run_time: 2.7505521774292"
+## [1] "End time: 2025-08-08 17:25:12.623892"
+## [1] "Pass took 2.9376"
 ## [1] "Start pass 357:"
-## [1] "Start time: 2025-08-08 08:12:45.120482"
+## [1] "Start time: 2025-08-08 17:25:12.624349"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:45.136729"
+## [1] "IRT-M start time: 2025-08-08 17:25:12.640535"
 ```
 
 ```
@@ -11273,15 +11269,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:48.079048"
-## [1] "run_time: 2.9423189163208"
-## [1] "End time: 2025-08-08 08:12:48.26394"
-## [1] "Pass took 3.1435"
+## [1] "IRT-M End time: 2025-08-08 17:25:15.162325"
+## [1] "run_time: 2.52178978919983"
+## [1] "End time: 2025-08-08 17:25:15.315577"
+## [1] "Pass took 2.6912"
 ## [1] "Start pass 358:"
-## [1] "Start time: 2025-08-08 08:12:48.264453"
+## [1] "Start time: 2025-08-08 17:25:15.315948"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:48.278866"
+## [1] "IRT-M start time: 2025-08-08 17:25:15.328277"
 ```
 
 ```
@@ -11289,15 +11285,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:51.130409"
-## [1] "run_time: 2.85154294967651"
-## [1] "End time: 2025-08-08 08:12:51.300781"
-## [1] "Pass took 3.0363"
+## [1] "IRT-M End time: 2025-08-08 17:25:17.837228"
+## [1] "run_time: 2.50895094871521"
+## [1] "End time: 2025-08-08 17:25:17.988902"
+## [1] "Pass took 2.673"
 ## [1] "Start pass 359:"
-## [1] "Start time: 2025-08-08 08:12:51.301351"
+## [1] "Start time: 2025-08-08 17:25:17.989278"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:51.31646"
+## [1] "IRT-M start time: 2025-08-08 17:25:18.000932"
 ```
 
 ```
@@ -11305,15 +11301,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:54.192937"
-## [1] "run_time: 2.87647700309753"
-## [1] "End time: 2025-08-08 08:12:54.362911"
-## [1] "Pass took 3.0616"
+## [1] "IRT-M End time: 2025-08-08 17:25:20.503139"
+## [1] "run_time: 2.50220704078674"
+## [1] "End time: 2025-08-08 17:25:20.654508"
+## [1] "Pass took 2.6652"
 ## [1] "Start pass 360:"
-## [1] "Start time: 2025-08-08 08:12:54.363666"
+## [1] "Start time: 2025-08-08 17:25:20.654876"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:54.377648"
+## [1] "IRT-M start time: 2025-08-08 17:25:20.667416"
 ```
 
 ```
@@ -11321,27 +11317,27 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:12:57.319082"
-## [1] "run_time: 2.94143390655518"
-## [1] "End time: 2025-08-08 08:12:57.479926"
-## [1] "Pass took 3.1163"
+## [1] "IRT-M End time: 2025-08-08 17:25:23.217587"
+## [1] "run_time: 2.5501708984375"
+## [1] "End time: 2025-08-08 17:25:23.36859"
+## [1] "Pass took 2.7137"
 ## [1] "Start pass 361:"
-## [1] "Start time: 2025-08-08 08:12:57.491022"
+## [1] "Start time: 2025-08-08 17:25:23.379966"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 362:"
-## [1] "Start time: 2025-08-08 08:12:57.520142"
+## [1] "Start time: 2025-08-08 17:25:23.544609"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 363:"
-## [1] "Start time: 2025-08-08 08:12:57.550034"
+## [1] "Start time: 2025-08-08 17:25:23.581353"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 364:"
-## [1] "Start time: 2025-08-08 08:12:57.580667"
+## [1] "Start time: 2025-08-08 17:25:23.619107"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:12:57.636679"
+## [1] "IRT-M start time: 2025-08-08 17:25:23.653685"
 ```
 
 ```
@@ -11349,15 +11345,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:01.15577"
-## [1] "run_time: 3.51909112930298"
-## [1] "End time: 2025-08-08 08:13:01.706482"
-## [1] "Pass took 4.1258"
+## [1] "IRT-M End time: 2025-08-08 17:25:26.899963"
+## [1] "run_time: 3.24627780914307"
+## [1] "End time: 2025-08-08 17:25:27.504101"
+## [1] "Pass took 3.885"
 ## [1] "Start pass 365:"
-## [1] "Start time: 2025-08-08 08:13:01.706856"
+## [1] "Start time: 2025-08-08 17:25:27.504537"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:01.733399"
+## [1] "IRT-M start time: 2025-08-08 17:25:27.540514"
 ```
 
 ```
@@ -11365,15 +11361,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:05.245999"
-## [1] "run_time: 3.51260018348694"
-## [1] "End time: 2025-08-08 08:13:05.837148"
-## [1] "Pass took 4.1303"
+## [1] "IRT-M End time: 2025-08-08 17:25:30.627798"
+## [1] "run_time: 3.08728408813477"
+## [1] "End time: 2025-08-08 17:25:31.149903"
+## [1] "Pass took 3.6454"
 ## [1] "Start pass 366:"
-## [1] "Start time: 2025-08-08 08:13:05.848743"
+## [1] "Start time: 2025-08-08 17:25:31.161711"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:05.875065"
+## [1] "IRT-M start time: 2025-08-08 17:25:31.191313"
 ```
 
 ```
@@ -11381,15 +11377,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:09.362829"
-## [1] "run_time: 3.48776388168335"
-## [1] "End time: 2025-08-08 08:13:09.927153"
-## [1] "Pass took 4.0784"
+## [1] "IRT-M End time: 2025-08-08 17:25:34.531743"
+## [1] "run_time: 3.34043002128601"
+## [1] "End time: 2025-08-08 17:25:35.088729"
+## [1] "Pass took 3.927"
 ## [1] "Start pass 367:"
-## [1] "Start time: 2025-08-08 08:13:09.927513"
+## [1] "Start time: 2025-08-08 17:25:35.089316"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:09.976313"
+## [1] "IRT-M start time: 2025-08-08 17:25:35.11887"
 ```
 
 ```
@@ -11397,19 +11393,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:13.393491"
-## [1] "run_time: 3.41717791557312"
-## [1] "End time: 2025-08-08 08:13:13.912707"
-## [1] "Pass took 3.9852"
+## [1] "IRT-M End time: 2025-08-08 17:25:38.178897"
+## [1] "run_time: 3.06002688407898"
+## [1] "End time: 2025-08-08 17:25:38.684902"
+## [1] "Pass took 3.5956"
 ## [1] "Start pass 368:"
-## [1] "Start time: 2025-08-08 08:13:13.913069"
+## [1] "Start time: 2025-08-08 17:25:38.685292"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 369:"
-## [1] "Start time: 2025-08-08 08:13:13.943537"
+## [1] "Start time: 2025-08-08 17:25:38.712468"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:13.972039"
+## [1] "IRT-M start time: 2025-08-08 17:25:38.739204"
 ```
 
 ```
@@ -11417,15 +11413,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:17.485025"
-## [1] "run_time: 3.51298594474792"
-## [1] "End time: 2025-08-08 08:13:18.02355"
-## [1] "Pass took 4.08"
+## [1] "IRT-M End time: 2025-08-08 17:25:42.04618"
+## [1] "run_time: 3.3069760799408"
+## [1] "End time: 2025-08-08 17:25:42.601626"
+## [1] "Pass took 3.8892"
 ## [1] "Start pass 370:"
-## [1] "Start time: 2025-08-08 08:13:18.024107"
+## [1] "Start time: 2025-08-08 17:25:42.602015"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:18.0535"
+## [1] "IRT-M start time: 2025-08-08 17:25:42.631984"
 ```
 
 ```
@@ -11433,15 +11429,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:21.47129"
-## [1] "run_time: 3.41779017448425"
-## [1] "End time: 2025-08-08 08:13:22.03411"
-## [1] "Pass took 4.01"
+## [1] "IRT-M End time: 2025-08-08 17:25:45.653955"
+## [1] "run_time: 3.02197098731995"
+## [1] "End time: 2025-08-08 17:25:46.214801"
+## [1] "Pass took 3.6128"
 ## [1] "Start pass 371:"
-## [1] "Start time: 2025-08-08 08:13:22.045354"
+## [1] "Start time: 2025-08-08 17:25:46.226403"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:22.524037"
+## [1] "IRT-M start time: 2025-08-08 17:25:46.961063"
 ```
 
 ```
@@ -11449,15 +11445,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:13:56.820154"
-## [1] "run_time: 34.296117067337"
-## [1] "End time: 2025-08-08 08:13:59.127026"
-## [1] "Pass took 37.0817"
+## [1] "IRT-M End time: 2025-08-08 17:26:19.793147"
+## [1] "run_time: 32.8320841789246"
+## [1] "End time: 2025-08-08 17:26:22.167815"
+## [1] "Pass took 35.9414"
 ## [1] "Start pass 372:"
-## [1] "Start time: 2025-08-08 08:13:59.127401"
+## [1] "Start time: 2025-08-08 17:26:22.168171"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:13:59.595533"
+## [1] "IRT-M start time: 2025-08-08 17:26:22.650386"
 ```
 
 ```
@@ -11465,15 +11461,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:14:34.110325"
-## [1] "run_time: 34.5147922039032"
-## [1] "End time: 2025-08-08 08:14:36.330244"
-## [1] "Pass took 37.2028"
+## [1] "IRT-M End time: 2025-08-08 17:26:55.350775"
+## [1] "run_time: 32.7003889083862"
+## [1] "End time: 2025-08-08 17:26:57.553576"
+## [1] "Pass took 35.3854"
 ## [1] "Start pass 373:"
-## [1] "Start time: 2025-08-08 08:14:36.330612"
+## [1] "Start time: 2025-08-08 17:26:57.553959"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:14:36.804411"
+## [1] "IRT-M start time: 2025-08-08 17:26:58.036558"
 ```
 
 ```
@@ -11481,15 +11477,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:15:11.022272"
-## [1] "run_time: 34.2178611755371"
-## [1] "End time: 2025-08-08 08:15:13.367359"
-## [1] "Pass took 37.0367"
+## [1] "IRT-M End time: 2025-08-08 17:27:31.359309"
+## [1] "run_time: 33.3227510452271"
+## [1] "End time: 2025-08-08 17:27:33.563375"
+## [1] "Pass took 36.0094"
 ## [1] "Start pass 374:"
-## [1] "Start time: 2025-08-08 08:15:13.36772"
+## [1] "Start time: 2025-08-08 17:27:33.563741"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:15:13.834859"
+## [1] "IRT-M start time: 2025-08-08 17:27:34.038433"
 ```
 
 ```
@@ -11497,15 +11493,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:15:48.206642"
-## [1] "run_time: 34.3717830181122"
-## [1] "End time: 2025-08-08 08:15:50.380721"
-## [1] "Pass took 37.013"
+## [1] "IRT-M End time: 2025-08-08 17:28:06.857854"
+## [1] "run_time: 32.8194208145142"
+## [1] "End time: 2025-08-08 17:28:09.030328"
+## [1] "Pass took 35.4666"
 ## [1] "Start pass 375:"
-## [1] "Start time: 2025-08-08 08:15:50.381075"
+## [1] "Start time: 2025-08-08 17:28:09.030683"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:15:50.863791"
+## [1] "IRT-M start time: 2025-08-08 17:28:09.511863"
 ```
 
 ```
@@ -11513,15 +11509,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:16:26.003912"
-## [1] "run_time: 35.1401209831238"
-## [1] "End time: 2025-08-08 08:16:28.21633"
-## [1] "Pass took 37.8353"
+## [1] "IRT-M End time: 2025-08-08 17:28:42.445933"
+## [1] "run_time: 32.934070110321"
+## [1] "End time: 2025-08-08 17:28:44.63122"
+## [1] "Pass took 35.6005"
 ## [1] "Start pass 376:"
-## [1] "Start time: 2025-08-08 08:16:28.227917"
+## [1] "Start time: 2025-08-08 17:28:44.643209"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:16:28.702072"
+## [1] "IRT-M start time: 2025-08-08 17:28:45.124518"
 ```
 
 ```
@@ -11529,15 +11525,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:17:03.661766"
-## [1] "run_time: 34.95969414711"
-## [1] "End time: 2025-08-08 08:17:06.046618"
-## [1] "Pass took 37.8187"
+## [1] "IRT-M End time: 2025-08-08 17:29:18.357308"
+## [1] "run_time: 33.2327899932861"
+## [1] "End time: 2025-08-08 17:29:20.721146"
+## [1] "Pass took 36.0779"
 ## [1] "Start pass 377:"
-## [1] "Start time: 2025-08-08 08:17:06.046973"
+## [1] "Start time: 2025-08-08 17:29:20.721533"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:17:06.520554"
+## [1] "IRT-M start time: 2025-08-08 17:29:21.212874"
 ```
 
 ```
@@ -11545,15 +11541,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:17:41.268299"
-## [1] "run_time: 34.7477450370789"
-## [1] "End time: 2025-08-08 08:17:43.565479"
-## [1] "Pass took 37.5185"
+## [1] "IRT-M End time: 2025-08-08 17:29:54.004414"
+## [1] "run_time: 32.791540145874"
+## [1] "End time: 2025-08-08 17:29:56.14267"
+## [1] "Pass took 35.4211"
 ## [1] "Start pass 378:"
-## [1] "Start time: 2025-08-08 08:17:43.565949"
+## [1] "Start time: 2025-08-08 17:29:56.143035"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:17:44.039753"
+## [1] "IRT-M start time: 2025-08-08 17:29:56.627501"
 ```
 
 ```
@@ -11561,15 +11557,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:18:18.965974"
-## [1] "run_time: 34.9262211322784"
-## [1] "End time: 2025-08-08 08:18:20.972294"
-## [1] "Pass took 37.4063"
+## [1] "IRT-M End time: 2025-08-08 17:30:29.58562"
+## [1] "run_time: 32.9581189155579"
+## [1] "End time: 2025-08-08 17:30:31.736925"
+## [1] "Pass took 35.5939"
 ## [1] "Start pass 379:"
-## [1] "Start time: 2025-08-08 08:18:20.972665"
+## [1] "Start time: 2025-08-08 17:30:31.737362"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:18:21.446901"
+## [1] "IRT-M start time: 2025-08-08 17:30:32.219533"
 ```
 
 ```
@@ -11577,15 +11573,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:18:55.891359"
-## [1] "run_time: 34.4444580078125"
-## [1] "End time: 2025-08-08 08:18:58.126193"
-## [1] "Pass took 37.1535"
+## [1] "IRT-M End time: 2025-08-08 17:31:04.917446"
+## [1] "run_time: 32.6979129314423"
+## [1] "End time: 2025-08-08 17:31:07.118247"
+## [1] "Pass took 35.3809"
 ## [1] "Start pass 380:"
-## [1] "Start time: 2025-08-08 08:18:58.126555"
+## [1] "Start time: 2025-08-08 17:31:07.118607"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:18:58.596461"
+## [1] "IRT-M start time: 2025-08-08 17:31:07.603194"
 ```
 
 ```
@@ -11593,15 +11589,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:19:32.851611"
-## [1] "run_time: 34.2551498413086"
-## [1] "End time: 2025-08-08 08:19:35.015082"
-## [1] "Pass took 36.8885"
+## [1] "IRT-M End time: 2025-08-08 17:31:40.079406"
+## [1] "run_time: 32.4762120246887"
+## [1] "End time: 2025-08-08 17:31:42.244688"
+## [1] "Pass took 35.1261"
 ## [1] "Start pass 381:"
-## [1] "Start time: 2025-08-08 08:19:35.028423"
+## [1] "Start time: 2025-08-08 17:31:42.257886"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:19:35.21418"
+## [1] "IRT-M start time: 2025-08-08 17:31:42.449838"
 ```
 
 ```
@@ -11609,15 +11605,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:19:51.771903"
-## [1] "run_time: 16.5577230453491"
-## [1] "End time: 2025-08-08 08:19:53.966897"
-## [1] "Pass took 18.9385"
+## [1] "IRT-M End time: 2025-08-08 17:31:58.165342"
+## [1] "run_time: 15.7155041694641"
+## [1] "End time: 2025-08-08 17:32:00.524687"
+## [1] "Pass took 18.2668"
 ## [1] "Start pass 382:"
-## [1] "Start time: 2025-08-08 08:19:53.967273"
+## [1] "Start time: 2025-08-08 17:32:00.525102"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:19:54.151685"
+## [1] "IRT-M start time: 2025-08-08 17:32:00.714407"
 ```
 
 ```
@@ -11625,15 +11621,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:20:10.807848"
-## [1] "run_time: 16.6561629772186"
-## [1] "End time: 2025-08-08 08:20:12.935947"
-## [1] "Pass took 18.9687"
+## [1] "IRT-M End time: 2025-08-08 17:32:16.089532"
+## [1] "run_time: 15.3751249313354"
+## [1] "End time: 2025-08-08 17:32:18.263357"
+## [1] "Pass took 17.7383"
 ## [1] "Start pass 383:"
-## [1] "Start time: 2025-08-08 08:20:12.936291"
+## [1] "Start time: 2025-08-08 17:32:18.263742"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:20:13.127999"
+## [1] "IRT-M start time: 2025-08-08 17:32:18.455312"
 ```
 
 ```
@@ -11641,15 +11637,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:20:29.852173"
-## [1] "run_time: 16.7241740226746"
-## [1] "End time: 2025-08-08 08:20:32.011531"
-## [1] "Pass took 19.0752"
+## [1] "IRT-M End time: 2025-08-08 17:32:33.88191"
+## [1] "run_time: 15.426598072052"
+## [1] "End time: 2025-08-08 17:32:36.011638"
+## [1] "Pass took 17.7479"
 ## [1] "Start pass 384:"
-## [1] "Start time: 2025-08-08 08:20:32.011873"
+## [1] "Start time: 2025-08-08 17:32:36.011995"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:20:32.198924"
+## [1] "IRT-M start time: 2025-08-08 17:32:36.208108"
 ```
 
 ```
@@ -11657,15 +11653,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:20:48.816434"
-## [1] "run_time: 16.6175098419189"
-## [1] "End time: 2025-08-08 08:20:50.970362"
-## [1] "Pass took 18.9585"
+## [1] "IRT-M End time: 2025-08-08 17:32:51.496858"
+## [1] "run_time: 15.2887499332428"
+## [1] "End time: 2025-08-08 17:32:53.603459"
+## [1] "Pass took 17.5915"
 ## [1] "Start pass 385:"
-## [1] "Start time: 2025-08-08 08:20:50.970717"
+## [1] "Start time: 2025-08-08 17:32:53.603821"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:20:51.161733"
+## [1] "IRT-M start time: 2025-08-08 17:32:53.790364"
 ```
 
 ```
@@ -11673,15 +11669,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:21:07.873479"
-## [1] "run_time: 16.7117459774017"
-## [1] "End time: 2025-08-08 08:21:10.050255"
-## [1] "Pass took 19.0795"
+## [1] "IRT-M End time: 2025-08-08 17:33:09.085007"
+## [1] "run_time: 15.2946429252625"
+## [1] "End time: 2025-08-08 17:33:11.193465"
+## [1] "Pass took 17.5896"
 ## [1] "Start pass 386:"
-## [1] "Start time: 2025-08-08 08:21:10.063139"
+## [1] "Start time: 2025-08-08 17:33:11.205309"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:21:10.252384"
+## [1] "IRT-M start time: 2025-08-08 17:33:11.397319"
 ```
 
 ```
@@ -11689,15 +11685,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:21:26.988799"
-## [1] "run_time: 16.7364151477814"
-## [1] "End time: 2025-08-08 08:21:29.130938"
-## [1] "Pass took 19.0678"
+## [1] "IRT-M End time: 2025-08-08 17:33:27.11497"
+## [1] "run_time: 15.7176508903503"
+## [1] "End time: 2025-08-08 17:33:29.417357"
+## [1] "Pass took 18.212"
 ## [1] "Start pass 387:"
-## [1] "Start time: 2025-08-08 08:21:29.131349"
+## [1] "Start time: 2025-08-08 17:33:29.417731"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:21:29.327979"
+## [1] "IRT-M start time: 2025-08-08 17:33:29.610754"
 ```
 
 ```
@@ -11705,15 +11701,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:21:46.075546"
-## [1] "run_time: 16.7475669384003"
-## [1] "End time: 2025-08-08 08:21:48.208581"
-## [1] "Pass took 19.0772"
+## [1] "IRT-M End time: 2025-08-08 17:33:44.914316"
+## [1] "run_time: 15.3035619258881"
+## [1] "End time: 2025-08-08 17:33:47.03154"
+## [1] "Pass took 17.6138"
 ## [1] "Start pass 388:"
-## [1] "Start time: 2025-08-08 08:21:48.208928"
+## [1] "Start time: 2025-08-08 17:33:47.031898"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:21:48.397623"
+## [1] "IRT-M start time: 2025-08-08 17:33:47.223127"
 ```
 
 ```
@@ -11721,15 +11717,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:05.018312"
-## [1] "run_time: 16.6206889152527"
-## [1] "End time: 2025-08-08 08:22:07.129594"
-## [1] "Pass took 18.9207"
+## [1] "IRT-M End time: 2025-08-08 17:34:02.473842"
+## [1] "run_time: 15.2507150173187"
+## [1] "End time: 2025-08-08 17:34:04.826767"
+## [1] "Pass took 17.7949"
 ## [1] "Start pass 389:"
-## [1] "Start time: 2025-08-08 08:22:07.130026"
+## [1] "Start time: 2025-08-08 17:34:04.827259"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:07.323752"
+## [1] "IRT-M start time: 2025-08-08 17:34:05.029953"
 ```
 
 ```
@@ -11737,15 +11733,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:24.086026"
-## [1] "run_time: 16.7622740268707"
-## [1] "End time: 2025-08-08 08:22:26.415484"
-## [1] "Pass took 19.2855"
+## [1] "IRT-M End time: 2025-08-08 17:34:20.330802"
+## [1] "run_time: 15.3008489608765"
+## [1] "End time: 2025-08-08 17:34:22.421136"
+## [1] "Pass took 17.5939"
 ## [1] "Start pass 390:"
-## [1] "Start time: 2025-08-08 08:22:26.415831"
+## [1] "Start time: 2025-08-08 17:34:22.421498"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:26.605307"
+## [1] "IRT-M start time: 2025-08-08 17:34:22.609388"
 ```
 
 ```
@@ -11753,15 +11749,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:43.344303"
-## [1] "run_time: 16.7389957904816"
-## [1] "End time: 2025-08-08 08:22:45.454432"
-## [1] "Pass took 19.0386"
+## [1] "IRT-M End time: 2025-08-08 17:34:37.861343"
+## [1] "run_time: 15.2519547939301"
+## [1] "End time: 2025-08-08 17:34:39.963334"
+## [1] "Pass took 17.5418"
 ## [1] "Start pass 391:"
-## [1] "Start time: 2025-08-08 08:22:45.467049"
+## [1] "Start time: 2025-08-08 17:34:39.975369"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:45.492981"
+## [1] "IRT-M start time: 2025-08-08 17:34:40.000735"
 ```
 
 ```
@@ -11769,15 +11765,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:47.718434"
-## [1] "run_time: 2.22545313835144"
-## [1] "End time: 2025-08-08 08:22:47.792787"
-## [1] "Pass took 2.3257"
+## [1] "IRT-M End time: 2025-08-08 17:34:42.338563"
+## [1] "run_time: 2.3378279209137"
+## [1] "End time: 2025-08-08 17:34:42.414586"
+## [1] "Pass took 2.4392"
 ## [1] "Start pass 392:"
-## [1] "Start time: 2025-08-08 08:22:47.793154"
+## [1] "Start time: 2025-08-08 17:34:42.415271"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:47.819274"
+## [1] "IRT-M start time: 2025-08-08 17:34:42.448961"
 ```
 
 ```
@@ -11785,15 +11781,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:50.077863"
-## [1] "run_time: 2.25858902931213"
-## [1] "End time: 2025-08-08 08:22:50.180128"
-## [1] "Pass took 2.387"
+## [1] "IRT-M End time: 2025-08-08 17:34:44.426605"
+## [1] "run_time: 1.9776439666748"
+## [1] "End time: 2025-08-08 17:34:44.493691"
+## [1] "Pass took 2.0784"
 ## [1] "Start pass 393:"
-## [1] "Start time: 2025-08-08 08:22:50.180479"
+## [1] "Start time: 2025-08-08 17:34:44.494054"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:50.2076"
+## [1] "IRT-M start time: 2025-08-08 17:34:44.520359"
 ```
 
 ```
@@ -11801,335 +11797,335 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:22:52.3611"
-## [1] "run_time: 2.15349984169006"
-## [1] "End time: 2025-08-08 08:22:52.464773"
-## [1] "Pass took 2.2843"
-## [1] "Start pass 394:"
-## [1] "Start time: 2025-08-08 08:22:52.465203"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:52.495018"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:22:54.667117"
-## [1] "run_time: 2.17209911346436"
-## [1] "End time: 2025-08-08 08:22:54.745079"
-## [1] "Pass took 2.2799"
-## [1] "Start pass 395:"
-## [1] "Start time: 2025-08-08 08:22:54.74574"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:54.773159"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:22:56.914964"
-## [1] "run_time: 2.14180493354797"
-## [1] "End time: 2025-08-08 08:22:57.019852"
-## [1] "Pass took 2.2741"
-## [1] "Start pass 396:"
-## [1] "Start time: 2025-08-08 08:22:57.032944"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:57.06003"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:22:59.262464"
-## [1] "run_time: 2.20243406295776"
-## [1] "End time: 2025-08-08 08:22:59.338989"
-## [1] "Pass took 2.306"
-## [1] "Start pass 397:"
-## [1] "Start time: 2025-08-08 08:22:59.339587"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:22:59.367725"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:01.61953"
-## [1] "run_time: 2.25180506706238"
-## [1] "End time: 2025-08-08 08:23:01.720164"
-## [1] "Pass took 2.3806"
-## [1] "Start pass 398:"
-## [1] "Start time: 2025-08-08 08:23:01.72055"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:01.747797"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:03.965274"
-## [1] "run_time: 2.21747708320618"
-## [1] "End time: 2025-08-08 08:23:04.036711"
-## [1] "Pass took 2.3162"
-## [1] "Start pass 399:"
-## [1] "Start time: 2025-08-08 08:23:04.037111"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:04.0653"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:06.299088"
-## [1] "run_time: 2.23378801345825"
-## [1] "End time: 2025-08-08 08:23:06.371479"
-## [1] "Pass took 2.3344"
-## [1] "Start pass 400:"
-## [1] "Start time: 2025-08-08 08:23:06.371957"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:06.400053"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:08.572618"
-## [1] "run_time: 2.17256498336792"
-## [1] "End time: 2025-08-08 08:23:08.646611"
-## [1] "Pass took 2.2747"
-## [1] "Start pass 401:"
-## [1] "Start time: 2025-08-08 08:23:08.659464"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:08.672073"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:09.609541"
-## [1] "run_time: 0.9374680519104"
-## [1] "End time: 2025-08-08 08:23:09.67477"
-## [1] "Pass took 1.0153"
-## [1] "Start pass 402:"
-## [1] "Start time: 2025-08-08 08:23:09.675388"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:09.690813"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:10.645336"
-## [1] "run_time: 0.954522848129272"
-## [1] "End time: 2025-08-08 08:23:10.703086"
-## [1] "Pass took 1.0277"
-## [1] "Start pass 403:"
-## [1] "Start time: 2025-08-08 08:23:10.703456"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:10.714165"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:11.653363"
-## [1] "run_time: 0.939198017120361"
-## [1] "End time: 2025-08-08 08:23:11.711787"
-## [1] "Pass took 1.0083"
-## [1] "Start pass 404:"
-## [1] "Start time: 2025-08-08 08:23:11.712137"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:11.725934"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:12.659829"
-## [1] "run_time: 0.933894872665405"
-## [1] "End time: 2025-08-08 08:23:12.7162"
-## [1] "Pass took 1.0041"
-## [1] "Start pass 405:"
-## [1] "Start time: 2025-08-08 08:23:12.716562"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:12.763115"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:13.684978"
-## [1] "run_time: 0.921863079071045"
-## [1] "End time: 2025-08-08 08:23:13.742172"
-## [1] "Pass took 1.0256"
-## [1] "Start pass 406:"
-## [1] "Start time: 2025-08-08 08:23:13.755896"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:13.768569"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:14.720133"
-## [1] "run_time: 0.951564073562622"
-## [1] "End time: 2025-08-08 08:23:14.775367"
-## [1] "Pass took 1.0195"
-## [1] "Start pass 407:"
-## [1] "Start time: 2025-08-08 08:23:14.775713"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:14.788997"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:15.716706"
-## [1] "run_time: 0.927709102630615"
-## [1] "End time: 2025-08-08 08:23:15.778082"
-## [1] "Pass took 1.0024"
-## [1] "Start pass 408:"
-## [1] "Start time: 2025-08-08 08:23:15.778446"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:15.792132"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:16.73393"
-## [1] "run_time: 0.941798210144043"
-## [1] "End time: 2025-08-08 08:23:16.791419"
-## [1] "Pass took 1.013"
-## [1] "Start pass 409:"
-## [1] "Start time: 2025-08-08 08:23:16.79197"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:16.804837"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:17.781609"
-## [1] "run_time: 0.97677206993103"
-## [1] "End time: 2025-08-08 08:23:17.83892"
-## [1] "Pass took 1.047"
-## [1] "Start pass 410:"
-## [1] "Start time: 2025-08-08 08:23:17.839283"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:17.850763"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:18.828744"
-## [1] "run_time: 0.977980852127075"
-## [1] "End time: 2025-08-08 08:23:18.884328"
-## [1] "Pass took 1.045"
-## [1] "Start pass 411:"
-## [1] "Start time: 2025-08-08 08:23:18.897802"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:18.927142"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:20.74124"
-## [1] "run_time: 1.81409811973572"
-## [1] "End time: 2025-08-08 08:23:20.943522"
-## [1] "Pass took 2.0457"
-## [1] "Start pass 412:"
-## [1] "Start time: 2025-08-08 08:23:20.943886"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:20.970028"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:22.732942"
-## [1] "run_time: 1.76291418075562"
-## [1] "End time: 2025-08-08 08:23:22.934099"
-## [1] "Pass took 1.9902"
-## [1] "Start pass 413:"
-## [1] "Start time: 2025-08-08 08:23:22.93445"
-## [1] "round"
-## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:22.959865"
-```
-
-```
-## Sampling...
-```
-
-```
-## [1] "IRT-M End time: 2025-08-08 08:23:24.746707"
-## [1] "run_time: 1.78684186935425"
-## [1] "End time: 2025-08-08 08:23:24.95337"
+## [1] "IRT-M End time: 2025-08-08 17:34:46.435673"
+## [1] "run_time: 1.9153139591217"
+## [1] "End time: 2025-08-08 17:34:46.512987"
 ## [1] "Pass took 2.0189"
+## [1] "Start pass 394:"
+## [1] "Start time: 2025-08-08 17:34:46.513526"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:46.537876"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:48.455583"
+## [1] "run_time: 1.91770720481873"
+## [1] "End time: 2025-08-08 17:34:48.524774"
+## [1] "Pass took 2.0112"
+## [1] "Start pass 395:"
+## [1] "Start time: 2025-08-08 17:34:48.525155"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:48.556413"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:50.451848"
+## [1] "run_time: 1.89543509483337"
+## [1] "End time: 2025-08-08 17:34:50.520628"
+## [1] "Pass took 1.9955"
+## [1] "Start pass 396:"
+## [1] "Start time: 2025-08-08 17:34:50.532625"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:50.55814"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:52.684411"
+## [1] "run_time: 2.12627100944519"
+## [1] "End time: 2025-08-08 17:34:52.762563"
+## [1] "Pass took 2.2299"
+## [1] "Start pass 397:"
+## [1] "Start time: 2025-08-08 17:34:52.76297"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:52.794761"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:54.731193"
+## [1] "run_time: 1.9364321231842"
+## [1] "End time: 2025-08-08 17:34:54.805238"
+## [1] "Pass took 2.0423"
+## [1] "Start pass 398:"
+## [1] "Start time: 2025-08-08 17:34:54.805747"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:54.833499"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:56.75273"
+## [1] "run_time: 1.91923093795776"
+## [1] "End time: 2025-08-08 17:34:56.823763"
+## [1] "Pass took 2.018"
+## [1] "Start pass 399:"
+## [1] "Start time: 2025-08-08 17:34:56.824121"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:56.849769"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:34:58.748249"
+## [1] "run_time: 1.89847993850708"
+## [1] "End time: 2025-08-08 17:34:58.814228"
+## [1] "Pass took 1.9901"
+## [1] "Start pass 400:"
+## [1] "Start time: 2025-08-08 17:34:58.814689"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:34:58.842146"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:00.770188"
+## [1] "run_time: 1.92804217338562"
+## [1] "End time: 2025-08-08 17:35:00.836706"
+## [1] "Pass took 2.022"
+## [1] "Start pass 401:"
+## [1] "Start time: 2025-08-08 17:35:00.848949"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:00.859824"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:01.851914"
+## [1] "run_time: 0.992089986801147"
+## [1] "End time: 2025-08-08 17:35:01.914356"
+## [1] "Pass took 1.0654"
+## [1] "Start pass 402:"
+## [1] "Start time: 2025-08-08 17:35:01.914863"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:01.930944"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:02.789569"
+## [1] "run_time: 0.858624935150146"
+## [1] "End time: 2025-08-08 17:35:02.84471"
+## [1] "Pass took 0.9298"
+## [1] "Start pass 403:"
+## [1] "Start time: 2025-08-08 17:35:02.845077"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:02.859784"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:03.68074"
+## [1] "run_time: 0.820956230163574"
+## [1] "End time: 2025-08-08 17:35:03.740042"
+## [1] "Pass took 0.895"
+## [1] "Start pass 404:"
+## [1] "Start time: 2025-08-08 17:35:03.740521"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:03.752067"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:04.573119"
+## [1] "run_time: 0.821051836013794"
+## [1] "End time: 2025-08-08 17:35:04.622413"
+## [1] "Pass took 0.8819"
+## [1] "Start pass 405:"
+## [1] "Start time: 2025-08-08 17:35:04.62276"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:04.634866"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:05.476539"
+## [1] "run_time: 0.841672897338867"
+## [1] "End time: 2025-08-08 17:35:05.526561"
+## [1] "Pass took 0.9038"
+## [1] "Start pass 406:"
+## [1] "Start time: 2025-08-08 17:35:05.538946"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:05.549983"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:06.527548"
+## [1] "run_time: 0.977565050125122"
+## [1] "End time: 2025-08-08 17:35:06.585134"
+## [1] "Pass took 1.0462"
+## [1] "Start pass 407:"
+## [1] "Start time: 2025-08-08 17:35:06.585557"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:06.604414"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:07.462701"
+## [1] "run_time: 0.85828709602356"
+## [1] "End time: 2025-08-08 17:35:07.527663"
+## [1] "Pass took 0.9421"
+## [1] "Start pass 408:"
+## [1] "Start time: 2025-08-08 17:35:07.528041"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:07.543251"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:08.409189"
+## [1] "run_time: 0.865937948226929"
+## [1] "End time: 2025-08-08 17:35:08.461798"
+## [1] "Pass took 0.9338"
+## [1] "Start pass 409:"
+## [1] "Start time: 2025-08-08 17:35:08.462206"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:08.474282"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:09.275262"
+## [1] "run_time: 0.800980091094971"
+## [1] "End time: 2025-08-08 17:35:09.324414"
+## [1] "Pass took 0.8622"
+## [1] "Start pass 410:"
+## [1] "Start time: 2025-08-08 17:35:09.324768"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:09.335542"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:10.158603"
+## [1] "run_time: 0.823060989379883"
+## [1] "End time: 2025-08-08 17:35:10.213607"
+## [1] "Pass took 0.8888"
+## [1] "Start pass 411:"
+## [1] "Start time: 2025-08-08 17:35:10.226351"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:10.251309"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:11.923742"
+## [1] "run_time: 1.67243313789368"
+## [1] "End time: 2025-08-08 17:35:12.13235"
+## [1] "Pass took 1.906"
+## [1] "Start pass 412:"
+## [1] "Start time: 2025-08-08 17:35:12.132851"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:12.225544"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:13.794821"
+## [1] "run_time: 1.56927704811096"
+## [1] "End time: 2025-08-08 17:35:13.993998"
+## [1] "Pass took 1.8611"
+## [1] "Start pass 413:"
+## [1] "Start time: 2025-08-08 17:35:13.994372"
+## [1] "round"
+## [1] "Running IRT-M"
+## [1] "IRT-M start time: 2025-08-08 17:35:14.026778"
+```
+
+```
+## Sampling...
+```
+
+```
+## [1] "IRT-M End time: 2025-08-08 17:35:15.628902"
+## [1] "run_time: 1.60212397575378"
+## [1] "End time: 2025-08-08 17:35:15.821508"
+## [1] "Pass took 1.8271"
 ## [1] "Start pass 414:"
-## [1] "Start time: 2025-08-08 08:23:24.953748"
+## [1] "Start time: 2025-08-08 17:35:15.82187"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:24.982348"
+## [1] "IRT-M start time: 2025-08-08 17:35:15.851637"
 ```
 
 ```
@@ -12137,15 +12133,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:26.757674"
-## [1] "run_time: 1.77532601356506"
-## [1] "End time: 2025-08-08 08:23:26.960925"
-## [1] "Pass took 2.0072"
+## [1] "IRT-M End time: 2025-08-08 17:35:17.492067"
+## [1] "run_time: 1.64043021202087"
+## [1] "End time: 2025-08-08 17:35:17.69143"
+## [1] "Pass took 1.8696"
 ## [1] "Start pass 415:"
-## [1] "Start time: 2025-08-08 08:23:26.961279"
+## [1] "Start time: 2025-08-08 17:35:17.691811"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:26.988931"
+## [1] "IRT-M start time: 2025-08-08 17:35:17.718193"
 ```
 
 ```
@@ -12153,15 +12149,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:28.838651"
-## [1] "run_time: 1.8497200012207"
-## [1] "End time: 2025-08-08 08:23:29.042832"
-## [1] "Pass took 2.0816"
+## [1] "IRT-M End time: 2025-08-08 17:35:19.273899"
+## [1] "run_time: 1.55570602416992"
+## [1] "End time: 2025-08-08 17:35:19.455864"
+## [1] "Pass took 1.7641"
 ## [1] "Start pass 416:"
-## [1] "Start time: 2025-08-08 08:23:29.056913"
+## [1] "Start time: 2025-08-08 17:35:19.468664"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:29.084436"
+## [1] "IRT-M start time: 2025-08-08 17:35:19.494039"
 ```
 
 ```
@@ -12169,15 +12165,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:31.01928"
-## [1] "run_time: 1.93484401702881"
-## [1] "End time: 2025-08-08 08:23:31.255056"
-## [1] "Pass took 2.1981"
+## [1] "IRT-M End time: 2025-08-08 17:35:21.207152"
+## [1] "run_time: 1.71311283111572"
+## [1] "End time: 2025-08-08 17:35:21.418613"
+## [1] "Pass took 1.9499"
 ## [1] "Start pass 417:"
-## [1] "Start time: 2025-08-08 08:23:31.255486"
+## [1] "Start time: 2025-08-08 17:35:21.419042"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:31.284955"
+## [1] "IRT-M start time: 2025-08-08 17:35:21.455458"
 ```
 
 ```
@@ -12185,15 +12181,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:33.060385"
-## [1] "run_time: 1.77542996406555"
-## [1] "End time: 2025-08-08 08:23:33.287449"
-## [1] "Pass took 2.032"
+## [1] "IRT-M End time: 2025-08-08 17:35:23.005579"
+## [1] "run_time: 1.55012106895447"
+## [1] "End time: 2025-08-08 17:35:23.212337"
+## [1] "Pass took 1.7933"
 ## [1] "Start pass 418:"
-## [1] "Start time: 2025-08-08 08:23:33.287923"
+## [1] "Start time: 2025-08-08 17:35:23.212713"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:33.32364"
+## [1] "IRT-M start time: 2025-08-08 17:35:23.245614"
 ```
 
 ```
@@ -12201,15 +12197,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:35.101738"
-## [1] "run_time: 1.7780978679657"
-## [1] "End time: 2025-08-08 08:23:35.307809"
-## [1] "Pass took 2.0199"
+## [1] "IRT-M End time: 2025-08-08 17:35:24.842756"
+## [1] "run_time: 1.59714198112488"
+## [1] "End time: 2025-08-08 17:35:25.053074"
+## [1] "Pass took 1.8404"
 ## [1] "Start pass 419:"
-## [1] "Start time: 2025-08-08 08:23:35.30816"
+## [1] "Start time: 2025-08-08 17:35:25.05355"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:35.335084"
+## [1] "IRT-M start time: 2025-08-08 17:35:25.086773"
 ```
 
 ```
@@ -12217,15 +12213,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:37.159609"
-## [1] "run_time: 1.82452511787415"
-## [1] "End time: 2025-08-08 08:23:37.362775"
-## [1] "Pass took 2.0546"
+## [1] "IRT-M End time: 2025-08-08 17:35:26.680161"
+## [1] "run_time: 1.59338808059692"
+## [1] "End time: 2025-08-08 17:35:26.862617"
+## [1] "Pass took 1.8091"
 ## [1] "Start pass 420:"
-## [1] "Start time: 2025-08-08 08:23:37.363287"
+## [1] "Start time: 2025-08-08 17:35:26.862983"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:37.39188"
+## [1] "IRT-M start time: 2025-08-08 17:35:26.888183"
 ```
 
 ```
@@ -12233,15 +12229,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:39.205756"
-## [1] "run_time: 1.81387591362"
-## [1] "End time: 2025-08-08 08:23:39.405129"
-## [1] "Pass took 2.0418"
+## [1] "IRT-M End time: 2025-08-08 17:35:28.465519"
+## [1] "run_time: 1.57733583450317"
+## [1] "End time: 2025-08-08 17:35:28.648823"
+## [1] "Pass took 1.7858"
 ## [1] "Start pass 421:"
-## [1] "Start time: 2025-08-08 08:23:39.418571"
+## [1] "Start time: 2025-08-08 17:35:28.662629"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:39.425609"
+## [1] "IRT-M start time: 2025-08-08 17:35:28.66973"
 ```
 
 ```
@@ -12249,15 +12245,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:39.96901"
-## [1] "run_time: 0.543401002883911"
-## [1] "End time: 2025-08-08 08:23:40.026182"
-## [1] "Pass took 0.6076"
+## [1] "IRT-M End time: 2025-08-08 17:35:29.265069"
+## [1] "run_time: 0.595339059829712"
+## [1] "End time: 2025-08-08 17:35:29.338094"
+## [1] "Pass took 0.6755"
 ## [1] "Start pass 422:"
-## [1] "Start time: 2025-08-08 08:23:40.026526"
+## [1] "Start time: 2025-08-08 17:35:29.338512"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:40.034404"
+## [1] "IRT-M start time: 2025-08-08 17:35:29.347548"
 ```
 
 ```
@@ -12265,15 +12261,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:40.562752"
-## [1] "run_time: 0.528347969055176"
-## [1] "End time: 2025-08-08 08:23:40.61746"
-## [1] "Pass took 0.5909"
+## [1] "IRT-M End time: 2025-08-08 17:35:29.807035"
+## [1] "run_time: 0.459486961364746"
+## [1] "End time: 2025-08-08 17:35:29.862901"
+## [1] "Pass took 0.5244"
 ## [1] "Start pass 423:"
-## [1] "Start time: 2025-08-08 08:23:40.617857"
+## [1] "Start time: 2025-08-08 17:35:29.863299"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:40.628688"
+## [1] "IRT-M start time: 2025-08-08 17:35:29.87241"
 ```
 
 ```
@@ -12281,15 +12277,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:41.150971"
-## [1] "run_time: 0.522282838821411"
-## [1] "End time: 2025-08-08 08:23:41.200349"
-## [1] "Pass took 0.5825"
+## [1] "IRT-M End time: 2025-08-08 17:35:30.319661"
+## [1] "run_time: 0.447250843048096"
+## [1] "End time: 2025-08-08 17:35:30.369654"
+## [1] "Pass took 0.5064"
 ## [1] "Start pass 424:"
-## [1] "Start time: 2025-08-08 08:23:41.20087"
+## [1] "Start time: 2025-08-08 17:35:30.370078"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:41.20858"
+## [1] "IRT-M start time: 2025-08-08 17:35:30.378565"
 ```
 
 ```
@@ -12297,15 +12293,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:41.727672"
-## [1] "run_time: 0.519092082977295"
-## [1] "End time: 2025-08-08 08:23:41.7775"
-## [1] "Pass took 0.5766"
+## [1] "IRT-M End time: 2025-08-08 17:35:30.823145"
+## [1] "run_time: 0.444579839706421"
+## [1] "End time: 2025-08-08 17:35:30.874664"
+## [1] "Pass took 0.5046"
 ## [1] "Start pass 425:"
-## [1] "Start time: 2025-08-08 08:23:41.777852"
+## [1] "Start time: 2025-08-08 17:35:30.875033"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:41.785111"
+## [1] "IRT-M start time: 2025-08-08 17:35:30.883074"
 ```
 
 ```
@@ -12313,15 +12309,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:42.300813"
-## [1] "run_time: 0.51570200920105"
-## [1] "End time: 2025-08-08 08:23:42.353539"
-## [1] "Pass took 0.5757"
+## [1] "IRT-M End time: 2025-08-08 17:35:31.374858"
+## [1] "run_time: 0.491783857345581"
+## [1] "End time: 2025-08-08 17:35:31.424493"
+## [1] "Pass took 0.5495"
 ## [1] "Start pass 426:"
-## [1] "Start time: 2025-08-08 08:23:42.367882"
+## [1] "Start time: 2025-08-08 17:35:31.438937"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:42.375578"
+## [1] "IRT-M start time: 2025-08-08 17:35:31.448043"
 ```
 
 ```
@@ -12329,15 +12325,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:42.890118"
-## [1] "run_time: 0.514539957046509"
-## [1] "End time: 2025-08-08 08:23:42.941896"
-## [1] "Pass took 0.574"
+## [1] "IRT-M End time: 2025-08-08 17:35:32.051226"
+## [1] "run_time: 0.603182792663574"
+## [1] "End time: 2025-08-08 17:35:32.103559"
+## [1] "Pass took 0.6646"
 ## [1] "Start pass 427:"
-## [1] "Start time: 2025-08-08 08:23:42.942389"
+## [1] "Start time: 2025-08-08 17:35:32.104017"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:42.950156"
+## [1] "IRT-M start time: 2025-08-08 17:35:32.113543"
 ```
 
 ```
@@ -12345,15 +12341,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:43.475415"
-## [1] "run_time: 0.525259017944336"
-## [1] "End time: 2025-08-08 08:23:43.531077"
-## [1] "Pass took 0.5887"
+## [1] "IRT-M End time: 2025-08-08 17:35:32.582901"
+## [1] "run_time: 0.469357967376709"
+## [1] "End time: 2025-08-08 17:35:32.632655"
+## [1] "Pass took 0.5286"
 ## [1] "Start pass 428:"
-## [1] "Start time: 2025-08-08 08:23:43.531424"
+## [1] "Start time: 2025-08-08 17:35:32.633032"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:43.539184"
+## [1] "IRT-M start time: 2025-08-08 17:35:32.642065"
 ```
 
 ```
@@ -12361,15 +12357,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:44.049783"
-## [1] "run_time: 0.51059889793396"
-## [1] "End time: 2025-08-08 08:23:44.098693"
-## [1] "Pass took 0.5673"
+## [1] "IRT-M End time: 2025-08-08 17:35:33.099708"
+## [1] "run_time: 0.457643032073975"
+## [1] "End time: 2025-08-08 17:35:33.149351"
+## [1] "Pass took 0.5163"
 ## [1] "Start pass 429:"
-## [1] "Start time: 2025-08-08 08:23:44.099071"
+## [1] "Start time: 2025-08-08 17:35:33.149701"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:44.107487"
+## [1] "IRT-M start time: 2025-08-08 17:35:33.159164"
 ```
 
 ```
@@ -12377,15 +12373,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:44.636221"
-## [1] "run_time: 0.528733968734741"
-## [1] "End time: 2025-08-08 08:23:44.686847"
-## [1] "Pass took 0.5878"
+## [1] "IRT-M End time: 2025-08-08 17:35:33.622324"
+## [1] "run_time: 0.463160037994385"
+## [1] "End time: 2025-08-08 17:35:33.671287"
+## [1] "Pass took 0.5216"
 ## [1] "Start pass 430:"
-## [1] "Start time: 2025-08-08 08:23:44.687196"
+## [1] "Start time: 2025-08-08 17:35:33.671643"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:44.694565"
+## [1] "IRT-M start time: 2025-08-08 17:35:33.680104"
 ```
 
 ```
@@ -12393,15 +12389,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:45.190547"
-## [1] "run_time: 0.495981931686401"
-## [1] "End time: 2025-08-08 08:23:45.246797"
-## [1] "Pass took 0.5596"
+## [1] "IRT-M End time: 2025-08-08 17:35:34.150263"
+## [1] "run_time: 0.47015905380249"
+## [1] "End time: 2025-08-08 17:35:34.202433"
+## [1] "Pass took 0.5308"
 ## [1] "Start pass 431:"
-## [1] "Start time: 2025-08-08 08:23:45.263409"
+## [1] "Start time: 2025-08-08 17:35:34.215782"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:45.348609"
+## [1] "IRT-M start time: 2025-08-08 17:35:34.275158"
 ```
 
 ```
@@ -12409,15 +12405,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:48.838969"
-## [1] "run_time: 3.49036002159119"
-## [1] "End time: 2025-08-08 08:23:48.995062"
-## [1] "Pass took 3.7317"
+## [1] "IRT-M End time: 2025-08-08 17:35:37.019218"
+## [1] "run_time: 2.74406003952026"
+## [1] "End time: 2025-08-08 17:35:37.163057"
+## [1] "Pass took 2.9473"
 ## [1] "Start pass 432:"
-## [1] "Start time: 2025-08-08 08:23:48.995662"
+## [1] "Start time: 2025-08-08 17:35:37.163497"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:49.061094"
+## [1] "IRT-M start time: 2025-08-08 17:35:37.230628"
 ```
 
 ```
@@ -12425,15 +12421,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:52.167364"
-## [1] "run_time: 3.10626983642578"
-## [1] "End time: 2025-08-08 08:23:52.302309"
-## [1] "Pass took 3.3066"
+## [1] "IRT-M End time: 2025-08-08 17:35:39.920844"
+## [1] "run_time: 2.69021606445312"
+## [1] "End time: 2025-08-08 17:35:40.067727"
+## [1] "Pass took 2.9042"
 ## [1] "Start pass 433:"
-## [1] "Start time: 2025-08-08 08:23:52.302693"
+## [1] "Start time: 2025-08-08 17:35:40.068119"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:52.353777"
+## [1] "IRT-M start time: 2025-08-08 17:35:40.129186"
 ```
 
 ```
@@ -12441,15 +12437,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:55.251132"
-## [1] "run_time: 2.89735507965088"
-## [1] "End time: 2025-08-08 08:23:55.398599"
-## [1] "Pass took 3.0959"
+## [1] "IRT-M End time: 2025-08-08 17:35:42.755768"
+## [1] "run_time: 2.62658214569092"
+## [1] "End time: 2025-08-08 17:35:42.878984"
+## [1] "Pass took 2.8109"
 ## [1] "Start pass 434:"
-## [1] "Start time: 2025-08-08 08:23:55.398965"
+## [1] "Start time: 2025-08-08 17:35:42.879338"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:55.451523"
+## [1] "IRT-M start time: 2025-08-08 17:35:42.928008"
 ```
 
 ```
@@ -12457,15 +12453,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:23:58.400914"
-## [1] "run_time: 2.94939088821411"
-## [1] "End time: 2025-08-08 08:23:58.53596"
-## [1] "Pass took 3.137"
+## [1] "IRT-M End time: 2025-08-08 17:35:45.567796"
+## [1] "run_time: 2.63978791236877"
+## [1] "End time: 2025-08-08 17:35:45.69233"
+## [1] "Pass took 2.813"
 ## [1] "Start pass 435:"
-## [1] "Start time: 2025-08-08 08:23:58.536325"
+## [1] "Start time: 2025-08-08 17:35:45.692678"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:23:58.588809"
+## [1] "IRT-M start time: 2025-08-08 17:35:45.741493"
 ```
 
 ```
@@ -12473,15 +12469,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:01.574036"
-## [1] "run_time: 2.98522686958313"
-## [1] "End time: 2025-08-08 08:24:01.721131"
-## [1] "Pass took 3.1848"
+## [1] "IRT-M End time: 2025-08-08 17:35:48.324703"
+## [1] "run_time: 2.58320999145508"
+## [1] "End time: 2025-08-08 17:35:48.453641"
+## [1] "Pass took 2.761"
 ## [1] "Start pass 436:"
-## [1] "Start time: 2025-08-08 08:24:01.736414"
+## [1] "Start time: 2025-08-08 17:35:48.466701"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:01.794172"
+## [1] "IRT-M start time: 2025-08-08 17:35:48.513348"
 ```
 
 ```
@@ -12489,15 +12485,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:04.731096"
-## [1] "run_time: 2.93692398071289"
-## [1] "End time: 2025-08-08 08:24:04.870007"
-## [1] "Pass took 3.1336"
+## [1] "IRT-M End time: 2025-08-08 17:35:51.228223"
+## [1] "run_time: 2.71487498283386"
+## [1] "End time: 2025-08-08 17:35:51.373467"
+## [1] "Pass took 2.9068"
 ## [1] "Start pass 437:"
-## [1] "Start time: 2025-08-08 08:24:04.870577"
+## [1] "Start time: 2025-08-08 17:35:51.37392"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:04.927639"
+## [1] "IRT-M start time: 2025-08-08 17:35:51.440283"
 ```
 
 ```
@@ -12505,15 +12501,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:07.909733"
-## [1] "run_time: 2.98209404945374"
-## [1] "End time: 2025-08-08 08:24:08.04838"
-## [1] "Pass took 3.1778"
+## [1] "IRT-M End time: 2025-08-08 17:35:54.072205"
+## [1] "run_time: 2.63192200660706"
+## [1] "End time: 2025-08-08 17:35:54.22668"
+## [1] "Pass took 2.8528"
 ## [1] "Start pass 438:"
-## [1] "Start time: 2025-08-08 08:24:08.048735"
+## [1] "Start time: 2025-08-08 17:35:54.227142"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:08.101493"
+## [1] "IRT-M start time: 2025-08-08 17:35:54.287544"
 ```
 
 ```
@@ -12521,15 +12517,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:11.134936"
-## [1] "run_time: 3.03344321250916"
-## [1] "End time: 2025-08-08 08:24:11.269416"
-## [1] "Pass took 3.2207"
+## [1] "IRT-M End time: 2025-08-08 17:35:56.929726"
+## [1] "run_time: 2.64218187332153"
+## [1] "End time: 2025-08-08 17:35:57.057632"
+## [1] "Pass took 2.8305"
 ## [1] "Start pass 439:"
-## [1] "Start time: 2025-08-08 08:24:11.269924"
+## [1] "Start time: 2025-08-08 17:35:57.058055"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:11.330666"
+## [1] "IRT-M start time: 2025-08-08 17:35:57.105955"
 ```
 
 ```
@@ -12537,15 +12533,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:14.295602"
-## [1] "run_time: 2.96493601799011"
-## [1] "End time: 2025-08-08 08:24:14.429661"
-## [1] "Pass took 3.1597"
+## [1] "IRT-M End time: 2025-08-08 17:35:59.761402"
+## [1] "run_time: 2.65544700622559"
+## [1] "End time: 2025-08-08 17:35:59.883712"
+## [1] "Pass took 2.8257"
 ## [1] "Start pass 440:"
-## [1] "Start time: 2025-08-08 08:24:14.430024"
+## [1] "Start time: 2025-08-08 17:35:59.884074"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:14.478385"
+## [1] "IRT-M start time: 2025-08-08 17:35:59.932508"
 ```
 
 ```
@@ -12553,15 +12549,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:17.4027"
-## [1] "run_time: 2.92431497573853"
-## [1] "End time: 2025-08-08 08:24:17.561093"
-## [1] "Pass took 3.1311"
+## [1] "IRT-M End time: 2025-08-08 17:36:02.508291"
+## [1] "run_time: 2.57578301429749"
+## [1] "End time: 2025-08-08 17:36:02.637611"
+## [1] "Pass took 2.7535"
 ## [1] "Start pass 441:"
-## [1] "Start time: 2025-08-08 08:24:17.57606"
+## [1] "Start time: 2025-08-08 17:36:02.651999"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:17.584037"
+## [1] "IRT-M start time: 2025-08-08 17:36:02.659545"
 ```
 
 ```
@@ -12569,15 +12565,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:19.210551"
-## [1] "run_time: 1.62651395797729"
-## [1] "End time: 2025-08-08 08:24:19.362323"
-## [1] "Pass took 1.7863"
+## [1] "IRT-M End time: 2025-08-08 17:36:04.225823"
+## [1] "run_time: 1.56627798080444"
+## [1] "End time: 2025-08-08 17:36:04.383905"
+## [1] "Pass took 1.7319"
 ## [1] "Start pass 442:"
-## [1] "Start time: 2025-08-08 08:24:19.362691"
+## [1] "Start time: 2025-08-08 17:36:04.384407"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:19.371266"
+## [1] "IRT-M start time: 2025-08-08 17:36:04.412302"
 ```
 
 ```
@@ -12585,15 +12581,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:21.061888"
-## [1] "run_time: 1.69062209129333"
-## [1] "End time: 2025-08-08 08:24:21.209988"
-## [1] "Pass took 1.8473"
+## [1] "IRT-M End time: 2025-08-08 17:36:05.914132"
+## [1] "run_time: 1.50183010101318"
+## [1] "End time: 2025-08-08 17:36:06.061163"
+## [1] "Pass took 1.6768"
 ## [1] "Start pass 443:"
-## [1] "Start time: 2025-08-08 08:24:21.210403"
+## [1] "Start time: 2025-08-08 17:36:06.061541"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:21.218671"
+## [1] "IRT-M start time: 2025-08-08 17:36:06.07106"
 ```
 
 ```
@@ -12601,15 +12597,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:22.83067"
-## [1] "run_time: 1.61199903488159"
-## [1] "End time: 2025-08-08 08:24:23.009942"
-## [1] "Pass took 1.7995"
+## [1] "IRT-M End time: 2025-08-08 17:36:07.471531"
+## [1] "run_time: 1.40047097206116"
+## [1] "End time: 2025-08-08 17:36:07.614035"
+## [1] "Pass took 1.5525"
 ## [1] "Start pass 444:"
-## [1] "Start time: 2025-08-08 08:24:23.010376"
+## [1] "Start time: 2025-08-08 17:36:07.614393"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:23.018667"
+## [1] "IRT-M start time: 2025-08-08 17:36:07.622707"
 ```
 
 ```
@@ -12617,15 +12613,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:24.636534"
-## [1] "run_time: 1.61786699295044"
-## [1] "End time: 2025-08-08 08:24:24.785969"
-## [1] "Pass took 1.7756"
+## [1] "IRT-M End time: 2025-08-08 17:36:09.015885"
+## [1] "run_time: 1.3931782245636"
+## [1] "End time: 2025-08-08 17:36:09.151652"
+## [1] "Pass took 1.5373"
 ## [1] "Start pass 445:"
-## [1] "Start time: 2025-08-08 08:24:24.786341"
+## [1] "Start time: 2025-08-08 17:36:09.15213"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:24.795039"
+## [1] "IRT-M start time: 2025-08-08 17:36:09.16015"
 ```
 
 ```
@@ -12633,23 +12629,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:26.445906"
-## [1] "run_time: 1.65086698532104"
-## [1] "End time: 2025-08-08 08:24:26.602751"
-## [1] "Pass took 1.8164"
+## [1] "IRT-M End time: 2025-08-08 17:36:10.553465"
+## [1] "run_time: 1.39331483840942"
+## [1] "End time: 2025-08-08 17:36:10.68783"
+## [1] "Pass took 1.5357"
 ## [1] "Start pass 446:"
-## [1] "Start time: 2025-08-08 08:24:26.619374"
+## [1] "Start time: 2025-08-08 17:36:10.701572"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 447:"
-## [1] "Start time: 2025-08-08 08:24:26.630477"
+## [1] "Start time: 2025-08-08 17:36:10.710671"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 448:"
-## [1] "Start time: 2025-08-08 08:24:26.64024"
+## [1] "Start time: 2025-08-08 17:36:10.718802"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:26.648573"
+## [1] "IRT-M start time: 2025-08-08 17:36:10.726363"
 ```
 
 ```
@@ -12657,15 +12653,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:28.2609"
-## [1] "run_time: 1.61232709884644"
-## [1] "End time: 2025-08-08 08:24:28.41432"
-## [1] "Pass took 1.7741"
+## [1] "IRT-M End time: 2025-08-08 17:36:12.415357"
+## [1] "run_time: 1.68899416923523"
+## [1] "End time: 2025-08-08 17:36:12.577448"
+## [1] "Pass took 1.8586"
 ## [1] "Start pass 449:"
-## [1] "Start time: 2025-08-08 08:24:28.414694"
+## [1] "Start time: 2025-08-08 17:36:12.57797"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:28.423783"
+## [1] "IRT-M start time: 2025-08-08 17:36:12.589929"
 ```
 
 ```
@@ -12673,15 +12669,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:30.125164"
-## [1] "run_time: 1.70138096809387"
-## [1] "End time: 2025-08-08 08:24:30.307702"
-## [1] "Pass took 1.893"
+## [1] "IRT-M End time: 2025-08-08 17:36:14.062921"
+## [1] "run_time: 1.47299194335938"
+## [1] "End time: 2025-08-08 17:36:14.219254"
+## [1] "Pass took 1.6413"
 ## [1] "Start pass 450:"
-## [1] "Start time: 2025-08-08 08:24:30.308232"
+## [1] "Start time: 2025-08-08 17:36:14.219669"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:30.317143"
+## [1] "IRT-M start time: 2025-08-08 17:36:14.231503"
 ```
 
 ```
@@ -12689,23 +12685,23 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:31.909161"
-## [1] "run_time: 1.59201812744141"
-## [1] "End time: 2025-08-08 08:24:32.06433"
-## [1] "Pass took 1.7561"
+## [1] "IRT-M End time: 2025-08-08 17:36:15.674625"
+## [1] "run_time: 1.44312191009521"
+## [1] "End time: 2025-08-08 17:36:15.81331"
+## [1] "Pass took 1.5936"
 ## [1] "Start pass 451:"
-## [1] "Start time: 2025-08-08 08:24:32.079816"
+## [1] "Start time: 2025-08-08 17:36:15.827271"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 452:"
-## [1] "Start time: 2025-08-08 08:24:32.136712"
+## [1] "Start time: 2025-08-08 17:36:16.002615"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 453:"
-## [1] "Start time: 2025-08-08 08:24:32.188726"
+## [1] "Start time: 2025-08-08 17:36:16.072543"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:32.239314"
+## [1] "IRT-M start time: 2025-08-08 17:36:16.162472"
 ```
 
 ```
@@ -12713,31 +12709,31 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:36.33328"
-## [1] "run_time: 4.09396600723267"
-## [1] "End time: 2025-08-08 08:24:37.109893"
-## [1] "Pass took 4.9212"
+## [1] "IRT-M End time: 2025-08-08 17:36:19.943162"
+## [1] "run_time: 3.78068995475769"
+## [1] "End time: 2025-08-08 17:36:20.790353"
+## [1] "Pass took 4.7178"
 ## [1] "Start pass 454:"
-## [1] "Start time: 2025-08-08 08:24:37.110228"
+## [1] "Start time: 2025-08-08 17:36:20.790794"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 455:"
-## [1] "Start time: 2025-08-08 08:24:37.161803"
+## [1] "Start time: 2025-08-08 17:36:20.856885"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 456:"
-## [1] "Start time: 2025-08-08 08:24:37.213192"
+## [1] "Start time: 2025-08-08 17:36:20.926295"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 457:"
-## [1] "Start time: 2025-08-08 08:24:37.264694"
+## [1] "Start time: 2025-08-08 17:36:20.985287"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 458:"
-## [1] "Start time: 2025-08-08 08:24:37.314207"
+## [1] "Start time: 2025-08-08 17:36:21.169171"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:37.37326"
+## [1] "IRT-M start time: 2025-08-08 17:36:21.249565"
 ```
 
 ```
@@ -12745,15 +12741,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:41.318495"
-## [1] "run_time: 3.94523501396179"
-## [1] "End time: 2025-08-08 08:24:42.08413"
-## [1] "Pass took 4.7699"
+## [1] "IRT-M End time: 2025-08-08 17:36:24.891412"
+## [1] "run_time: 3.64184713363647"
+## [1] "End time: 2025-08-08 17:36:26.055945"
+## [1] "Pass took 4.8868"
 ## [1] "Start pass 459:"
-## [1] "Start time: 2025-08-08 08:24:42.084475"
+## [1] "Start time: 2025-08-08 17:36:26.056299"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:42.134644"
+## [1] "IRT-M start time: 2025-08-08 17:36:26.106324"
 ```
 
 ```
@@ -12761,19 +12757,19 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:46.072397"
-## [1] "run_time: 3.93775296211243"
-## [1] "End time: 2025-08-08 08:24:46.826577"
-## [1] "Pass took 4.7421"
+## [1] "IRT-M End time: 2025-08-08 17:36:29.626638"
+## [1] "run_time: 3.52031397819519"
+## [1] "End time: 2025-08-08 17:36:30.387464"
+## [1] "Pass took 4.3312"
 ## [1] "Start pass 460:"
-## [1] "Start time: 2025-08-08 08:24:46.826921"
+## [1] "Start time: 2025-08-08 17:36:30.387866"
 ## [1] "round"
 ## [1] "Model incompatible with sem/cfa; wrote dtails"
 ## [1] "Start pass 461:"
-## [1] "Start time: 2025-08-08 08:24:46.880457"
+## [1] "Start time: 2025-08-08 17:36:30.455873"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:46.891949"
+## [1] "IRT-M start time: 2025-08-08 17:36:30.470991"
 ```
 
 ```
@@ -12781,15 +12777,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:47.689011"
-## [1] "run_time: 0.797062158584595"
-## [1] "End time: 2025-08-08 08:24:47.726381"
-## [1] "Pass took 0.8459"
+## [1] "IRT-M End time: 2025-08-08 17:36:31.381606"
+## [1] "run_time: 0.910615205764771"
+## [1] "End time: 2025-08-08 17:36:31.421618"
+## [1] "Pass took 0.9657"
 ## [1] "Start pass 462:"
-## [1] "Start time: 2025-08-08 08:24:47.72691"
+## [1] "Start time: 2025-08-08 17:36:31.422346"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:47.743306"
+## [1] "IRT-M start time: 2025-08-08 17:36:31.439797"
 ```
 
 ```
@@ -12797,15 +12793,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:48.540753"
-## [1] "run_time: 0.797446966171265"
-## [1] "End time: 2025-08-08 08:24:48.579818"
-## [1] "Pass took 0.8529"
+## [1] "IRT-M End time: 2025-08-08 17:36:32.157545"
+## [1] "run_time: 0.717748165130615"
+## [1] "End time: 2025-08-08 17:36:32.193918"
+## [1] "Pass took 0.7716"
 ## [1] "Start pass 463:"
-## [1] "Start time: 2025-08-08 08:24:48.580191"
+## [1] "Start time: 2025-08-08 17:36:32.194323"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:48.594693"
+## [1] "IRT-M start time: 2025-08-08 17:36:32.211311"
 ```
 
 ```
@@ -12813,15 +12809,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:49.424592"
-## [1] "run_time: 0.829899072647095"
-## [1] "End time: 2025-08-08 08:24:49.461778"
-## [1] "Pass took 0.8816"
+## [1] "IRT-M End time: 2025-08-08 17:36:32.95328"
+## [1] "run_time: 0.741968870162964"
+## [1] "End time: 2025-08-08 17:36:32.991088"
+## [1] "Pass took 0.7968"
 ## [1] "Start pass 464:"
-## [1] "Start time: 2025-08-08 08:24:49.462187"
+## [1] "Start time: 2025-08-08 17:36:32.991486"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:49.474386"
+## [1] "IRT-M start time: 2025-08-08 17:36:33.007161"
 ```
 
 ```
@@ -12829,15 +12825,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:50.277445"
-## [1] "run_time: 0.803059101104736"
-## [1] "End time: 2025-08-08 08:24:50.314396"
-## [1] "Pass took 0.8522"
+## [1] "IRT-M End time: 2025-08-08 17:36:33.71723"
+## [1] "run_time: 0.710069179534912"
+## [1] "End time: 2025-08-08 17:36:33.754853"
+## [1] "Pass took 0.7634"
 ## [1] "Start pass 465:"
-## [1] "Start time: 2025-08-08 08:24:50.314848"
+## [1] "Start time: 2025-08-08 17:36:33.755273"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:50.327899"
+## [1] "IRT-M start time: 2025-08-08 17:36:33.770356"
 ```
 
 ```
@@ -12845,15 +12841,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:51.151326"
-## [1] "run_time: 0.823426961898804"
-## [1] "End time: 2025-08-08 08:24:51.18665"
-## [1] "Pass took 0.8718"
+## [1] "IRT-M End time: 2025-08-08 17:36:34.441977"
+## [1] "run_time: 0.671621084213257"
+## [1] "End time: 2025-08-08 17:36:34.475432"
+## [1] "Pass took 0.7202"
 ## [1] "Start pass 466:"
-## [1] "Start time: 2025-08-08 08:24:51.200974"
+## [1] "Start time: 2025-08-08 17:36:34.489497"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:51.211891"
+## [1] "IRT-M start time: 2025-08-08 17:36:34.500996"
 ```
 
 ```
@@ -12861,15 +12857,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:52.030706"
-## [1] "run_time: 0.818814992904663"
-## [1] "End time: 2025-08-08 08:24:52.069134"
-## [1] "Pass took 0.8682"
+## [1] "IRT-M End time: 2025-08-08 17:36:35.375665"
+## [1] "run_time: 0.874668836593628"
+## [1] "End time: 2025-08-08 17:36:35.421881"
+## [1] "Pass took 0.9324"
 ## [1] "Start pass 467:"
-## [1] "Start time: 2025-08-08 08:24:52.069487"
+## [1] "Start time: 2025-08-08 17:36:35.422494"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:52.082653"
+## [1] "IRT-M start time: 2025-08-08 17:36:35.443932"
 ```
 
 ```
@@ -12877,15 +12873,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:52.864984"
-## [1] "run_time: 0.782330989837646"
-## [1] "End time: 2025-08-08 08:24:52.90054"
-## [1] "Pass took 0.8311"
+## [1] "IRT-M End time: 2025-08-08 17:36:36.17255"
+## [1] "run_time: 0.728617906570435"
+## [1] "End time: 2025-08-08 17:36:36.210485"
+## [1] "Pass took 0.788"
 ## [1] "Start pass 468:"
-## [1] "Start time: 2025-08-08 08:24:52.900884"
+## [1] "Start time: 2025-08-08 17:36:36.210866"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:52.912555"
+## [1] "IRT-M start time: 2025-08-08 17:36:36.226785"
 ```
 
 ```
@@ -12893,15 +12889,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:53.734125"
-## [1] "run_time: 0.821569919586182"
-## [1] "End time: 2025-08-08 08:24:53.769464"
-## [1] "Pass took 0.8686"
+## [1] "IRT-M End time: 2025-08-08 17:36:36.941336"
+## [1] "run_time: 0.714550971984863"
+## [1] "End time: 2025-08-08 17:36:36.977672"
+## [1] "Pass took 0.7668"
 ## [1] "Start pass 469:"
-## [1] "Start time: 2025-08-08 08:24:53.769814"
+## [1] "Start time: 2025-08-08 17:36:36.978045"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:53.783255"
+## [1] "IRT-M start time: 2025-08-08 17:36:36.99232"
 ```
 
 ```
@@ -12909,15 +12905,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:54.567141"
-## [1] "run_time: 0.783885955810547"
-## [1] "End time: 2025-08-08 08:24:54.604368"
-## [1] "Pass took 0.8346"
+## [1] "IRT-M End time: 2025-08-08 17:36:37.715992"
+## [1] "run_time: 0.723671913146973"
+## [1] "End time: 2025-08-08 17:36:37.749704"
+## [1] "Pass took 0.7717"
 ## [1] "Start pass 470:"
-## [1] "Start time: 2025-08-08 08:24:54.60498"
+## [1] "Start time: 2025-08-08 17:36:37.750135"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:54.618603"
+## [1] "IRT-M start time: 2025-08-08 17:36:37.761419"
 ```
 
 ```
@@ -12925,15 +12921,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:55.421038"
-## [1] "run_time: 0.802434921264648"
-## [1] "End time: 2025-08-08 08:24:55.45756"
-## [1] "Pass took 0.8526"
+## [1] "IRT-M End time: 2025-08-08 17:36:38.441344"
+## [1] "run_time: 0.679924964904785"
+## [1] "End time: 2025-08-08 17:36:38.475752"
+## [1] "Pass took 0.7256"
 ## [1] "Start pass 471:"
-## [1] "Start time: 2025-08-08 08:24:55.473465"
+## [1] "Start time: 2025-08-08 17:36:38.489971"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:55.488604"
+## [1] "IRT-M start time: 2025-08-08 17:36:38.504193"
 ```
 
 ```
@@ -12941,15 +12937,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:56.471999"
-## [1] "run_time: 0.983394861221313"
-## [1] "End time: 2025-08-08 08:24:56.602885"
-## [1] "Pass took 1.1294"
+## [1] "IRT-M End time: 2025-08-08 17:36:39.490745"
+## [1] "run_time: 0.986552000045776"
+## [1] "End time: 2025-08-08 17:36:39.631851"
+## [1] "Pass took 1.1419"
 ## [1] "Start pass 472:"
-## [1] "Start time: 2025-08-08 08:24:56.603342"
+## [1] "Start time: 2025-08-08 17:36:39.632373"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:56.619365"
+## [1] "IRT-M start time: 2025-08-08 17:36:39.650994"
 ```
 
 ```
@@ -12957,15 +12953,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:57.615561"
-## [1] "run_time: 0.996196031570435"
-## [1] "End time: 2025-08-08 08:24:57.749716"
-## [1] "Pass took 1.1464"
+## [1] "IRT-M End time: 2025-08-08 17:36:40.501043"
+## [1] "run_time: 0.850049018859863"
+## [1] "End time: 2025-08-08 17:36:40.635443"
+## [1] "Pass took 1.0031"
 ## [1] "Start pass 473:"
-## [1] "Start time: 2025-08-08 08:24:57.750395"
+## [1] "Start time: 2025-08-08 17:36:40.635959"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:57.767409"
+## [1] "IRT-M start time: 2025-08-08 17:36:40.653556"
 ```
 
 ```
@@ -12973,15 +12969,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:58.684961"
-## [1] "run_time: 0.91755199432373"
-## [1] "End time: 2025-08-08 08:24:58.869814"
-## [1] "Pass took 1.1194"
+## [1] "IRT-M End time: 2025-08-08 17:36:41.489216"
+## [1] "run_time: 0.835659980773926"
+## [1] "End time: 2025-08-08 17:36:41.623073"
+## [1] "Pass took 0.9871"
 ## [1] "Start pass 474:"
-## [1] "Start time: 2025-08-08 08:24:58.870183"
+## [1] "Start time: 2025-08-08 17:36:41.62368"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:24:58.88471"
+## [1] "IRT-M start time: 2025-08-08 17:36:41.643093"
 ```
 
 ```
@@ -12989,15 +12985,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:24:59.851431"
-## [1] "run_time: 0.966720819473267"
-## [1] "End time: 2025-08-08 08:24:59.980798"
-## [1] "Pass took 1.1106"
+## [1] "IRT-M End time: 2025-08-08 17:36:42.497485"
+## [1] "run_time: 0.854391813278198"
+## [1] "End time: 2025-08-08 17:36:42.628885"
+## [1] "Pass took 1.0052"
 ## [1] "Start pass 475:"
-## [1] "Start time: 2025-08-08 08:24:59.981182"
+## [1] "Start time: 2025-08-08 17:36:42.62928"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:00.03789"
+## [1] "IRT-M start time: 2025-08-08 17:36:42.648476"
 ```
 
 ```
@@ -13005,15 +13001,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:00.984094"
-## [1] "run_time: 0.946203947067261"
-## [1] "End time: 2025-08-08 08:25:01.118077"
-## [1] "Pass took 1.1369"
+## [1] "IRT-M End time: 2025-08-08 17:36:43.479498"
+## [1] "run_time: 0.831022024154663"
+## [1] "End time: 2025-08-08 17:36:43.60772"
+## [1] "Pass took 0.9784"
 ## [1] "Start pass 476:"
-## [1] "Start time: 2025-08-08 08:25:01.134162"
+## [1] "Start time: 2025-08-08 17:36:43.622065"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:01.148759"
+## [1] "IRT-M start time: 2025-08-08 17:36:43.639574"
 ```
 
 ```
@@ -13021,15 +13017,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:02.108875"
-## [1] "run_time: 0.960116147994995"
-## [1] "End time: 2025-08-08 08:25:02.230379"
-## [1] "Pass took 1.0962"
+## [1] "IRT-M End time: 2025-08-08 17:36:44.594232"
+## [1] "run_time: 0.954658031463623"
+## [1] "End time: 2025-08-08 17:36:44.733394"
+## [1] "Pass took 1.1113"
 ## [1] "Start pass 477:"
-## [1] "Start time: 2025-08-08 08:25:02.230725"
+## [1] "Start time: 2025-08-08 17:36:44.733874"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:02.244002"
+## [1] "IRT-M start time: 2025-08-08 17:36:44.755553"
 ```
 
 ```
@@ -13037,15 +13033,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:03.192829"
-## [1] "run_time: 0.948826789855957"
-## [1] "End time: 2025-08-08 08:25:03.32569"
-## [1] "Pass took 1.095"
+## [1] "IRT-M End time: 2025-08-08 17:36:45.605694"
+## [1] "run_time: 0.850141048431396"
+## [1] "End time: 2025-08-08 17:36:45.755303"
+## [1] "Pass took 1.0214"
 ## [1] "Start pass 478:"
-## [1] "Start time: 2025-08-08 08:25:03.326142"
+## [1] "Start time: 2025-08-08 17:36:45.755689"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:03.341414"
+## [1] "IRT-M start time: 2025-08-08 17:36:45.77487"
 ```
 
 ```
@@ -13053,15 +13049,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:04.281452"
-## [1] "run_time: 0.940037965774536"
-## [1] "End time: 2025-08-08 08:25:04.440538"
-## [1] "Pass took 1.1144"
+## [1] "IRT-M End time: 2025-08-08 17:36:46.609534"
+## [1] "run_time: 0.834664106369019"
+## [1] "End time: 2025-08-08 17:36:46.74478"
+## [1] "Pass took 0.9891"
 ## [1] "Start pass 479:"
-## [1] "Start time: 2025-08-08 08:25:04.440881"
+## [1] "Start time: 2025-08-08 17:36:46.745175"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:04.456773"
+## [1] "IRT-M start time: 2025-08-08 17:36:46.763012"
 ```
 
 ```
@@ -13069,15 +13065,15 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:05.381949"
-## [1] "run_time: 0.925175905227661"
-## [1] "End time: 2025-08-08 08:25:05.512965"
-## [1] "Pass took 1.0721"
+## [1] "IRT-M End time: 2025-08-08 17:36:47.574747"
+## [1] "run_time: 0.811735153198242"
+## [1] "End time: 2025-08-08 17:36:48.090914"
+## [1] "Pass took 1.3457"
 ## [1] "Start pass 480:"
-## [1] "Start time: 2025-08-08 08:25:05.513314"
+## [1] "Start time: 2025-08-08 17:36:48.091292"
 ## [1] "round"
 ## [1] "Running IRT-M"
-## [1] "IRT-M start time: 2025-08-08 08:25:05.526591"
+## [1] "IRT-M start time: 2025-08-08 17:36:48.105386"
 ```
 
 ```
@@ -13085,10 +13081,10 @@ source("code/irtm_only_single_pass_for_time.R", echo = TRUE)
 ```
 
 ```
-## [1] "IRT-M End time: 2025-08-08 08:25:06.499823"
-## [1] "run_time: 0.97323203086853"
-## [1] "End time: 2025-08-08 08:25:06.631104"
-## [1] "Pass took 1.1178"
+## [1] "IRT-M End time: 2025-08-08 17:36:48.917488"
+## [1] "run_time: 0.812102079391479"
+## [1] "End time: 2025-08-08 17:36:49.041815"
+## [1] "Pass took 0.9505"
 ## 
 ## > ## Save
 ## > rname = paste0("simulations/irtm_only_results_single_pass.rds")
@@ -13118,14 +13114,14 @@ source("code/irtm_only_range_plots.R", echo = TRUE)
 ```
 
 ```
-## ── Attaching core tidyverse packages ────────────────────────────────────────── tidyverse 2.0.0 ──
+## ── Attaching core tidyverse packages ───────────────────────────────────────── tidyverse 2.0.0 ──
 ## ✔ forcats   1.0.0     ✔ readr     2.1.5
 ## ✔ lubridate 1.9.3     ✔ stringr   1.5.1
 ## ✔ purrr     1.0.2     ✔ tibble    3.3.0
 ```
 
 ```
-## ── Conflicts ──────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ─────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## ✖ tidyr::expand() masks Matrix::expand()
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
@@ -13975,12 +13971,12 @@ source("code/irtm_only_range_plots.R", echo = TRUE)
 ## [1] 386
 ## [1] 387
 ##   iteration      irtm pass_N pass_K pass_d
-## 1        12 0.3175251     50      5      3
-## 2        13 0.3406940     50      5      3
-## 3        16 0.2869270     50      5      3
-## 4        20 0.3058491     50      5      3
-## 5        25 0.9320388     50      5      8
-## 6        29 0.9518611     50      5      8
+## 1        12 0.3524089     50      5      3
+## 2        13 0.3284681     50      5      3
+## 3        16 0.3783720     50      5      3
+## 4        20 0.3121891     50      5      3
+## 5        25 1.5749271     50      5      8
+## 6        29 1.2772150     50      5      8
 ```
 
 ```
@@ -13995,11 +13991,11 @@ source("code/irtm_only_range_plots.R", echo = TRUE)
 ## 
 ## > summary(irtm_times$min)
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##  0.2136  1.3771  3.4172  6.3742  7.1504 34.2179 
+##  0.2053  1.3932  3.2628  6.2694  7.0643 32.4762 
 ## 
 ## > summary(irtm_times$max)
 ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##  0.2274  1.6084  3.5191  6.8873  9.4185 35.1401 
+##   0.221   1.610   3.602   6.913   7.966  33.323 
 ## 
 ## > ## Plot of time variability:
 ## > ## to diagnose time stamp inconsistencies:
@@ -15019,7 +15015,7 @@ source("code/application.R", echo = TRUE)
 
 ```
 ## 
-## ── Column specification ──────────────────────────────────────────────────────────────────────────
+## ── Column specification ─────────────────────────────────────────────────────────────────────────
 ## cols()
 ```
 
@@ -15230,7 +15226,7 @@ sessionInfo()
 ## tzcode source: internal
 ## 
 ## attached base packages:
-## [1] stats4    stats     graphics  grDevices utils     datasets  methods   base     
+## [1] stats4    stats     graphics  grDevices datasets  utils     methods   base     
 ## 
 ## other attached packages:
 ##  [1] ggrepel_0.9.6      RColorBrewer_1.1-3 ggridges_0.5.6     reshape2_1.4.4    
@@ -15242,16 +15238,16 @@ sessionInfo()
 ## [25] coda_0.19-4.1      mvtnorm_1.3-3      MASS_7.3-61       
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] utf8_1.2.6             generics_0.1.4         stringi_1.8.7          lattice_0.22-6        
-##  [5] hms_1.1.3              pracma_2.4.4           magrittr_2.0.3         timechange_0.3.0      
-##  [9] evaluate_1.0.1         grid_4.4.1             plyr_1.8.9             scales_1.4.0          
-## [13] textshaping_0.4.0      numDeriv_2016.8-1.1    cli_3.6.5              rlang_1.1.6           
-## [17] RcppArmadillo_14.6.0-1 withr_3.0.2            yaml_2.3.10            tools_4.4.1           
-## [21] parallel_4.4.1         tzdb_0.4.0             vctrs_0.6.5            R6_2.6.1              
-## [25] zoo_1.8-14             lifecycle_1.0.4        ragg_1.3.3             pkgconfig_2.0.3       
-## [29] pillar_1.11.0          gtable_0.3.6           data.table_1.16.2      glue_1.8.0            
-## [33] Rcpp_1.1.0             systemfonts_1.1.0      xfun_0.52              tidyselect_1.2.1      
-## [37] rstudioapi_0.17.1      knitr_1.50             farver_2.1.2           igraph_2.1.1          
-## [41] labeling_0.4.3         compiler_4.4.1
+##  [1] utf8_1.2.6             generics_0.1.4         renv_1.1.5             stringi_1.8.7         
+##  [5] lattice_0.22-6         hms_1.1.3              pracma_2.4.4           magrittr_2.0.3        
+##  [9] timechange_0.3.0       evaluate_1.0.1         grid_4.4.1             plyr_1.8.9            
+## [13] scales_1.4.0           textshaping_0.4.0      numDeriv_2016.8-1.1    cli_3.6.5             
+## [17] rlang_1.1.6            RcppArmadillo_14.6.0-1 withr_3.0.2            yaml_2.3.10           
+## [21] tools_4.4.1            parallel_4.4.1         tzdb_0.4.0             vctrs_0.6.5           
+## [25] R6_2.6.1               zoo_1.8-14             lifecycle_1.0.4        ragg_1.3.3            
+## [29] pkgconfig_2.0.3        pillar_1.11.0          gtable_0.3.6           data.table_1.16.2     
+## [33] glue_1.8.0             Rcpp_1.1.0             systemfonts_1.1.0      xfun_0.52             
+## [37] tidyselect_1.2.1       rstudioapi_0.17.1      knitr_1.50             farver_2.1.2          
+## [41] igraph_2.1.1           labeling_0.4.3         compiler_4.4.1
 ```
 
